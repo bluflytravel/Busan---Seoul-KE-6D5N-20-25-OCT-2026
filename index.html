@@ -1,0 +1,1305 @@
+<!DOCTYPE html>
+<html lang="th">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+    <title>Busan - Seoul (KE) 6D5N 20-25 OCT 2026</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+  <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lucide@0.263.0/dist/umd/lucide.min.js"></script>
+  <script src="/_sdk/element_sdk.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+  <script>
+tailwind.config = {
+  theme: {
+    extend: {
+      colors: {
+        brand: '#00A0C6',
+        'brand-dark': '#007A99',
+        'brand-light': '#E6F7FB',
+        'brand-50': '#F0FAFC',
+        surface: '#FFFFFF',
+        txt: '#1E293B',
+        subtle: '#64748B',
+        accent: '#F59E0B'
+      }
+    }
+  }
+}
+</script>
+  <style>
+* { box-sizing: border-box; }
+html, body { height: 100%; margin: 0; }
+body { font-family: 'Prompt', sans-serif; }
+.font-display { font-family: 'Playfair Display', serif; }
+
+.nav-btn { transition: all 0.3s ease; }
+.nav-btn:hover, .nav-btn.active { background: #00A0C6; color: white; }
+.nav-btn.active { box-shadow: 0 4px 12px rgba(0,160,198,0.3); }
+
+.card-hover { transition: all 0.3s ease; }
+.card-hover:hover { transform: translateY(-4px); box-shadow: 0 12px 32px rgba(0,160,198,0.15); }
+
+.day-card { border-left: 4px solid #00A0C6; }
+
+.fade-in { animation: fadeIn 0.5s ease forwards; }
+@keyframes fadeIn { from { opacity:0; transform:translateY(16px); } to { opacity:1; transform:translateY(0); } }
+
+.timeline-dot { width: 14px; height: 14px; border-radius: 50%; background: #00A0C6; border: 3px solid white; box-shadow: 0 0 0 2px #00A0C6; }
+
+.meal-card { background: linear-gradient(135deg, #F0FAFC 0%, #FFFFFF 100%); }
+
+.weather-icon { font-size: 2rem; }
+
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #F0FAFC; }
+::-webkit-scrollbar-thumb { background: #00A0C6; border-radius: 3px; }
+
+.hero-bg {
+  background: linear-gradient(135deg, #00A0C6 0%, #007A99 40%, #005E78 100%);
+  position: relative;
+  overflow: hidden;
+}
+.hero-bg::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  right: -30%;
+  width: 80%;
+  height: 200%;
+  background: radial-gradient(ellipse, rgba(255,255,255,0.08) 0%, transparent 70%);
+}
+.hero-bg::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  background: linear-gradient(to top, white, transparent);
+}
+
+.tab-section { display: none; }
+.tab-section.active { display: block; }
+
+.day-tab { cursor: pointer; transition: all 0.2s; }
+.day-tab:hover { background: #E6F7FB; }
+.day-tab.active-day { background: #00A0C6; color: white; border-radius: 9999px; }
+
+/* Responsive image — works on both desktop and mobile */
+.tour-img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-radius: 0.5rem;
+  display: block;
+}
+
+/* ===================== RESPONSIVE LAYOUT SYSTEM ===================== */
+/* Mobile-first base styles, then desktop overrides at md breakpoint (768px) */
+
+/* --- Navigation: mobile = 3-column grid menu, desktop = single scrollable row --- */
+.nav-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.4rem;
+}
+.nav-btn {
+  white-space: normal;
+  text-align: center;
+  font-size: 0.68rem;
+  line-height: 1.15;
+  padding: 0.55rem 0.3rem;
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (min-width: 768px) {
+  .nav-grid {
+    display: flex;
+    overflow-x: auto;
+    gap: 0.4rem;
+  }
+  .nav-btn {
+    white-space: nowrap;
+    font-size: 0.875rem;
+    padding: 0.5rem 1rem;
+    min-height: auto;
+    display: inline-block;
+  }
+}
+
+/* --- Meal / attraction image pairs: stack on mobile, side-by-side on desktop --- */
+.img-pair {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.img-pair > img {
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .img-pair {
+    flex-direction: row;
+    gap: 0.75rem;
+  }
+  .img-pair > img {
+    width: 50%;
+  }
+}
+
+@media (max-width: 640px) {
+  .tour-img { aspect-ratio: 4 / 3; }
+}
+
+/* --- Timeline: tighter indent + smaller dot offset on mobile --- */
+.timeline-list {
+  margin-left: 0.25rem;
+  border-left-width: 2px;
+  padding-left: 1rem;
+}
+.timeline-dot-wrap { left: -21px; }
+@media (min-width: 768px) {
+  .timeline-list {
+    margin-left: 1.25rem;
+    padding-left: 1.5rem;
+  }
+  .timeline-dot-wrap { left: -31px; }
+}
+
+/* --- Day tabs (วันที่ 1/2/3): full-width equal split on mobile, pill row on desktop --- */
+.day-tabs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.5rem;
+}
+.day-tab {
+  text-align: center;
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (min-width: 768px) {
+  .day-tabs {
+    display: flex;
+    gap: 0.5rem;
+  }
+  .day-tab {
+    display: inline-flex;
+    min-height: auto;
+  }
+}
+
+/* --- Passenger room cards: 1 column mobile, 2 columns desktop --- */
+.rooms-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+@media (min-width: 768px) {
+  .rooms-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 1.25rem;
+  }
+}
+.room-card { margin-bottom: 0 !important; }
+
+/* --- Summary stat bar: 2x2 on mobile, single row on desktop --- */
+.stats-bar {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem;
+}
+@media (min-width: 768px) {
+  .stats-bar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+  }
+}
+
+/* --- Flight cards: stack the times vertically on very small screens --- */
+@media (max-width: 420px) {
+  .flight-row { flex-wrap: wrap; row-gap: 0.75rem; }
+  .flight-row .flight-arrow { order: 3; width: 100%; }
+}
+
+/* --- Image slider: swipeable, one large image at a time --- */
+.img-slider {
+  position: relative;
+  margin-top: 0.75rem;
+}
+.img-slider-track {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  border-radius: 0.75rem;
+  scrollbar-width: none;
+}
+.img-slider-track::-webkit-scrollbar { display: none; }
+.img-slide {
+  flex: 0 0 100%;
+  scroll-snap-align: center;
+  scroll-snap-stop: always;
+}
+.img-slide img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  display: block;
+}
+.img-slider-dots {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+  pointer-events: none;
+}
+.img-slider-dots span {
+  width: 6px;
+  height: 6px;
+  border-radius: 9999px;
+  background: rgba(255,255,255,0.55);
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+.img-slider-dots span.active {
+  background: #ffffff;
+  transform: scale(1.3);
+}
+.img-slider-counter {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: rgba(15,23,42,0.55);
+  color: #fff;
+  font-size: 0.65rem;
+  padding: 2px 8px;
+  border-radius: 9999px;
+  pointer-events: none;
+}
+</style>
+  <style>body { box-sizing: border-box; }</style>
+  <script src="/_sdk/data_sdk.js" type="text/javascript"></script>
+ </head>
+ <body class="h-full bg-white text-txt">
+  <div id="app" class="h-full overflow-auto w-full">
+
+   <!-- Hero -->
+   <header class="hero-bg text-white px-4 py-10 md:py-16 text-center relative z-10">
+    <div class="max-w-4xl mx-auto relative z-10">
+     <p id="companyNameDisplay" class="text-sm tracking-[0.3em] uppercase opacity-80 mb-3">Bluefly Travel</p>
+     <div class="flex items-center justify-center gap-2 md:gap-3 mb-4">
+      <h1 id="mainTitleDisplay" class="font-display text-2xl md:text-5xl font-bold leading-tight">South Korea </h1>
+     </div>
+     <p class="text-lg md:text-xl opacity-90 font-light">6 Days 5 Nights</p>
+     <div class="flex items-center justify-center gap-4 mt-4 text-sm opacity-80">
+      <span>📅 20 - 25 OCT 2026</span> 
+     </div>
+     <div class="flex flex-wrap justify-center gap-2 mt-6">
+      <span class="bg-white/20 backdrop-blur px-3 py-1 rounded-full text-xs">Seoul</span>
+      <span class="bg-white/20 backdrop-blur px-3 py-1 rounded-full text-xs">Busan</span>
+     </div>
+    </div>
+   </header>
+
+   <!-- Navigation -->
+   <nav class="sticky top-0 z-50 bg-white shadow-md border-b border-brand-light">
+    <div class="max-w-5xl mx-auto nav-grid p-2">
+     <button onclick="showSection('flights')" class="nav-btn active rounded-full font-medium text-brand border border-brand/20" data-nav="flights"><span class="hidden md:inline">✈️ </span>เที่ยวบิน</button>
+     <button onclick="showSection('itinerary')" class="nav-btn rounded-full font-medium text-brand border border-brand/20" data-nav="itinerary"><span class="hidden md:inline">📋 </span>โปรแกรมทัวร์</button>
+     <button onclick="showSection('country')" class="nav-btn rounded-full font-medium text-brand border border-brand/20" data-nav="country"><span class="hidden md:inline">🌎 </span>ข้อมูลประเทศ</button>
+     <button onclick="showSection('weather')" class="nav-btn rounded-full font-medium text-brand border border-brand/20" data-nav="weather"><span class="hidden md:inline">🌤️ </span>สภาพอากาศ</button>
+     <button onclick="showSection('clothing')" class="nav-btn rounded-full font-medium text-brand border border-brand/20" data-nav="clothing"><span class="hidden md:inline">👔 </span>การแต่งกาย</button>
+     <button onclick="showSection('Passenger')" class="nav-btn rounded-full font-medium text-brand border border-brand/20" data-nav="Passenger">รายชื่อผู้เดินทาง</button>
+    </div>
+   </nav>
+
+   <main class="max-w-5xl mx-auto px-4 py-8">
+
+    <!-- ========== FLIGHTS ========== -->
+    <section id="sec-flights" class="tab-section active fade-in">
+     <h2 class="font-display text-2xl md:text-3xl font-bold text-brand-dark mb-6">✈️ ข้อมูลเที่ยวบิน</h2>
+     <div class="bg-amber-50 border border-amber-200 rounded-2xl p-5 mb-6">
+      <h4 class="font-semibold text-amber-800 mb-3">🧳 ข้อมูลน้ำหนักกระเป๋า</h4>
+      <div class="grid md:grid-cols-2 gap-4 text-sm">
+       <div>
+        <p class="font-semibold text-amber-900 mb-2">✈️ Business Class</p>
+        <ul class="text-amber-700 space-y-1 text-xs">
+         <li>• Carry on: 2 ใบ รวมกันไม่เกิน 18 กิโลกรัม</li>
+         <li>• Checked bag: กระเป๋าสัมภาระ 2 ใบ แต่ละใบมีน้ำหนักไม่เกิน 32 กิโลกรัม</li>
+        </ul>
+       </div>
+       <div>
+        <p class="font-semibold text-amber-900 mb-2">✈️ Economy Class</p>
+        <ul class="text-amber-700 space-y-1 text-xs">
+         <li>• Carry on: 1 ใบ ไม่เกิน 10 กิโลกรัม</li>
+         <li>• Checked bag: กระเป๋าสัมภาระ 1 ใบ น้ำหนักไม่เกิน 23 กิโลกรัม</li>
+        </ul>
+       </div>
+      </div>
+     </div>
+
+     <h3 class="font-semibold text-brand mb-3">🛫 ขาไป — 20 ตุลาคม 2569</h3>
+     <div class="space-y-4 mb-8">
+      <div class="bg-white border border-brand/20 rounded-2xl p-5 card-hover">
+       <div class="flex items-center gap-2 mb-3">
+        <span class="bg-brand text-white px-3 py-1 rounded-full text-xs font-semibold">KE 660</span> <span class="text-sm text-subtle">Korean Air</span>
+       </div>
+       <div class="flex items-center gap-4">
+        <div class="text-center">
+         <p class="text-2xl font-bold text-brand-dark">09:50</p>
+         <p class="text-sm font-medium">BKK</p>
+         <p class="text-xs text-subtle">กรุงเทพฯ</p>
+         <p class="text-xs text-subtle">20 ต.ค.</p>
+        </div>
+        <div class="flex-1 flex flex-col items-center">
+         <p class="text-xs text-subtle mb-1">05 ชม. 30 นาที</p>
+         <div class="w-full flex items-center">
+          <div class="w-2 h-2 rounded-full bg-brand"></div>
+          <div class="flex-1 h-[2px] bg-gradient-to-r from-brand to-brand-dark"></div><span class="text-lg">✈️</span>
+         </div>
+        </div>
+        <div class="text-center">
+         <p class="text-2xl font-bold text-brand-dark">17:20</p>
+         <p class="text-sm font-medium">ICN</p>
+         <p class="text-xs text-subtle">อินชอน</p>
+         <p class="text-xs text-subtle">20 ต.ค. </p>
+        </div>
+       </div>
+      </div>
+
+     <h3 class="font-semibold text-brand mb-3">🛫 ขากลับ — 25 ตุลาคม 2569</h3>
+     <div class="space-y-4 mb-8">
+      <div class="bg-white border border-brand/20 rounded-2xl p-5 card-hover">
+       <div class="flex items-center gap-2 mb-3">
+        <span class="bg-brand text-white px-3 py-1 rounded-full text-xs font-semibold">KE 651</span>
+        <span class="text-sm text-subtle">Korean Air</span>
+       </div>
+
+       <div class="flex items-center gap-4">
+        <div class="text-center">
+         <p class="text-2xl font-bold text-brand-dark">17:20</p>
+         <p class="text-sm font-medium">ICN</p>
+         <p class="text-xs text-subtle">อินชอน</p>
+         <p class="text-xs text-subtle">25 ต.ค.</p>
+        </div>
+
+        <div class="flex-1 flex flex-col items-center">
+         <p class="text-xs text-subtle mb-1">06 ชม. 10 นาที</p>
+         <div class="w-full flex items-center">
+          <div class="w-2 h-2 rounded-full bg-brand"></div>
+          <div class="flex-1 h-[2px] bg-gradient-to-r from-brand to-brand-dark"></div>
+          <span class="text-lg">✈️</span>
+         </div>
+        </div>
+
+        <div class="text-center">
+         <p class="text-2xl font-bold text-brand-dark">21:30</p>
+         <p class="text-sm font-medium">BKK</p>
+         <p class="text-xs text-subtle">กรุงเทพฯ</p>
+         <p class="text-xs text-subtle">25 ต.ค.</p>
+        </div>
+       </div>
+      </div>
+     </div>
+    </section>
+
+    <!-- ========== ITINERARY ========== -->
+    <section id="sec-itinerary" class="tab-section fade-in">
+     <h2 class="font-display text-2xl md:text-3xl font-bold text-brand-dark mb-6">📋 โปรแกรมทัวร์</h2>
+     <div class="flex flex-wrap gap-2 mb-6">
+      <button onclick="showDay(1)" class="day-tab active-day px-4 py-2 text-sm font-medium rounded-full border border-brand/20">วันที่ 1</button>
+      <button onclick="showDay(2)" class="day-tab px-4 py-2 text-sm font-medium rounded-full border border-brand/20">วันที่ 2</button>
+      <button onclick="showDay(3)" class="day-tab px-4 py-2 text-sm font-medium rounded-full border border-brand/20">วันที่ 3</button>
+      <button onclick="showDay(4)" class="day-tab px-4 py-2 text-sm font-medium rounded-full border border-brand/20">วันที่ 4</button>
+      <button onclick="showDay(5)" class="day-tab px-4 py-2 text-sm font-medium rounded-full border border-brand/20">วันที่ 5</button>
+      <button onclick="showDay(6)" class="day-tab px-4 py-2 text-sm font-medium rounded-full border border-brand/20">วันที่ 6</button>
+     </div>
+
+     <!-- ===== DAY 1 ===== -->
+     <div id="day-1" class="day-content w-full">
+      <div class="day-card bg-white rounded-2xl p-6 shadow-sm border border-brand/10">
+       <div class="flex items-center gap-3 mb-4">
+        <span class="bg-brand text-white w-10 h-10 rounded-full flex items-center justify-center font-bold">1</span>
+        <div>
+         <h3 class="font-semibold text-lg">วันอังคารที่ 20 ตุลาคม 2569</h3>
+         <p class="text-sm text-subtle">กรุงเทพฯ → อินชอน (สาธารณรัฐเกาหลี) → โซล</p>
+        </div>
+                <span class="ml-auto text-2xl">✈️</span>
+       </div>
+       <div class="space-y-4 ml-5 border-l-2 border-brand/20 pl-6">
+       </div>
+       <div class="space-y-4 ml-5 border-l-2 border-brand/20 pl-6">
+        <div class="relative">
+         <div class="timeline-dot absolute -left-[31px] top-1"></div>
+         <p class="text-sm"><span class="font-semibold text-brand">06:30 น.</span> — คณะพบกันที่ สนามบินสุวรรณภูมิ ชั้น 4 ประตู 7 แถว N เคาน์เตอร์ สายการบินโคเรียนแอร์ไลน์ เจ้าหน้าที่บริษัทบลูฟลาย ทราเวิลคอยให้การต้อนรับและอำนวยความสะดวก</p>
+        </div>
+
+        <div class="bg-brand-50 rounded-xl p-3 text-xs text-subtle flex items-center gap-2">
+         <span>💡</span> แนะนำเดินทางมาถึงสนามบินก่อนเวลานัดหมายอย่างน้อย 30 นาที
+        </div>
+
+                <div class="relative">
+         <div class="timeline-dot absolute -left-[31px] top-1"></div>
+         <p class="text-sm"><span class="font-semibold text-brand">09:50 น.</span> — ✈️ ออกเดินทางสู่ สนามบินอินชอน โดยสายการบินโคเรียนแอร์ไลน์ เที่ยวบินที่ KE 660</p>
+        </div>
+
+        <div class="relative">
+         <div class="timeline-dot absolute timeline-dot-wrap top-1"></div>
+         <p class="text-sm"><span class="font-semibold text-brand">17:20 น.</span> — ✈️ คณะเดินทางถึง สนามบินอินชอน สาธารณรัฐเกาหลี หลังจากผ่านบริการตรวจคนเข้าเมืองและ
+ตรวจเช็คสัมภาระเรียบร้อย (เวลาท้องถิ่นเร็วกว่าประเทศไทย 2 ชั่วโมง)</p>
+        </div>
+
+        <div class="relative">
+         <div class="timeline-dot absolute -left-[31px] top-1"></div>
+         <div class="text-sm">
+          <p class="font-semibold">🍽️ รับประทานอาหารค่ำ ณ ภัตตาคาร </p>
+           <div class="mt-3 flex gap-3">
+           </div>
+         </div>
+       </div>
+       <div class="mt-4 bg-amber-50 border border-amber-200 rounded-xl p-3 text-xs flex items-center gap-2">
+        <span>🏨</span> <strong>นำคณะเข้าสู่ที่พัก Seoul Garden Hotel ★★★★</strong>
+       </div>
+       </div>
+      </div>
+     </div> <!-- /day-1 -->
+
+<!-- ===== DAY 2 ===== -->
+<div id="day-2" class="day-content" style="display:none;">
+      <div class="day-card bg-white rounded-2xl p-6 shadow-sm border border-brand/10">
+       <div class="flex items-center gap-3 mb-4">
+        <span class="bg-brand text-white w-10 h-10 rounded-full flex items-center justify-center font-bold">2</span>
+        <div>
+         <h3 class="font-semibold text-lg">วันพุธที่ 21 ตุลาคม 2569</h3>
+         <p class="text-sm text-subtle">โซล → ปูซาน </p>
+        </div>
+        <span class="ml-auto text-2xl">🚝</span>
+       </div>
+       <div class="space-y-4 ml-5 border-l-2 border-brand/20 pl-6">
+
+        <div class="relative">
+         <div class="timeline-dot absolute -left-[31px] top-1"></div>
+         <p class="text-sm"><span class="font-semibold text-brand">10:28 น.</span> — 🚝 นําคณะเดินทางสู่ เมืองปูซาน โดยรถไฟความเร็วสูง KTX (1st Class Seat)</p>
+        </div>
+
+        <div class="relative">
+         <div class="timeline-dot absolute -left-[31px] top-1"></div>
+         <p class="text-sm"><span class="font-semibold text-brand">13:14 น.</span> — 🚝 คณะเดินทางถึง เมืองปูซาน</p>
+        </div>
+
+        <div class="relative">
+         <div class="timeline-dot absolute -left-[31px] top-1"></div>
+         <div class="text-sm">
+          <p class="font-semibold">🍽️ รับประทานอาหารกลางวัน ณ ภัตตาคาร </p>
+           <div class="mt-3 flex gap-3">
+           </div>
+          </div>
+         </div>
+
+        <div class="relative">
+         <div class="timeline-dot absolute -left-[31px] top-1"></div>
+         <div class="text-sm">
+          <p class="font-semibold">🏚️ หมู่บ้านวัฒนธรรมคัมชอน (Gamcheon Culture Village)</p>
+          <p class="text-subtle mt-1">นำคณะเดินทางสู่ หมู่บ้านวัฒนธรรมคัมชอน (Gamcheon Culture Village) หรือเรียกว่า “Korea’s Santorini (ซานโตรินี่เกาหลี) โดยชื่อเรียกนี้มาจากลักษณะอันโดดเด่นของหมู่บ้านวัฒนธรรมคัมชอนหมู่บ้านที่ตั้งอยู่บนเนินเขาเรียงตัว สลับกันไปมาสีสันสดใสในอดีตหมู่บ้านนี้เคยเป็นที่อยู่อาศัยของของผู้ลี้ภัยสงครามเกาหลีจนในปี 2009 รัฐบาลเกาหลีได้ส่งเสริมการท่องเที่ยว มีการพัฒนาปรับปรุงทัศนียภาพให้น่าอยู่มากยิ่งขึ้นโดยปรับเปลี่ยนหมู่บ้านคัมชอนให้มีสีสันโดดเด่นด้วยการทาสีวาดภาพตามกำแพงและตัวบ้านให้ดูสดใส น่ารัก บ้านเรือนหลายหลังเปลี่ยนเป็นสตูดิโอและแกลลอรี่ บางจุดก็เป็นร้านขายสินค้า ทั้งสินค้าพื้นเมือง สินค้าสมัยใหม่รวมไปถึงร้านกาแฟ และได้โด่งดังจากซีรี่เรื่อง Running Man ที่มาถ่ายทำที่นี่ จึงทำให้หมู่บ้านวัฒนธรรมคัมชอนแห่งนี้เป็นที่รู้จักมีนักท่องเที่ยวชาวเกาหลีและต่างประเทศมาเที่ยวกัน มากขึ้น 
+          <div class="mt-3">
+           <img src="https://www.arukikata.co.jp/wp-content/uploads/iStock-859747978_2025_0523_1156.jpeg" loading="lazy" class="tour-img" alt="Garuda Wisnu Kencana">
+          </div>
+         </div>
+        </div>
+
+        <div class="relative">
+         <div class="timeline-dot absolute -left-[31px] top-1"></div>
+         <div class="text-sm">
+          <p class="font-semibold">🏝️ หาดควังอันลี (Gwangalli Beach) </p>
+          <p class="text-subtle mt-1">นำคณะเดินทางสู่ หาดควังอันลี (Gwangalli Beach) เป็นหนึ่งในชายหาดที่มีชื่อเสียงโด่งดังของเมืองปูซาน ชายหาดทอดยาว 1.4 กิโลเมตร ปกคลุมไปด้วยหาดทรายขาวละเอียด น้ำทะเลใสสะอาด และมีกิจกรรมทางน้ำมากมาย เช่น เล่นเจ็ตสกี ล่องเรือใบ ตกปลา นอกจากนี้ชายหาดควังอันลียังโด่งดังเรื่องทิวทัศน์ที่สวยงาม ที่มี สะพานควังอัน (Gwangandaegyo Bridge) เป็นสะพานแขวนที่ยาวเป็นอันดับสองของเกาหลีใต้ รองจากสะพานอินช็อน มีความยาวประมาณ 7,420 เมตร เชื่อมต่อเขตแฮอุนแดกับเขตซูย็อง สะพานแห่งนี้ได้รับรางวัล "The Prestigious Presidential Design Award" อีกด้วย</p>
+          <div class="mt-3">
+           <img src="https://images.trvl-media.com/place/6122742/374543e9-5d95-4c31-8ecb-4c4b16b1783c.jpg" loading="lazy" class="tour-img" alt="Garuda Wisnu Kencana">
+          </div>
+         </div>
+        </div>
+
+        <div class="relative">
+         <div class="timeline-dot absolute -left-[31px] top-1"></div>
+         <div class="text-sm">
+          <p class="font-semibold">🍽️ รับประทานอาหารค่ำ ณ ภัตตาคาร </p>
+           <div class="mt-3 flex gap-3">
+           </div>
+          </div>
+         </div>
+
+       </div>
+       <div class="mt-4 bg-amber-50 border border-amber-200 rounded-xl p-3 text-xs flex items-center gap-2">
+        <span>🏨</span> <strong>นำคณะเข้าสู่ที่พัก Lotte Hotel Busan ★★★★★</strong>
+       </div>
+      </div>
+     </div><!-- /day-2 -->
+
+     <!-- ===== DAY 3 ===== -->
+     <div id="day-3" class="day-content" style="display:none;">
+      <div class="day-card bg-white rounded-2xl p-6 shadow-sm border border-brand/10">
+       <div class="flex items-center gap-3 mb-4">
+        <span class="bg-brand text-white w-10 h-10 rounded-full flex items-center justify-center font-bold">3</span>
+        <div>
+         <h3 class="font-semibold text-lg">วันพฤหัสบดีที่ 22 ตุลาคม 2569</h3>
+         <p class="text-sm text-subtle">ปูซาน</p>
+        </div>
+        <span class="ml-auto text-2xl">🚞</span>
+       </div>
+       <div class="space-y-4 ml-5 border-l-2 border-brand/20 pl-6">
+
+        <div class="relative">
+         <div class="timeline-dot absolute -left-[31px] top-1"></div>
+         <div class="text-sm">
+          <p class="font-semibold">🛕วัดแฮดง ยงกุงซา (Haedong Yonggungsa Temple)</p>
+          <p class="text-subtle mt-1">นำคณะชม วัดแฮดง ยงกุงซา (Haedong Yonggungsa Temple) เป็นวัดที่สร้างบนโขดหิน ริมชายหาดที่แตกต่างไปจากวัดส่วนใหญ่ในประเทศเกาหลีที่มักจะสร้างอยู่ตามเชิงเขาวัดแห่งนี้ถูกสร้างขึ้น โดยพระอาจารย์ Naong เมื่อปี 1376 ในช่วงรัชสมัยของกษัตริย์ Uwang แห่งราชวงศ์ Goryeo จากนั้นในปี 1970 ได้มีการบูรณะ ด้วยความพิถีพิถันเพื่อให้คงไว้ซึ่งเอกลักษณ์และความงดงามแบบดั้งเดิมจากประตูซุ้มมังกรสีทองอร่ามลอดผ่านอุโมงค์ขนาดเล็กไปสู่ทางเดินบันไดหิน 108 ขั้น เป็นจุดชมวิวความงดงามของทะเลบริเวณวัดประดิษฐานพระพุทธรูปศักดิ์สิทธิ์องค์สีดำตั้งตระหง่านอยู่บนโขดหิน ทางเดินเป็นสะพานที่ทอดยาวเข้าสู่บริเวณตัววัด ประกอบไปด้วยวิหารและศาลาเรียงรายลดหลั่นกันไปตามโขดหิน โดยบริเวณด้านหน้าของวิหารหลักมีเจดีย์สูง 3 ชั้น และสิงโต 4 ตัว เป็นสัญลักษณ์ของความ	สนุก ความโกรธ ความเศร้า และความสุข นอกจากนี้ภายในวัดประดิษฐานเจ้าแม่กวนอิม พระสังกัจจายน์องค์สีทอง	อร่าม วัดแห่งนี้เป็นสถานที่ศักดิ์สิทธิ์คู่บ้านคู่เมืองของคนปูซาน</p>
+          <div class="mt-3">
+           <img src="https://english.visitkorea.or.kr/public/event/2025/Autumn_VK/enu/hd_main.jpg" loading="lazy" class="tour-img" alt="Garuda Wisnu Kencana">
+          </div>
+         </div>
+        </div>
+
+        <div class="relative">
+         <div class="timeline-dot absolute -left-[31px] top-1"></div>
+         <div class="text-sm">
+          <p class="font-semibold">🚞 รถไฟจิ๋วสกายแคปซูล อันโด่งดัง Sky capsule Haeundae Blue Line Park</p>
+          <p class="text-subtle mt-1">นำคณะนั่ง รถไฟจิ๋วสกายแคปซูล อันโด่งดัง Sky capsule Haeundae Blue Line Park อีกหนึ่งกิจกรรมยอดฮิต แห่งใหม่ที่ดังไปทั่วโซเชียล เป็นรถไฟน่ารักๆ รถไฟสไตล์มินิมอลที่มีสีสันสดใส โดยจะมีทั้งหมด 4 สี คือ สีเหลือง สีเขียว สีน้ำเงิน สีแดง เป็นสีสันที่ตัดกับท้องฟ้าสวยๆ ซึ่งต่อหนึ่งคันรถนั้นจะสามารถโดยสารได้มากสุด 4 คน วิ่งอยู่บนรางรถไฟริมทะเลของปูซานสามารถมองเห็นได้ทั้งวิวเมือง แลนด์มาร์คสวยๆ ของปูซานอย่างสะพาน Gwangan สะพานที่ยาวเป็นอันดับ 2 ของประเทศประภาคารต่างๆ และวิวชายหาดแฮอึนแด Haeundae beach ชายหาดทรายขาว เป็นชายหาดที่สวยและมีชื่อเสียงที่สุดแห่งหนึ่งในเกาหลีใต้ ชายหาดทรายละเอียด ยาว 1.5 กม. และยังเป็นเป็นสถานที่จัดงานเทศกาลต่างๆ ตลอดทั้งปี</p>
+          <div class="mt-3">
+           <img src="https://res.klook.com/image/upload/activities/ce84ls8zkzgkco2xuhub.jpg" loading="lazy" class="tour-img" alt="Garuda Wisnu Kencana">
+          </div>
+         </div>
+        </div>
+
+        <div class="relative">
+         <div class="timeline-dot absolute -left-[31px] top-1"></div>
+         <div class="text-sm">
+          <p class="font-semibold">🛍️ ล็อตเต้ พรีเมี่ยม เอ้าท์เล็ท (Lotte Premium Outlet)</p>
+          <p class="text-subtle mt-1">อิสระช้อปปิ้ง ล็อตเต้ พรีเมี่ยม เอ้าท์เล็ท (Lotte Premium Outlet) แห่งใหม่ในเมืองปูซาน ซึ่งมีร้านค้าหลากหลายกว่า 150 ร้านค้า และมีสินค้าราคาถูก หลากหลายแบรนด์ ไม่ว่าจะเป็นเสื้อผ้า รองเท้า กระเป๋า เครื่องใช้ในบ้าน นาฬิกา แว่นตา ฯลฯ ทั้งแบรนด์เกาหลีและแบรนด์ดังๆ มากมาย อาทิเช่น Adidas, Nike, New Balance, MCM, Armami, Calvin Klein, DKNY, Guess, Escada ฯลฯ</p>
+          <div class="img-slider">
+            <div class="img-slider-track">
+              <div class="img-slide"><img src="https://wimg.mk.co.kr/news/cms/202408/27/news-p.v1.20240827.5b1b4abd6c1144238766002065aa7ca3_P1.png" loading="lazy" alt="Lotte Premium Outlet 1"></div>
+              <div class="img-slide"><img src="https://www.kunwon.com/en/board/perform.fileDown.php?BBS_GUBUN=1&SC_LP=&SC_YEAR=&SC_SUPPLY=&SC_LOCAL=&SC_word=&page=1&code=20869&mode=tn2" loading="lazy" alt="Lotte Premium Outlet 2"></div>
+            </div>
+            <div class="img-slider-dots"><span class="active"></span><span></span></div>
+            <div class="img-slider-counter">1/2</div>
+          </div>
+        </div>
+      </div>
+      
+        <div class="relative">
+         <div class="timeline-dot absolute -left-[31px] top-1"></div>
+         <div class="text-sm">
+          <p class="font-semibold">🍽️ รับประทานอาหารกลางวัน ณ ภัตตาคาร </p>
+           <div class="mt-3 flex gap-3">
+           </div>
+          </div>
+         </div>
+
+        <div class="relative">
+         <div class="timeline-dot absolute -left-[31px] top-1"></div>
+         <div class="text-sm">
+          <p class="font-semibold">🛍️ นัมโพดง (Nampo-dong) </p>
+          <p class="text-subtle mt-1">อิสระช้อปปิ้ง นัมโพดง (Nampo-dong) แหล่งช้อปปิ้งขนาดใหญ่ อีกแห่งหนึ่งของเมืองปูซาน ที่นี่เต็มไปด้วยร้านค้า 	เสื้อผ้า เครื่องประดับ เครื่องสำอาง ของฝาก ของที่ระลึกมากมายให้ได้ช้อปปิ้งอย่างจุใจอีกทั้งยังมีอาหารแบบท้องถิ่น 	ให้ได้เลือกทานแบบเต็มที่</p>
+            <div class="mt-3 flex gap-3">
+              <img src="https://tong.visitkorea.or.kr/cms/resource/06/2947006_image2_1.jpg" class="w-1/2 rounded-lg object-cover aspect-video" alt="Dinner 1">
+              <img src="https://10mag.com/wp-content/uploads/2020/08/shutterstock_709664536-scaled-1.jpg" class="w-1/2 rounded-lg object-cover aspect-video" alt="Dinner 2">
+          </div>
+         </div>
+        </div>
+
+        <div class="relative">
+         <div class="timeline-dot absolute -left-[31px] top-1"></div>
+         <div class="text-sm">
+          <p class="font-semibold">🦪🦐 ตลาดปลาจากัลชี (Jagalchi Market)</p>
+          <p class="text-subtle mt-1">นำคณะเดินทางสู่ ตลาดปลาจากัลชี (Jagalchi Market) เป็นตลาดปลาที่ใหญ่ที่สุดในเกาหลีใต้ นี้มีชื่อเสียงโด่งดังไป	ทั่วโลก ที่นี่มีทั้งปลาสด ปลานึ่ง อาหารทะเลแปรรูป ผัก ผลไม้ และของฝากอื่นๆ ให้เลือกซื้อมากมาย</p>
+          <div class="mt-3">
+           <img src="https://www.koreafanclub.com/wp-content/uploads/2017/10/47.jpg" loading="lazy" class="tour-img" alt="Garuda Wisnu Kencana">
+          </div>
+         </div>
+        </div>
+
+        <div class="relative">
+         <div class="timeline-dot absolute -left-[31px] top-1"></div>
+         <div class="text-sm">
+          <p class="font-semibold">🍽️ รับประทานอาหารค่ำ ณ ภัตตาคาร </p>
+           <div class="mt-3 flex gap-3">
+           </div>
+          </div>
+         </div>
+
+       </div>
+       <div class="mt-4 bg-amber-50 border border-amber-200 rounded-xl p-3 text-xs flex items-center gap-2">
+        <span>🏨</span> <strong>นำคณะเข้าสู่ที่พัก Lotte Hotel Busan ★★★★★</strong>
+       </div>
+      </div>
+
+     </div><!-- /day-3 -->
+
+<!-- ===== DAY 4 ===== -->
+<div id="day-4" class="day-content" style="display:none;">
+      <div class="day-card bg-white rounded-2xl p-6 shadow-sm border border-brand/10">
+       <div class="flex items-center gap-3 mb-4">
+        <span class="bg-brand text-white w-10 h-10 rounded-full flex items-center justify-center font-bold">4</span>
+        <div>
+         <h3 class="font-semibold text-lg">วันศุกร์ที่ 23 ตุลาคม 2569</h3>
+         <p class="text-sm text-subtle">ปูซาน → โซล </p>
+        </div>
+        <span class="ml-auto text-2xl">🚝</span>
+       </div>
+       <div class="space-y-4 ml-5 border-l-2 border-brand/20 pl-6">
+
+        <div class="relative">
+         <div class="timeline-dot absolute -left-[31px] top-1"></div>
+         <p class="text-sm"><span class="font-semibold text-brand">10:28 น.</span> — 🚝 นําคณะเดินทางสู่ กรุงโซล โดยรถไฟ KTX (1st Class Seat)</p>
+        </div>
+
+        <div class="relative">
+         <div class="timeline-dot absolute -left-[31px] top-1"></div>
+         <p class="text-sm"><span class="font-semibold text-brand">13:04 น.</span> — 🚝 คณะเดินทางถึง กรุงโซล</p>
+        </div>
+
+        <div class="relative">
+         <div class="timeline-dot absolute -left-[31px] top-1"></div>
+         <div class="text-sm">
+          <p class="font-semibold">🍽️ รับประทานอาหารกลางวัน ณ ภัตตาคาร </p>
+           <div class="mt-3 flex gap-3">
+           </div>
+          </div>
+         </div>
+
+        <div class="relative">
+         <div class="timeline-dot absolute -left-[31px] top-1"></div>
+         <div class="text-sm">
+          <p class="font-semibold">🕌 พระราชวังเคียงบกกุง (Gyeongbokgung Palace)</p>
+          <p class="text-subtle mt-1">นำคณะเข้าชม พระราชวังเคียงบกกุง (Gyeongbokgung Palace) หรือเรียกว่า “พระราชวังคยองบกกุง” เป็นสัญลักษณ์และแหล่งท่องเที่ยวยอดฮิตของกรุงโซล พระราชวังที่มีขนาดใหญ่และเก่าแก่ที่สุดในกรุงโซล สร้างขึ้นในปี1394 ในสมัยพระเจ้าแทโจ ราชวงศ์โชซอน เดิมทีนั้นภายในพระราชวังมีอาคารและตำหนักต่างๆมากกว่า 200 หลัง แต่เมื่อมีการรุกรานของญี่ปุ่น อาคารส่วนใหญ่ก็ได้ถูกทำลายลงเหลืออยู่เพียงแค่ 10 หลังเท่านั้น พร้อมแต่งกายชุด Hanbok
+            <div class="mt-3 flex gap-3">
+              <img src="https://www.agoda.com/wp-content/uploads/2019/05/Gyeongbokgung-palace-Seoul-architecture-view.jpg" class="w-1/2 rounded-lg object-cover aspect-video" alt="Dinner 1">
+              <img src="https://media.tacdn.com/media/attractions-splice-spp-674x446/0b/78/b1/82.jpg" class="w-1/2 rounded-lg object-cover aspect-video" alt="Dinner 2">
+          </div>
+         </div>
+        </div>
+
+        <div class="relative">
+         <div class="timeline-dot absolute -left-[31px] top-1"></div>
+         <div class="text-sm">
+          <p class="font-semibold">🏚️ หมู่บ้านบุกชอนฮันอก (Bukchon Hanok Village)</p>
+          <p class="text-subtle mt-1">นำคณะชม หมู่บ้านบุกชอนฮันอก (Bukchon Hanok Village) เป็นอีกหนึ่งสัญลักษณ์ของเกาหลี หมู่บ้านแห่ง	นี้ก็ยังคงรักษาอาคารบ้านเรือนในสมัยโบราณ มีกลิ่นอายของเกาหลีในยุคเก่าแก่ เหมาะสำหรับคนที่ชอบสถานที่ท่องเที่ยวเชิงประวัติศาสตร์ จะได้พบกับบ้านของขุนนางระดับสูงของเกาหลีในสมัยก่อน ภายในหมู่บ้านมีอาคารแบบดั้งเดิมของเกาหลีกว่า 100 หลัง รูปแบบบ้านแบบดั้งเดิมของเกาหลีเรียกว่า ฮันอก
+          <div class="mt-3">
+           <img src="https://beautipin.com/cdn/shop/articles/0_b766724d-0389-4e90-b772-ae1eddc1e16e.png?v=1750918695" loading="lazy" class="tour-img" alt="Garuda Wisnu Kencana">
+          </div>
+         </div>
+        </div>
+
+        <div class="relative">
+         <div class="timeline-dot absolute -left-[31px] top-1"></div>
+         <div class="text-sm">
+          <p class="font-semibold">🛍️ Myeong-Dong</p>
+          <p class="text-subtle mt-1">อิสระช้อปปิ้ง Myeong-Dong เป็นหนึ่งในย่านช้อปปิ้ง ที่เต็มไปด้วยร้านขายสินค้านานาชนิด รวมไปถึงร้านอาหารหลากหลายประเภท ทั้งอาหารเกาหลี อาหารจานด่วนนานาชาติ และเป็นถนนช้อปปิ้งที่มีชื่อเสียงของกรุงโซล นอกจากนี้ ยังมีร้านอาหารรถเข็นแนว Street Food และมีห้างสรรพสินค้าขนาดใหญ่อีกหลายแห่ง ตั้งอยู่บนถนนและตรอกซอกซอย จึงเป็นสถานที่สามารถเลือกซื้อสินค้านานาประเภทได้ตามใจชอบ ได้แก่ เสื้อผ้าแฟชั่น, รองเท้า, เครื่องสำอาง และอื่นๆ อีกมากมาย
+            <div class="mt-3 flex gap-3">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/3/32/%EB%AA%85%EB%8F%998%EA%B8%B8_%EA%B1%B0%EB%A6%AC_%282020.03%29.jpg" class="w-1/2 rounded-lg object-cover aspect-video" alt="Dinner 1">
+              <img src="https://media.istockphoto.com/id/503426292/photo/myeong-dong-shopping-street.jpg?s=612x612&w=0&k=20&c=R4m8mjiv-0SWZaQZRaH_cW-fLEozUQ-rceYuYky551g=" class="w-1/2 rounded-lg object-cover aspect-video" alt="Dinner 2">
+          </div>
+         </div>
+        </div>
+
+        <div class="relative">
+         <div class="timeline-dot absolute -left-[31px] top-1"></div>
+         <div class="text-sm">
+          <p class="font-semibold">🍽️ รับประทานอาหารค่ำ ณ ภัตตาคาร </p>
+           <div class="mt-3 flex gap-3">
+           </div>
+          </div>
+         </div>
+
+       </div>
+       <div class="mt-4 bg-amber-50 border border-amber-200 rounded-xl p-3 text-xs flex items-center gap-2">
+        <span>🏨</span> <strong>นำคณะเข้าสู่ที่พัก THE PLAZA Seoul ★★★★★</strong>
+       </div>
+      </div>
+     </div><!-- /day-4 -->
+
+<!-- ===== DAY 5 ===== -->
+<div id="day-5" class="day-content" style="display:none;">
+      <div class="day-card bg-white rounded-2xl p-6 shadow-sm border border-brand/10">
+       <div class="flex items-center gap-3 mb-4">
+        <span class="bg-brand text-white w-10 h-10 rounded-full flex items-center justify-center font-bold">5</span>
+        <div>
+         <h3 class="font-semibold text-lg">วันเสาร์ที่ 24 ตุลาคม 2569</h3>
+         <p class="text-sm text-subtle"> โซล </p>
+        </div>
+        <span class="ml-auto text-2xl">🛍️</span>
+       </div>
+       <div class="space-y-4 ml-5 border-l-2 border-brand/20 pl-6">
+
+        <div class="relative">
+         <div class="timeline-dot absolute -left-[31px] top-1"></div>
+         <div class="text-sm">
+          <p class="font-semibold">🪖 เขตปลอดทหารเกาหลี - อุโมงค์หมายเลข 3 - หอสังเกตการณ์โดราซัน</p>
+          <p class="text-subtle mt-1">นำคณะเดินทางสู่ เขตปลอดทหารเกาหลี หรือ DMZ (Demilitarized Zone) เป็นพื้นที่แนวชายแดนที่แบ่งระหว่างเกาหลีเหนือและเกาหลีใต้ โดยมีความยาวประมาณ 250 กิโลเมตร และกว้าง 4 กิโลเมตร (ฝั่งละ 2 กิโลเมตรจากเส้นแบ่งเขตทหาร) พื้นที่นี้ไม่ได้เป็นเพียงจุดยุทธศาสตร์ทางการเมืองที่ตึงเครียดที่สุดแห่งหนึ่งของโลก แต่ยังกลายเป็นแหล่งท่องเที่ยวเชิงประวัติศาสตร์และเขตอนุรักษ์ทางธรรมชาติที่สำคัญ เยี่ยมชมสถานที่ทางประวัติศาสตร์ อุโมงค์หมายเลข 3 (The Third Infiltration Tunnel) อุโมงค์ที่เกาหลีเหนือลักลอบขุดขึ้นเพื่อพยายามบุกเข้ากรุงโซล ถูกค้นพบในปี 1978 ชม หอสังเกตการณ์โดราซัน (Dorasan Observatory) ตั้งอยู่บนยอดเขาโดรา เป็นจุดที่สามารถใช้กล้องส่องทางไกลมองเห็น นิคมอุตสาหกรรมแกซอง (Kaesong Industrial Complex) และหมู่บ้านโฆษณาชวนเชื่อของเกาหลีเหนือได้ชัดเจนที่สุด
+          <div class="mt-3">
+           <img src="https://upload.wikimedia.org/wikipedia/commons/a/a3/The_view_of_North_Korea_from_Dora_Observatory.jpg" loading="lazy" class="tour-img" alt="Garuda Wisnu Kencana">
+          </div>
+         </div>
+        </div>
+
+        <div class="relative">
+         <div class="timeline-dot absolute -left-[31px] top-1"></div>
+         <div class="text-sm">
+          <p class="font-semibold">🍽️ รับประทานอาหารกลางวัน ณ ภัตตาคาร </p>
+           <div class="mt-3 flex gap-3">
+           </div>
+          </div>
+         </div>
+
+        <div class="relative">
+         <div class="timeline-dot absolute -left-[31px] top-1"></div>
+         <div class="text-sm">
+          <p class="font-semibold">🎖️ อนุสรณ์สถานแห่งสงครามเกาหลี (War Memorial of Korea)</p>
+          <p class="text-subtle mt-1">นำคณะชม อนุสรณ์สถานแห่งสงครามเกาหลี (War Memorial of Korea) เป็นพิพิธภัณฑ์ประวัติศาสตร์ทางทหารที่ใหญ่ที่สุดในประเทศ และได้รับการยกย่องว่าเป็นหนึ่งในอนุสรณ์สถานด้านสงครามที่รวบรวมข้อมูลได้ครบถ้วนที่สุดแห่งหนึ่งของโลก โดยสร้างขึ้นเพื่อรำลึกถึงความเสียสละของผู้พลีชีพในสงครามเกาหลี (ปี 1950–1953) และเพื่อเป็นบทเรียนทางประวัติศาสตร์แก่คนรุ่นหลัง เดิมเคยเป็นสำนักงานใหญ่ของทหารราบเกาหลี ปัจจุบันกลายเป็นพิพิธภัณฑ์จัดแสดงนิทรรศการเกี่ยวกับความทรงจำทางสงครามของเกาหลีผ่านอุปกรณ์วัตถุต่างๆ ตั้งอยู่กับฝั่งตรงข้ามของกระทรวงกลาโหม และอยู่ติดกับกองทหารรักษาการณ์ของกองทัพสหรัฐ จัดสร้างขึ้นเพื่อร่วมรำลึกถึงเหตุการณ์สงครามเกาหลีที่เกิดขึ้นเมื่อวันที่ 25 มิถุนายน ค.ศ. 1950 และสิ้นสุดลงในอีก 3 ปีถัดมา โดยเป็นสงครามแบบตัวแทนระหว่างค่ายคอมมิวนิสต์และค่ายเสรีนิยม โดยช่วงแรกของสงครามนั้นเกาหลีเหนือสามารถบุกข้ามเส้นขนานที่ 38 เข้ามายึดกรุงโซลได้สำเร็จ ก่อนที่กองทัพเกาหลีใต้จะถอยร่นไปรวมพลกันที่เมืองปูซานและขอความช่วยเหลือจากสหประชาชาติและมีกองกำลังของสหประชาชาติที่มีชาติสมาชิกกว่า 16 ประเทศส่งทหารเข้าร่วมสงครามรวมทั้งประเทศไทย โดยสามารถบุกยึดกรุงโซลคืนได้สำเร็จ และยันกันอยู่บริเวณเส้นขนานที่ 38 กว่า 3 ปีจึงเจรจายุติสงครามกันในวันที่ 27 กรกฎาคม ค.ศ. 1953 ที่หมู่บ้านพันมุนจอม และเกิดเป็น DMZ ขึ้นมาจนถึงทุกวันนี้
+          <div class="mt-3">
+           <img src="https://upload.wikimedia.org/wikipedia/commons/d/d3/The_War_Memorial_Of_Korea_240615_02.jpg" loading="lazy" class="tour-img" alt="Garuda Wisnu Kencana">
+          </div>
+         </div>
+        </div>
+
+        <div class="relative">
+         <div class="timeline-dot absolute -left-[31px] top-1"></div>
+         <div class="text-sm">
+          <p class="font-semibold">🛍️ ย่านฮงแด (Hongdae)</p>
+          <p class="text-subtle mt-1">อิสระช้อปปิ้ง ย่านฮงแด (Hongdae) ย่านวัฒนธรรมและแหล่งรวมวัยรุ่นที่โด่งดังที่สุดแห่งหนึ่งของกรุงโซล ตั้งอยู่บริเวณด้านหน้าของมหาวิทยาลัยฮงอิก (Hongik University) เต็มไปด้วยร้านค้า ร้านอาหาร คาเฟ่ บาร์ แกลเลอรี่ สตูดิโอ และสถานที่แสดงดนตรีสดมากมาย ย่านนี้โด่งดังเรื่องแฟชั่น สตรีทอาร์ต ดนตรี และวัฒนธรรมสมัยนิยม ดึงดูดนักท่องเที่ยวและวัยรุ่นทั้งชาวเกาหลีและต่างชาติให้มาเยือนอยู่เสมอ
+            <div class="mt-3 flex gap-3">
+              <img src="https://mushroomtravelpage.b-cdn.net/wp-content/uploads/2024/04/02-Hongdae-shutterstock_749019463.jpg" class="w-1/2 rounded-lg object-cover aspect-video" alt="Dinner 1">
+              <img src="https://cf.creatrip.com/original/blog/4749/15621211781170.jpg" class="w-1/2 rounded-lg object-cover aspect-video" alt="Dinner 2">
+          </div>
+         </div>
+        </div>
+
+        <div class="relative">
+         <div class="timeline-dot absolute -left-[31px] top-1"></div>
+         <div class="text-sm">
+          <p class="font-semibold">🍽️ รับประทานอาหารค่ำ ณ ภัตตาคาร </p>
+           <div class="mt-3 flex gap-3">
+           </div>
+          </div>
+         </div>
+
+       </div>
+       <div class="mt-4 bg-amber-50 border border-amber-200 rounded-xl p-3 text-xs flex items-center gap-2">
+        <span>🏨</span> <strong>นำคณะเข้าสู่ที่พัก THE PLAZA Seoul ★★★★★</strong>
+       </div>
+      </div>
+     </div><!-- /day-5 -->
+
+<!-- ===== DAY 6 ===== -->
+<div id="day-6" class="day-content" style="display:none;">
+  <div class="day-card bg-white rounded-2xl p-6 shadow-sm border border-brand/10">
+    <div class="flex items-center gap-3 mb-4">
+      <span class="bg-brand text-white w-10 h-10 rounded-full flex items-center justify-center font-bold">6</span>
+      <div>
+        <h3 class="font-semibold text-lg">วันอาทิตย์ที่ 25 ตุลาคม 2569</h3>
+        <p class="text-sm text-subtle">โซล → กรุงเทพฯ</p>
+      </div>
+      <span class="ml-auto text-2xl">✈️</span>
+    </div>
+    <div class="space-y-4 ml-5 border-l-2 border-brand/20 pl-6">
+
+        <div class="relative">
+         <div class="timeline-dot absolute -left-[31px] top-1"></div>
+         <div class="text-sm">
+          <p class="font-semibold">🏘️ หมู่บ้านอึนพยองฮันอก (Eunpyeong Hanok Village)</p>
+          <p class="text-subtle mt-1">นำคณะชม หมู่บ้านอึนพยองฮันอก (Eunpyeong Hanok Village) เป็นหมู่บ้านบ้านโบราณเกาหลี (ฮันอก) แห่งใหม่ที่ตั้งอยู่บริเวณเชิงเขาบุกฮันซาน (Bukhansan) ในเขตอึนพยอง ทางตอนเหนือของกรุงโซล แตกต่างจากหมู่บ้านบุกชอนฮันอกตรงที่ที่นี่มีความเงียบสงบกว่า ถนนกว้างขวาง และบ้านเรือนส่วนใหญ่สร้างขึ้นใหม่ด้วยสถาปัตยกรรมร่วมสมัย ตัวหมู่บ้านถูกโอบล้อมด้วยแนวเขาสูง ทำให้ได้ภาพบ้านสไตล์โบราณที่มีฉากหลังเป็นภูเขาที่สวยงามทุกฤดูกาล มีร้านกาแฟชื่อดังหลายแห่งที่ออกแบบในสไตล์ฮันอก โดยเฉพาะร้านที่สามารถมองเห็นวิวหมู่บ้านจากมุมสูงได้
+            <div class="mt-3 flex gap-3">
+              <img src="https://www.jubileetravel.co.th/wp-content/uploads/2024/07/Eunpyeong-Hanok-Village-%E0%B8%97%E0%B8%B1%E0%B8%A7%E0%B8%A3%E0%B9%8C%E0%B9%80%E0%B8%81%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B5-jubileetravel-3.png" class="w-1/2 rounded-lg object-cover aspect-video" alt="Dinner 1">
+              <img src="https://res.klook.com/image/upload/fl_lossy.progressive,w_1200,h_630,c_fill,q_85/Eunpyeong_Hanok_Village_1_o7umml.png" class="w-1/2 rounded-lg object-cover aspect-video" alt="Dinner 2">
+          </div>
+         </div>
+        </div>
+
+      <div class="relative">
+        <div class="timeline-dot absolute -left-[31px] top-1"></div>
+        <div class="text-sm">
+          <p class="font-semibold">🍽️ รับประทานอาหารกลางวัน ณ ภัตตาคาร</p>
+          <div class="mt-3 flex gap-3">
+          </div>
+        </div>
+      </div>
+
+      <div class="relative">
+        <div class="timeline-dot absolute -left-[31px] top-1"></div>
+        <div class="text-sm">
+          <p class="font-semibold">🛍️ Hyundai Premier Outlet </p>
+          <p class="text-subtle mt-1">นำคณะเดินทางสู่ Hyundai Premier Outlet สาขาที่โดดเด่นที่สุดในพื้นที่ใกล้กรุงโซล โดยเป็น "Gallery-Style Outlet" แห่งแรกของเกาหลีที่ผสมผสานการช้อปปิ้งเข้ากับพื้นที่จัดแสดงศิลปะและสวนพักผ่อน ที่นี่รวบรวมแบรนด์ชั้นนำกว่า 300 แบรนด์ โดยแบ่งเป็นโซนหลักๆ</p>
+            <div class="mt-3 flex gap-3">
+              <img src="https://tong.visitkorea.or.kr/cms/resource/53/2396453_image2_1.jpg" class="w-1/2 rounded-lg object-cover aspect-video" alt="Dinner 1">
+              <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/82/be/93/caption.jpg?w=900&h=500&s=1" class="w-1/2 rounded-lg object-cover aspect-video" alt="Dinner 2">
+          </div>
+        </div>
+      </div>
+
+        <div class="relative">
+         <div class="timeline-dot absolute timeline-dot-wrap top-1"></div>
+         <div class="text-sm">
+          <p class="font-semibold">นำคณะเดินทางสู่ สนามบินอินชอน</p>
+          <div>
+          </div>
+         </div>
+        </div>
+
+        <div class="relative">
+         <div class="timeline-dot absolute timeline-dot-wrap top-1"></div>
+         <p class="text-sm"><span class="font-semibold text-brand">17:20 น.</span> — ✈️ ออกเดินทางสู่ สนามบินสุวรรณภูมิ โดยสายการบินโคเรียนแอร์ไลน์ เที่ยวบินที่ KE 651</p>
+        </div>
+
+        <div class="relative">
+         <div class="timeline-dot absolute timeline-dot-wrap top-1"></div>
+         <p class="text-sm"><span class="font-semibold text-brand">21:30 น.</span> — ✈️ คณะเดินทางถึง สนามบินสุวรรณภูมิ โดยสวัสดิภาพ</p>
+        </div>
+       </div>
+      </div>
+</div><!-- /day-6 -->
+
+    </section>
+
+<!-- ========== COUNTRY INFO ========== -->
+<section id="sec-country" class="tab-section fade-in">
+  <h2 class="font-display text-2xl md:text-3xl font-bold text-brand-dark mb-6">🌎 ข้อมูลประเทศสาธารณรัฐเกาหลี (เกาหลีใต้)</h2>
+  <div class="grid md:grid-cols-2 gap-4 mb-6">
+    <div class="bg-brand-50 rounded-2xl p-5 border border-brand/10">
+      <h3 class="font-semibold text-brand-dark mb-3 text-lg">🇰🇷 สาธารณรัฐเกาหลี (South Korea)</h3>
+      <div class="space-y-2 text-sm">
+        <div class="flex justify-between"><span class="text-subtle">ชื่อทางการ</span><span class="font-medium text-right">Republic of Korea</span></div>
+        <div class="flex justify-between"><span class="text-subtle">เมืองหลวง</span><span class="font-medium">กรุงโซล (Seoul)</span></div>
+        <div class="flex justify-between"><span class="text-subtle">เมืองสำคัญที่เดินทาง</span><span class="font-medium">โซล, ปูซาน</span></div>
+        <div class="flex justify-between"><span class="text-subtle">ภาษาราชการ</span><span class="font-medium">ภาษาเกาหลี (Korean)</span></div>
+        <div class="flex justify-between"><span class="text-subtle">สกุลเงิน</span><span class="font-medium">วอนเกาหลีใต้ (KRW / ₩)</span></div>
+        <div class="flex justify-between"><span class="text-subtle">เวลาท้องถิ่น</span><span class="font-medium">GMT+9 (เร็วกว่าไทย 2 ชม.)</span></div>
+        <div class="flex justify-between"><span class="text-subtle">ปลั๊กไฟ</span><span class="font-medium">Type C/F (220V / 60Hz)</span></div>
+        <div class="flex justify-between"><span class="text-subtle">ประชากร</span><span class="font-medium">~51.7 ล้านคน</span></div>
+        <div class="flex justify-between"><span class="text-subtle">เบอร์ฉุกเฉิน</span><span class="font-medium">ตำรวจ 112 / รถพยาบาล-ดับเพลิง 119</span></div>
+      </div>
+    </div>
+    <div class="bg-brand-50 rounded-2xl p-5 border border-brand/10">
+      <h3 class="font-semibold text-brand-dark mb-3 text-lg">🚄 การเดินทางในทริปนี้</h3>
+      <div class="space-y-2 text-sm">
+        <div class="flex justify-between"><span class="text-subtle">สนามบินหลัก</span><span class="font-medium">อินชอน (ICN)</span></div>
+        <div class="flex justify-between"><span class="text-subtle">สายการบิน</span><span class="font-medium">Korean Air (KE)</span></div>
+        <div class="flex justify-between"><span class="text-subtle">โซล ↔ ปูซาน</span><span class="font-medium">รถไฟความเร็วสูง KTX</span></div>
+        <div class="flex justify-between"><span class="text-subtle">ระยะเวลาเดินทาง KTX</span><span class="font-medium">ประมาณ 2 ชม. 40 นาที</span></div>
+        <div class="flex justify-between"><span class="text-subtle">ช่วงเวลาเดินทาง</span><span class="font-medium">20–25 ต.ค. 2569</span></div>
+        <div class="flex justify-between"><span class="text-subtle">ฤดูกาล</span><span class="font-medium">ปลายฤดูใบไม้ร่วง (Autumn)</span></div>
+      </div>
+    </div>
+  </div>
+ 
+  <div class="bg-brand-50 rounded-2xl p-5 border border-brand/10 mb-6">
+    <h3 class="font-semibold text-brand-dark mb-3 text-lg">💴 อัตราแลกเปลี่ยนโดยประมาณ</h3>
+    <div class="grid md:grid-cols-1 gap-6 text-sm">
+      <div>
+        <p class="font-semibold text-brand mb-2">🇰🇷 วอนเกาหลีใต้ (KRW)</p>
+        <div class="space-y-2">
+          <div class="flex justify-between"><span class="text-subtle">100 KRW ≈</span><span class="font-medium">~2.6 บาท</span></div>
+          <div class="flex justify-between"><span class="text-subtle">1,000 KRW ≈</span><span class="font-medium">~26 บาท</span></div>
+          <div class="flex justify-between"><span class="text-subtle">10,000 KRW ≈</span><span class="font-medium">~260 บาท</span></div>
+          <div class="flex justify-between"><span class="text-subtle">100,000 KRW ≈</span><span class="font-medium">~2,600 บาท</span></div>
+        </div>
+      </div>
+    </div>
+    <div class="mt-3 bg-white/60 rounded-lg p-2 text-xs text-subtle">💡 แนะนำแลกเงินวอนเกาหลีบางส่วนจากไทยก่อนเดินทาง หรือแลกเพิ่มที่ร้านแลกเงินย่านเมียงดง (Myeong-dong) ซึ่งมักให้อัตราดีกว่าสนามบิน ร้านค้าและร้านสะดวกซื้อส่วนใหญ่รับบัตรเครดิต/เดบิตและ mobile pay ทั่วไป อัตราแลกเปลี่ยนอาจเปลี่ยนแปลงได้ กรุณาตรวจสอบอีกครั้งก่อนเดินทาง</div>
+  </div>
+ 
+  <div class="mt-6 bg-amber-50 border border-amber-200 rounded-2xl p-5">
+    <h4 class="font-semibold text-amber-800 mb-3">⚠️ สิ่งที่ควรรู้และมารยาททางวัฒนธรรม</h4>
+    <ul class="text-sm text-amber-700 space-y-2">
+      <li>• <strong>ไม่นิยมให้ทิป:</strong> ในเกาหลีใต้ไม่มีธรรมเนียมการให้ทิป ค่าบริการรวมอยู่ในราคาแล้ว ไม่จำเป็นต้องให้ทิปเพิ่ม</li>
+      <li>• <strong>รับ-ส่งของสองมือ:</strong> เวลารับส่งเงินหรือสิ่งของกับผู้ใหญ่ ควรใช้สองมือหรือมือขวาประคองด้วยมือซ้ายเพื่อแสดงความเคารพ</li>
+      <li>• <strong>ถอดรองเท้าก่อนเข้าบ้าน/ที่พักบางแห่ง:</strong> โดยเฉพาะร้านอาหารแบบนั่งพื้นและบ้านพักแบบดั้งเดิม</li>
+      <li>• <strong>เข้าคิวอย่างเป็นระเบียบ:</strong> ทั้งบนรถไฟฟ้า รถไฟ KTX และร้านค้า ควรเข้าแถวตามลำดับ ไม่แซงคิว</li>
+      <li>• <strong>ห้ามสูบบุหรี่ในที่สาธารณะ:</strong> ส่วนใหญ่มีจุดสูบบุหรี่เฉพาะที่กำหนดไว้เท่านั้น</li>
+      <li>• <strong>มารยาทบนโต๊ะอาหาร:</strong> รอผู้อาวุโสเริ่มทานก่อน และไม่ปักตะเกียบตั้งตรงในถ้วยข้าว</li>
+      <li>• <strong>อากาศเปลี่ยนแปลงตามฤดู:</strong> ช่วงปลายเดือนตุลาคมเป็นฤดูใบไม้ร่วง อากาศเย็นและอาจมีลมแรง ควรเตรียมเสื้อผ้าให้เหมาะสม</li>
+      <li>• <strong>ร้านค้าปิดดึก:</strong> ร้านสะดวกซื้อและย่านช้อปปิ้งส่วนใหญ่เปิดจนถึงดึก แต่ร้านตามตลาดท้องถิ่นอาจปิดเร็วกว่า</li>
+    </ul>
+  </div>
+ 
+  <div class="grid md:grid-cols-2 gap-4 mt-6">
+    <div class="bg-brand-50 rounded-2xl p-5 border border-brand/10">
+      <h4 class="font-semibold text-brand-dark mb-3">🗣️ คำศัพท์พื้นฐานที่ควรรู้</h4>
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-sm">
+        <div class="bg-white/60 rounded-lg p-2"><span class="font-medium">안녕하세요 (อันยองฮาเซโย)</span><span class="text-subtle"> — สวัสดี</span></div>
+        <div class="bg-white/60 rounded-lg p-2"><span class="font-medium">감사합니다 (คัมซาฮัมนีดา)</span><span class="text-subtle"> — ขอบคุณ</span></div>
+        <div class="bg-white/60 rounded-lg p-2"><span class="font-medium">죄송합니다 (ชเวซงฮัมนีดา)</span><span class="text-subtle"> — ขอโทษ</span></div>
+        <div class="bg-white/60 rounded-lg p-2"><span class="font-medium">이거 얼마예요? (อีกอ ออลมาเยโย)</span><span class="text-subtle"> — ราคาเท่าไหร่?</span></div>
+        <div class="bg-white/60 rounded-lg p-2"><span class="font-medium">주세요 (จูเซโย)</span><span class="text-subtle"> — ขอด้วยค่ะ/ครับ</span></div>
+        <div class="bg-white/60 rounded-lg p-2"><span class="font-medium">어디예요? (ออดิเยโย)</span><span class="text-subtle"> — อยู่ที่ไหน?</span></div>
+        <div class="bg-white/60 rounded-lg p-2"><span class="font-medium">네 / 아니요 (เน / อานิโย)</span><span class="text-subtle"> — ใช่ / ไม่ใช่</span></div>
+        <div class="bg-white/60 rounded-lg p-2"><span class="font-medium">안녕히 계세요 (อันยองฮี เคเซโย)</span><span class="text-subtle"> — ลาก่อน</span></div>
+      </div>
+      <p class="text-xs text-subtle mt-3">💡 ในแหล่งท่องเที่ยวหลักของโซลและปูซาน คนท้องถิ่นบางส่วนสื่อสารภาษาอังกฤษได้ และมีป้ายภาษาอังกฤษตามระบบขนส่งสาธารณะทั่วไป</p>
+    </div>
+    <div class="bg-brand-50 rounded-2xl p-5 border border-brand/10">
+      <h4 class="font-semibold text-brand-dark mb-3">📱 การสื่อสารและอินเทอร์เน็ต</h4>
+      <ul class="text-sm text-subtle space-y-2">
+        <li>• <strong>eSIM / โรมมิ่ง :</strong> แนะนำซื้อ eSIM หรือโรมมิ่งสำหรับเกาหลีใต้ล่วงหน้าก่อนเดินทาง สัญญาณครอบคลุมทั่วประเทศทั้งโซลและปูซาน</li>
+        <li>• <strong>Wi-Fi:</strong> โรงแรม ร้านกาแฟ และรถไฟ KTX ส่วนใหญ่มี Wi-Fi ฟรีให้บริการ</li>
+        <li>• <strong>สถานเอกอัครราชทูตไทย ณ กรุงโซล:</strong> +82-2-790-2955 / +82-2-795-0095 / +82-2-795-3098</li>
+        <li>• <strong>สถานกงสุลใหญ่ ณ นครปูซาน:</strong> +82-5-5344-5000</li>
+        <li>• <strong>เบอร์ฉุกเฉิน:</strong> ตำรวจ 112 / รถพยาบาลและดับเพลิง 119 / ล่ามภาษาไทยสายด่วนท่องเที่ยวเกาหลี 1330</li>
+      </ul>
+    </div>
+  </div>
+</section>
+ 
+<!-- ========== WEATHER ========== -->
+<section id="sec-weather" class="tab-section fade-in">
+  <h2 class="font-display text-2xl md:text-3xl font-bold text-brand-dark mb-2">🌤️ สภาพอากาศ</h2>
+  <p class="text-sm text-subtle mb-6">คาดการณ์สภาพอากาศโดยอ้างอิงค่าเฉลี่ยภูมิอากาศช่วงปลายเดือนตุลาคมของโซลและปูซาน • อ้างอิง: <a href="https://www.accuweather.com" target="_blank" rel="noopener noreferrer" class="text-brand underline">accuweather.com</a></p>
+ 
+  <h3 class="font-semibold text-brand-dark mb-3">🏙️ กรุงโซล (วันที่ 1, 4-6)</h3>
+  <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
+    <div class="bg-white border border-brand/10 rounded-2xl p-4 card-hover text-center">
+      <p class="text-xs text-subtle">20 ต.ค. (วันที่ 1)</p>
+      <p class="font-semibold text-sm">อินชอน / โซล</p>
+      <div class="weather-icon my-2">🌤️</div>
+      <p class="text-2xl font-bold text-brand-dark">18°<span class="text-base font-normal text-subtle">/8°C</span></p>
+      <p class="text-xs text-subtle mt-1">ท้องฟ้าโปร่ง อากาศเย็นสบายยามเช้า-ค่ำ</p>
+      <div class="flex justify-center gap-3 mt-2 text-xs text-subtle"><span>💧 55%</span><span>🌧️ 15%</span></div>
+    </div>
+    <div class="bg-white border border-brand/10 rounded-2xl p-4 card-hover text-center">
+      <p class="text-xs text-subtle">23–25 ต.ค. (วันที่ 4–6)</p>
+      <p class="font-semibold text-sm">พระราชวังเคียงบกกุง / DMZ / โซล</p>
+      <div class="weather-icon my-2">🍂</div>
+      <p class="text-2xl font-bold text-brand-dark">17°<span class="text-base font-normal text-subtle">/6°C</span></p>
+      <p class="text-xs text-subtle mt-1">อากาศเย็นสบาย เหมาะชมใบไม้เปลี่ยนสี ท้องฟ้าโปร่งเป็นส่วนใหญ่</p>
+      <div class="flex justify-center gap-3 mt-2 text-xs text-subtle"><span>💧 58%</span><span>🌧️ 20%</span></div>
+    </div>
+  </div>
+ 
+  <h3 class="font-semibold text-brand-dark mb-3">🌊 ปูซาน (วันที่ 2–3)</h3>
+  <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
+    <div class="bg-white border border-brand/10 rounded-2xl p-4 card-hover text-center">
+      <p class="text-xs text-subtle">21 ต.ค. (วันที่ 2)</p>
+      <p class="font-semibold text-sm">หมู่บ้านคัมชอน / หาดควังอันลี</p>
+      <div class="weather-icon my-2">☀️</div>
+      <p class="text-2xl font-bold text-brand-dark">20°<span class="text-base font-normal text-subtle">/12°C</span></p>
+      <p class="text-xs text-subtle mt-1">แดดจัด อากาศอบอุ่นกว่าโซลเล็กน้อย ลมทะเลเย็นสบาย</p>
+      <div class="flex justify-center gap-3 mt-2 text-xs text-subtle"><span>💧 60%</span><span>🌧️ 10%</span></div>
+    </div>
+    <div class="bg-white border border-brand/10 rounded-2xl p-4 card-hover text-center">
+      <p class="text-xs text-subtle">22 ต.ค. (วันที่ 3)</p>
+      <p class="font-semibold text-sm">วัดแฮดง ยงกุงซา / แฮอึนแด</p>
+      <div class="weather-icon my-2">🌥️</div>
+      <p class="text-2xl font-bold text-brand-dark">19°<span class="text-base font-normal text-subtle">/11°C</span></p>
+      <p class="text-xs text-subtle mt-1">มีเมฆบางส่วน อากาศเย็นสบาย เหมาะเดินเที่ยวกลางแจ้ง</p>
+      <div class="flex justify-center gap-3 mt-2 text-xs text-subtle"><span>💧 62%</span><span>🌧️ 15%</span></div>
+    </div>
+  </div>
+ 
+  <div class="mt-2 bg-brand-50 border border-brand/10 rounded-2xl p-5">
+    <h4 class="font-semibold text-brand-dark mb-3">📊 สรุปอากาศช่วง 20–25 ตุลาคม 2569</h4>
+    <div class="grid md:grid-cols-2 gap-4 text-sm">
+      <div>
+        <p class="font-medium">🏙️ กรุงโซล</p>
+        <p class="text-subtle mt-1">อุณหภูมิกลางวันประมาณ 16–18°C กลางคืนเย็นลงถึง 6–8°C ท้องฟ้าโปร่งเป็นส่วนใหญ่ในช่วงปลายเดือนตุลาคม เป็นช่วงพีคของใบไม้เปลี่ยนสี ลมเย็นในตอนเช้าและค่ำ ควรเตรียมเสื้อกันหนาวบางๆ</p>
+      </div>
+      <div>
+        <p class="font-medium">🌊 ปูซาน</p>
+        <p class="text-subtle mt-1">อุณหภูมิกลางวันประมาณ 19–20°C กลางคืนประมาณ 11–12°C อากาศอบอุ่นกว่าโซลเนื่องจากอยู่ติดทะเล แดดจัดในตอนกลางวัน ลมทะเลพัดเย็นสบายบริเวณชายหาดและจุดชมวิว</p>
+      </div>
+    </div>
+    <div class="mt-3 bg-blue-50 border border-blue-100 rounded-xl p-3 text-xs text-blue-700 flex items-start gap-2">
+      <span>🌡️</span>
+      <span>ช่วงเวลาเดินทาง (20–25 ต.ค.) อยู่ในช่วงปลายฤดูใบไม้ร่วงของเกาหลีใต้ อากาศเย็นสบายกลางวัน และเย็นจัดขึ้นในตอนกลางคืนโดยเฉพาะที่โซล ควรเตรียมเสื้อแขนยาว เสื้อกันหนาวบาง-หนา และเสื้อกันลมสำหรับกิจกรรมกลางแจ้งอย่าง DMZ และหาดที่ปูซาน</span>
+    </div>
+  </div>
+  <p class="text-xs text-subtle mt-4 italic">* ข้อมูลสภาพอากาศเป็นค่าเฉลี่ยตามฤดูกาลโดยประมาณ เนื่องจากวันเดินทางอยู่นอกช่วงพยากรณ์อากาศระยะสั้น กรุณาตรวจสอบพยากรณ์อากาศล่าสุดอีกครั้งก่อนเดินทางที่ accuweather.com</p>
+</section>
+ 
+<!-- ========== CLOTHING ========== -->
+<section id="sec-clothing" class="tab-section fade-in">
+  <h2 class="font-display text-2xl md:text-3xl font-bold text-brand-dark mb-6">👔 คำแนะนำการแต่งกาย</h2>
+  <div class="bg-brand-50 rounded-2xl p-5 border border-brand/10 mb-6">
+    <h3 class="font-semibold text-brand-dark mb-2">🌡️ สภาพอากาศโดยรวม</h3>
+    <p class="text-sm text-subtle">ช่วงปลายเดือนตุลาคมในเกาหลีใต้อยู่ในฤดูใบไม้ร่วง กลางวันอากาศเย็นสบาย 17–20°C กลางคืนเย็นลงถึง 6–12°C โดยกรุงโซลจะเย็นกว่าปูซานอย่างชัดเจนโดยเฉพาะยามเช้าและค่ำ ควรเตรียมเสื้อผ้าแบบหลายชั้น เสื้อกันหนาวบาง และเสื้อกันลมสำหรับกิจกรรมกลางแจ้ง</p>
+  </div>
+ 
+  <div class="grid md:grid-cols-2 gap-4 mb-6">
+    <div class="bg-white border border-brand/10 rounded-2xl p-5 card-hover">
+      <h4 class="font-semibold text-brand-dark mb-3">🧥 เสื้อผ้าหลักที่ต้องเตรียม</h4>
+      <ul class="text-sm space-y-2">
+        <li class="flex items-start gap-2"><span>👕</span> เสื้อแขนยาวหรือเสื้อยืดเนื้อผ้าระบายอากาศ (ใส่เป็นชั้นใน)</li>
+        <li class="flex items-start gap-2"><span>🧥</span> เสื้อกันหนาวบาง เช่น คาร์ดิแกน หรือเสื้อแจ็คเก็ตบาง ใส่ทับได้</li>
+        <li class="flex items-start gap-2"><span>🌬️</span> เสื้อกันลม/แจ็คเก็ตกันหนาวขนเป็ดบางสำหรับตอนเช้า-ค่ำที่โซล</li>
+        <li class="flex items-start gap-2"><span>🧣</span> ผ้าพันคอบาง เผื่อสำหรับวันที่ลมแรงหรือกลางคืน</li>
+        <li class="flex items-start gap-2"><span>👖</span> กางเกงขายาวเนื้อผ้าหนาปานกลาง ไม่แนะนำกางเกงขาสั้น</li>
+        <li class="flex items-start gap-2"><span>👟</span> รองเท้าผ้าใบหรือรองเท้าเดินสบาย เดินเที่ยวได้ทั้งวัน</li>
+        <li class="flex items-start gap-2"><span>🧴</span> ครีมบำรุงผิว/ลิปมัน อากาศแห้งช่วงฤดูใบไม้ร่วง</li>
+      </ul>
+    </div>
+ 
+  <h3 class="font-semibold text-brand-dark text-lg mb-3">📅 แนะนำการแต่งกายตามรายวัน</h3>
+  <div class="space-y-3">
+    <div class="bg-white border-l-4 border-gray-300 rounded-r-xl p-4">
+      <p class="font-semibold text-sm">วันที่ 1 | กรุงเทพฯ → อินชอน → โซล (20 ต.ค. | 8–18°C)</p>
+      <p class="text-xs text-subtle mt-1">👕 แต่งกายสบายสำหรับเดินทาง / 🧥 พกเสื้อคลุมบางติดตัวขึ้นเครื่อง อากาศเย็นเมื่อถึงอินชอนตอนเย็น</p>
+    </div>
+    <div class="bg-white border-l-4 border-brand rounded-r-xl p-4">
+      <p class="font-semibold text-sm">วันที่ 2 | โซล → ปูซาน (21 ต.ค. | 12–20°C)</p>
+      <p class="text-xs text-subtle mt-1">👕 เสื้อแขนยาวบาง + เสื้อคลุมบาง / 👖 กางเกงขายาว / 👟 รองเท้าสบายสำหรับเดินหมู่บ้านคัมชอนและชายหาด</p>
+    </div>
+    <div class="bg-white border-l-4 border-blue-400 rounded-r-xl p-4">
+      <p class="font-semibold text-sm">วันที่ 3 | ปูซาน (22 ต.ค. | 11–19°C)</p>
+      <p class="text-xs text-subtle mt-1">👕 เสื้อแขนยาว + เสื้อคลุมบาง / 👟 รองเท้าเดินสบาย เดินเยอะทั้งวัด สกายแคปซูล และตลาดจากัลชี / 🕶️ แว่นกันแดดสำหรับวันแดดจัด</p>
+    </div>
+    <div class="bg-white border-l-4 border-teal-400 rounded-r-xl p-4">
+      <p class="font-semibold text-sm">วันที่ 4 | ปูซาน → โซล (23 ต.ค. | 6–17°C)</p>
+      <p class="text-xs text-subtle mt-1">🧥 เสื้อกันหนาวบาง + เสื้อคลุมกันลม / 👖 กางเกงขายาว / 👟 รองเท้าสบาย เดินชมพระราชวังและหมู่บ้านบุกชอน / 🧣 ผ้าพันคอบาง อากาศเย็นลงเมื่อถึงโซล</p>
+    </div>
+    <div class="bg-white border-l-4 border-orange-400 rounded-r-xl p-4">
+      <p class="font-semibold text-sm">วันที่ 5 | โซล – DMZ (24 ต.ค. | 6–17°C)</p>
+      <p class="text-xs text-subtle mt-1">🧥 เสื้อกันหนาวหนาขึ้น + เสื้อกันลม จำเป็นสำหรับพื้นที่ DMZ ที่ลมแรง / 👖 กางเกงขายาว / 👟 รองเท้าเดินสบาย / 🧣 ผ้าพันคอ</p>
+    </div>
+    <div class="bg-white border-l-4 border-brand-dark rounded-r-xl p-4">
+      <p class="font-semibold text-sm">วันที่ 6 | โซล → กรุงเทพฯ (25 ต.ค. | 6–17°C)</p>
+      <p class="text-xs text-subtle mt-1">👕 แต่งกายสบายสำหรับวันเดินทางกลับ / 🧥 เสื้อคลุมบางขึ้นเครื่อง</p>
+    </div>
+  </div>
+ 
+  <div class="mt-6 bg-amber-50 border border-amber-200 rounded-2xl p-5">
+    <h4 class="font-semibold text-amber-800 mb-3">🎒 สิ่งที่ควรพกติดตัว</h4>
+    <div class="grid grid-cols-2 md:grid-cols-3 gap-2 text-sm">
+      <div class="flex items-center gap-2"><span>🧴</span> ครีมบำรุงผิว/ลิปมัน กันผิวแห้ง</div>
+      <div class="flex items-center gap-2"><span>🧥</span> เสื้อกันลม/เสื้อคลุมบาง</div>
+      <div class="flex items-center gap-2"><span>🔌</span> Adapter ปลั๊กแบบ C/F (สองขากลม)</div>
+      <div class="flex items-center gap-2"><span>💊</span> ยาประจำตัว</div>
+      <div class="flex items-center gap-2"><span>🎒</span> กระเป๋าเป้ใบเล็กสำหรับเดินช้อปปิ้ง</div>
+      <div class="flex items-center gap-2"><span>💳</span> บัตรเครดิต/เดบิต (ใช้ได้เกือบทุกที่)</div>
+      <div class="flex items-center gap-2"><span>🧣</span> ผ้าพันคอบาง</div>
+      <div class="flex items-center gap-2"><span>🕶️</span> แว่นกันแดด สำหรับวันแดดจัดที่ปูซาน</div>
+    </div>
+  </div>
+</section>
+    <!-- ========== PASSENGER ========== -->
+    <section id="sec-Passenger" class="tab-section fade-in">
+     <div style="background: linear-gradient(160deg, #0f172a 0%, #1e3a5f 50%, #0f172a 100%); border-radius: 1rem; padding: 1.25rem;" class="md:!p-8">
+      <div class="max-w-3xl mx-auto">
+       <header class="text-center mb-8 md:mb-10">
+        <div class="inline-flex items-center gap-2 mb-3 px-4 py-1.5 rounded-full" style="background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.15);">
+         <i data-lucide="plane" style="width:16px;height:16px;color:#60a5fa;"></i>
+         <span class="text-xs font-semibold tracking-widest uppercase" style="color:#93c5fd;">Passenger name</span>
+        </div>
+        <h1 class="font-display text-2xl md:text-4xl font-bold text-white mt-3">รายชื่อผู้เดินทาง</h1>
+        <p class="mt-2 text-sm" style="color:#94a3b8;">ข้อมูลห้องพักของผู้เดินทาง</p>
+       </header>
+       <style>
+        .room-card { background: linear-gradient(135deg, rgba(255,255,255,0.95), rgba(255,255,255,0.85)); backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.6); transition: transform 0.3s ease, box-shadow 0.3s ease; border-radius: 1rem; padding: 1.25rem; }
+        .room-card:hover { transform: translateY(-4px); box-shadow: 0 20px 40px rgba(0,0,0,0.12); }
+        .badge { display: inline-flex; align-items: center; gap: 4px; padding: 4px 12px; border-radius: 9999px; font-size: 0.75rem; font-weight: 600; }
+        .dietary-badge { background: #fef3c7; color: #92400e; border: 1px solid #fde68a; }
+        .dietary-badge2 { background: #c0392b; color: #ffffff; border: 1px solid #c0392b; }        
+        .dietary-badge3 { background: #20B2AA; color: #ffffff; border: 1px solid #20B2AA; }                
+        .dietary-badge4 { background: #1E9345; color: #ED1F26; border: 1px solid #1E9345; }               
+        .room-badge { background: #dbeafe; color: #1e40af; border: 1px solid #bfdbfe; }
+        .room-badge2 { background: #FF99FF; color: #9900FF; border: 1px solid #FF99FF; }        
+        .room-badge3 { background: #99FFCC; color: #336600; border: 1px solid #99FFCC; }        
+        .guest-row { display: flex; align-items: center; gap: 12px; padding: 12px 0; }
+        .guest-row + .guest-row { border-top: 1px dashed #e5e7eb; }
+        .avatar { width: 33px; height: 33px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 0.85rem; flex-shrink: 0; color: #fff; }
+       </style>
+       <div class="rooms-grid mb-6">
+
+        <div class="room-card"><div class="flex flex-wrap items-center gap-2 mb-4"><i data-lucide="bed-double" style="width:20px;height:20px;color:#1e40af;"></i><span class="font-bold text-gray-800 text-lg">ห้องที่ 1</span>
+        <span class="badge room-badge3"><i data-lucide="door-open" style="width:12px;height:12px;"></i>Single Room</span></div><div class="guest-row"><div class="avatar" style="background:linear-gradient(135deg,#f59e0b,#d97706);">1</div><div class="flex-1 min-w-0"><p class="font-semibold text-gray-800 text-sm md:text-base">MR. WERASAK SUTIPORNPALANGKUL</p><p class="text-xs text-gray-400">ผู้เดินทาง  </span><span class="badge dietary-badge"></i>🌶️ Spice mild</span> <span class="badge dietary-badge2"><i data-lucide="plane" style="width:12px;height:12px;"></i>กลับหลังคณะ 11 Oct</span></p></div></div></div>
+
+        <div class="room-card"><div class="flex flex-wrap items-center gap-2 mb-4"><i data-lucide="bed-double" style="width:20px;height:20px;color:#1e40af;"></i><span class="font-bold text-gray-800 text-lg">ห้องที่ 2</span>
+        <span class="badge room-badge"><i data-lucide="door-open" style="width:12px;height:12px;"></i>Twin Room</span></div><div class="guest-row"><div class="avatar" style="background:linear-gradient(135deg,#3b82f6,#1d4ed8);">2</div><div class="flex-1 min-w-0"><p class="font-semibold text-gray-800 text-sm md:text-base">MISS SUKANDA RAKPANYA</p><p class="text-xs text-gray-400">ผู้เดินทาง  </span><span class="badge dietary-badge2"><i data-lucide="plane" style="width:12px;height:12px;"></i>กลับหลังคณะ 11 Oct</span></p></div></div><div class="guest-row"><div class="avatar" style="background:linear-gradient(135deg,#ec4899,#be185d);">3</div><div class="flex-1 min-w-0"><p class="font-semibold text-gray-800 text-sm md:text-base">MISS SUPITCHAYA RAKPANYA</p><div class="flex flex-wrap items-center gap-2 mt-1"><span class="text-xs text-gray-400">ผู้เดินทาง</span><span class="badge dietary-badge"></i>🌶️ Spice mild</span><span class="badge dietary-badge2"><i data-lucide="plane" style="width:12px;height:12px;"></i>กลับหลังคณะ 11 Oct</span></div></div></div></div>
+
+        <div class="room-card"><div class="flex flex-wrap items-center gap-2 mb-4"><i data-lucide="bed-double" style="width:20px;height:20px;color:#1e40af;"></i><span class="font-bold text-gray-800 text-lg">ห้องที่ 3</span><span class="badge room-badge2"><i data-lucide="heart" style="width:12px;height:12px;"></i>Double Room</span></div><div class="guest-row"><div class="avatar" style="background:linear-gradient(135deg,#10b981,#047857);">4</div><div class="flex-1 min-w-0"><p class="font-semibold text-gray-800 text-sm md:text-base">MR. WICHARN YINGSAKMONGKOL</p><p class="text-xs text-gray-400">ผู้เดินทาง</span><span class="badge dietary-badge2"><i data-lucide="plane" style="width:12px;height:12px;"></i>ไปก่อน - กลับหลังคณะ 2-11 OCT</span></p></div></div><div  class="guest-row"><div class="avatar" style="background:linear-gradient(135deg,#9933FF,#9900CC);">5</div><div class="flex-1 min-w-0"><p class="font-semibold text-gray-800 text-sm md:text-base">MRS. SIVAPORN YINGSAKMONGKOL</p><div class="flex flex-wrap items-center gap-2 mt-1"><span class="text-xs text-gray-400">ผู้เดินทาง  </span><span class="badge dietary-badge2"><i data-lucide="plane" style="width:12px;height:12px;"></i>ไปก่อน - กลับหลังคณะ 2-11 OCT</span></div></div></div></div>
+
+        <div class="room-card"><div class="flex flex-wrap items-center gap-2 mb-4"><i data-lucide="bed-double" style="width:20px;height:20px;color:#1e40af;"></i><span class="font-bold text-gray-800 text-lg">ห้องที่ 4</span><span class="badge room-badge2"><i data-lucide="heart" style="width:12px;height:12px;"></i>Double Room</span></div><div class="guest-row"><div class="avatar" style="background:linear-gradient(135deg,#FFCC00, #FF3300);">6</div><div class="flex-1 min-w-0"><p class="font-semibold text-gray-800 text-sm md:text-base">MR. THEERA CHUEABOONCHAI</p><div class="flex flex-wrap items-center gap-2 mt-1"><span class="text-xs text-gray-400">ผู้เดินทาง</span></div></div></div><div class="guest-row"><div class="avatar" style="background:linear-gradient(135deg,#14b8a6, #0d9488);">7</div><div class="flex-1 min-w-0"><p class="font-semibold text-gray-800 text-sm md:text-base">MISS PLOYKANOK CHUEABOONCHAI</p><p class="text-xs text-gray-400">ผู้เดินทาง</p></div></div></div>
+
+        <div class="room-card"><div class="flex flex-wrap items-center gap-2 mb-4"><i data-lucide="bed-triple" style="width:20px;height:20px;color:#1e40af;"></i><span class="font-bold text-gray-800 text-lg">ห้องที่ 5</span><span class="badge room-badge"><i data-lucide="door-open" style="width:12px;height:12px;"></i>Triple Room</span></div><div class="guest-row"><div class="avatar" style="background:linear-gradient(135deg,#3b82f6, #1d4ed8);">8</div><div class="flex-1 min-w-0"><p class="font-semibold text-gray-800 text-sm md:text-base">MR. TEWAJETSADA PARUANG</p><p class="text-xs text-gray-400">ผู้เดินทาง</span><span class="badge dietary-badge"></i>🌶️ SPICE MILD</span></p></div></div><div  class="guest-row"><div class="avatar" style="background:linear-gradient(135deg,#87CEFA,#00CED1);">9</div><div class="flex-1 min-w-0"><p class="font-semibold text-gray-800 text-sm md:text-base">MRS. TAKSAORN UBOL</p><div class="flex flex-wrap items-center gap-2 mt-1"><span class="text-xs text-gray-400">ผู้เดินทาง  </span></div></div></div><div class="guest-row"><div class="avatar" style="background:linear-gradient(135deg,#FFCCFF,#FF33FF);">10</div><div class="flex-1 min-w-0"><p class="font-semibold text-gray-800 text-sm md:text-base">MISS PIMYADA UBOL  ( 7 Years)</p><div class="flex flex-wrap items-center gap-2 mt-1"><span class="text-xs text-gray-400">ผู้เดินทาง</span><span class="badge dietary-badge"></i>🌶️ SPICE MILD</span></div></div></div></div>
+
+        <div class="room-card"><div class="flex flex-wrap items-center gap-2 mb-4"><i data-lucide="bed-double" style="width:20px;height:20px;color:#1e40af;"></i><span class="font-bold text-gray-800 text-lg">ห้องที่ 6</span><span class="badge room-badge2"><i data-lucide="heart" style="width:12px;height:12px;"></i>Double Room</span></div><div class="guest-row"><div class="avatar" style="background:linear-gradient(135deg,#ec4899, #be185d);">11</div><div class="flex-1 min-w-0"><p class="font-semibold text-gray-800 text-sm md:text-base">MR. GUN KEOROCHANA</p><div class="flex flex-wrap items-center gap-2 mt-1"><span class="text-xs text-gray-400">ผู้เดินทาง</span></div></div></div><div class="guest-row"><div class="avatar" style="background:linear-gradient(135deg,#8b5cf6, #6d28d9);">12</div><div class="flex-1 min-w-0"><p class="font-semibold text-gray-800 text-sm md:text-base">MRS. NARUMON KEOROCHANA</p><p class="text-xs text-gray-400">ผู้เดินทาง</p></div></div></div>
+
+        <div class="room-card"><div class="flex flex-wrap items-center gap-2 mb-4"><i data-lucide="bed-double" style="width:20px;height:20px;color:#1e40af;"></i><span class="font-bold text-gray-800 text-lg">ห้องที่ 7</span><span class="badge room-badge2"><i data-lucide="heart" style="width:12px;height:12px;"></i>Double Room</span></div><div class="guest-row"><div class="avatar" style="background:linear-gradient(135deg,#10b981,#047857);">13</div><div class="flex-1 min-w-0"><p class="font-semibold text-gray-800 text-sm md:text-base">MR. PILAN JAIPANYA</p><p class="text-xs text-gray-400">ผู้เดินทาง</span><span class="badge dietary-badge"></i>🦞 NO PRAWN</span></p></div></div><div  class="guest-row"><div class="avatar" style="background:linear-gradient(135deg,#f43f5e, #e11d48);">14</div><div class="flex-1 min-w-0"><p class="font-semibold text-gray-800 text-sm md:text-base">MISS BHARADEE TEERAVIDJA</p><div class="flex flex-wrap items-center gap-2 mt-1"><span class="text-xs text-gray-400">ผู้เดินทาง  </span></div></div></div></div>
+
+<div class="room-card">
+  <div class="flex flex-wrap items-center gap-2 mb-4">
+    <i data-lucide="bed-double" style="width:20px;height:20px;color:#1e40af;"></i>
+    <span class="font-bold text-gray-800 text-lg">ห้องที่ 8</span>
+    <span class="badge room-badge"><i data-lucide="door-open" style="width:12px;height:12px;"></i>Pending</span>
+  </div>
+  <div class="guest-row">
+    <div class="avatar" style="background:linear-gradient(135deg,#FFCC00, #FF3300);">15</div>
+    <div class="flex-1 min-w-0">
+      <p class="font-semibold text-gray-800 text-sm md:text-base">Pending</p>
+      <div class="flex flex-wrap items-center gap-2 mt-1">
+        <span class="text-xs text-gray-400">ผู้เดินทาง</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="room-card">
+  <div class="flex flex-wrap items-center gap-2 mb-4">
+    <i data-lucide="bed-double" style="width:20px;height:20px;color:#1e40af;"></i>
+    <span class="font-bold text-gray-800 text-lg">ห้องที่ 9</span>
+    <span class="badge room-badge"><i data-lucide="door-open" style="width:12px;height:12px;"></i>Pending</span>
+  </div>
+  <div class="guest-row">
+    <div class="avatar" style="background:linear-gradient(135deg,#33CCFF, #3333FF);">16</div>
+    <div class="flex-1 min-w-0">
+      <p class="font-semibold text-gray-800 text-sm md:text-base">Pending</p>
+      <div class="flex flex-wrap items-center gap-2 mt-1">
+        <span class="text-xs text-gray-400">ผู้เดินทาง</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+        <div class="room-card"><div class="flex flex-wrap items-center gap-2 mb-4"><i data-lucide="bed-double" style="width:20px;height:20px;color:#1e40af;"></i><span class="font-bold text-gray-800 text-lg">ห้องที่ 10</span>
+        <span class="badge room-badge3"><i data-lucide="door-open" style="width:12px;height:12px;"></i>Single Room</span></div><div class="guest-row"><div class="avatar" style="background:linear-gradient(135deg,#FFD700, #CD5C5C);">17</div><div class="flex-1 min-w-0"><p class="font-semibold text-gray-800 text-sm md:text-base">MR. ZAIDAN HAYEESAMA-AE</p><p class="text-xs text-gray-400">ผู้เดินทาง  </span><span class="badge dietary-badge2"><i data-lucide="plane" style="width:12px;height:12px;"></i>บินมาจาก Warsaw</span></p><p class="text-xs text-gray-400">3OCT2026 W6 1367 WAW-CPH 06.40-08.15 </span></div></div></div>
+
+<div class="room-card">
+  <div class="flex flex-wrap items-center gap-2 mb-4">
+    <i data-lucide="bed-double" style="width:20px;height:20px;color:#1e40af;"></i>
+    <span class="font-bold text-gray-800 text-lg">ห้องที่ 11</span>
+    <span class="badge room-badge3"><i data-lucide="door-open" style="width:12px;height:12px;"></i>Single room</span>
+  </div>
+  <div class="guest-row">
+    <div class="avatar" style="background:linear-gradient(135deg,#DB7093, #9400D3);">18</div>
+    <div class="flex-1 min-w-0">
+      <p class="font-semibold text-gray-800 text-sm md:text-base">MR. URAWIT PIYAPROMDEE</p>
+      <div class="flex flex-wrap items-center gap-2 mt-1">
+        <span class="text-xs text-gray-400">ผู้เดินทาง</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="room-card">
+  <div class="flex flex-wrap items-center gap-2 mb-4">
+    <i data-lucide="bed-double" style="width:20px;height:20px;color:#1e40af;"></i>
+    <span class="font-bold text-gray-800 text-lg">ห้องที่ 12</span>
+    <span class="badge room-badge3"><i data-lucide="door-open" style="width:12px;height:12px;"></i>Single room</span>
+  </div>
+  <div class="guest-row">
+    <div class="avatar" style="background:linear-gradient(135deg,#00FF00, #228B22);">19</div>
+    <div class="flex-1 min-w-0">
+      <p class="font-semibold text-gray-800 text-sm md:text-base">MR. KOMCHARN PROMPALAD</p>
+      <div class="flex flex-wrap items-center gap-2 mt-1">
+        <span class="text-xs text-gray-400">ผู้เดินทาง</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+        <div class="room-card"><div class="flex flex-wrap items-center gap-2 mb-4"><i data-lucide="bed-double" style="width:20px;height:20px;color:#1e40af;"></i><span class="font-bold text-gray-800 text-lg">ห้องที่ 13</span><span class="badge room-badge"><i data-lucide="door-open" style="width:12px;height:12px;"></i>Twin room</span></div><div class="guest-row"><div class="avatar" style="background:linear-gradient(135deg,#FFA500, #FF4500);">20</div><div class="flex-1 min-w-0"><p class="font-semibold text-gray-800 text-sm md:text-base">MISS KRONGJIT KONGTHONG</p><div class="flex flex-wrap items-center gap-2 mt-1"><span class="text-xs text-gray-400">ผู้เดินทาง</span><span class="badge dietary-badge4"><i data-lucide="user" style="width:12px;height:12px;"></i>Staff</span></div></div></div><div class="guest-row"><div class="avatar" style="background:linear-gradient(135deg,#C71585,#B03060);">21</div><div class="flex-1 min-w-0"><p class="font-semibold text-gray-800 text-sm md:text-base">MISS PITTAYAPORN KAITWARIN</p><p class="text-xs text-gray-400">ผู้เดินทาง  </span><span class="badge dietary-badge4"><i data-lucide="user" style="width:12px;height:12px;"></i>Staff</span></p></div></div></div>
+
+       <div class="rounded-xl p-4 stats-bar text-sm" style="background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.1);">
+        <div class="flex items-center gap-2 text-blue-300"><i data-lucide="users" style="width:16px;height:16px;"></i><span>ผู้เดินทางทั้งหมด <strong class="text-white">21</strong> ท่าน</span></div>
+        <div class="flex items-center gap-2 text-blue-300"><i data-lucide="bed-double" style="width:16px;height:16px;"></i><span>ห้องพัก <strong class="text-white">13</strong> ห้อง (6SGL + 4DBL + 2TWN + 1TRP)</span></div>
+        <div class="flex items-center gap-2 text-amber-300"><span>🌶️ Spice mild <strong class="text-white">4</strong> ท่าน</span></div>
+        <div class="flex items-center gap-2 text-green-300"><span>🥩 No beef <strong class="text-white">0</strong> ท่าน</span></div>
+        <div class="flex items-center gap-2 text-red-300"><span>🦞 No prawn <strong class="text-white">1</strong> ท่าน</span></div>        
+       </div>
+      </div>
+     </div>
+    </section>
+
+   </main>
+
+   <!-- Footer -->
+   <footer class="bg-brand-dark text-white text-center py-6 px-4">
+    <p class="text-sm opacity-80" id="footerText">โซล ปูซาน (KE)</p>
+    <p class="text-xs opacity-50 mt-1">20 - 25 ตุลาคม 2569 | 6 วัน 5 คืน</p>
+   </footer>
+  </div>
+
+  <script>
+function showSection(id) {
+  document.querySelectorAll('.tab-section').forEach(s => s.classList.remove('active'));
+  document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
+  const sec = document.getElementById('sec-' + id);
+  if (sec) { sec.classList.add('active'); sec.classList.remove('fade-in'); void sec.offsetWidth; sec.classList.add('fade-in'); }
+  document.querySelector('[data-nav="' + id + '"]')?.classList.add('active');
+}
+
+function showDay(n) {
+  document.querySelectorAll('.day-content').forEach(d => d.style.display = 'none');
+  document.querySelectorAll('.day-tab').forEach(t => t.classList.remove('active-day'));
+  const dayEl = document.getElementById('day-' + n);
+  if (dayEl) { dayEl.style.display = 'block'; dayEl.classList.remove('fade-in'); void dayEl.offsetWidth; dayEl.classList.add('fade-in'); }
+  document.querySelectorAll('.day-tab')[n - 1]?.classList.add('active-day');
+}
+
+const defaultConfig = {
+  main_title: 'SPAIN EXPLORER',
+  company_name: 'Professional Travel Agency',
+  background_color: '#FFFFFF',
+  surface_color: '#F0FAFC',
+  text_color: '#1E293B',
+  primary_action_color: '#00A0C6',
+  secondary_action_color: '#007A99',
+  font_family: 'Prompt',
+  font_size: 16
+};
+
+function applyConfig(config) {
+  const t = (k) => config[k] || defaultConfig[k];
+  const el = (id) => document.getElementById(id);
+  if (el('mainTitleDisplay')) el('mainTitleDisplay').textContent = t('main_title');
+  if (el('companyNameDisplay')) el('companyNameDisplay').textContent = t('company_name');
+  document.body.style.backgroundColor = t('background_color');
+  document.body.style.color = t('text_color');
+  document.querySelectorAll('.bg-brand-50, .meal-card').forEach(el => el.style.backgroundColor = t('surface_color'));
+  document.querySelectorAll('.nav-btn.active').forEach(el => { el.style.backgroundColor = t('primary_action_color'); el.style.color = '#fff'; });
+  document.querySelectorAll('.day-tab.active-day').forEach(el => { el.style.backgroundColor = t('primary_action_color'); el.style.color = '#fff'; });
+  document.querySelectorAll('.timeline-dot').forEach(el => { el.style.backgroundColor = t('primary_action_color'); el.style.boxShadow = '0 0 0 2px ' + t('primary_action_color'); });
+  const footer = document.querySelector('footer');
+  if (footer) footer.style.backgroundColor = t('secondary_action_color');
+  const font = t('font_family');
+  const baseSize = t('font_size');
+  document.body.style.fontFamily = font + ', Prompt, sans-serif';
+  document.querySelectorAll('h1').forEach(el => el.style.fontSize = (baseSize * 2.5) + 'px');
+  document.querySelectorAll('h2').forEach(el => el.style.fontSize = (baseSize * 1.75) + 'px');
+  document.querySelectorAll('h3').forEach(el => el.style.fontSize = (baseSize * 1.25) + 'px');
+  document.querySelectorAll('p, li, span, td').forEach(el => { if (!el.closest('h1, h2, h3, h4, button')) el.style.fontSize = baseSize + 'px'; });
+}
+
+if (window.elementSdk) {
+  window.elementSdk.init({
+    defaultConfig,
+    onConfigChange: async (config) => applyConfig(config),
+    mapToCapabilities: (config) => ({
+      recolorables: [
+        { get: () => config.background_color || defaultConfig.background_color, set: (v) => { config.background_color = v; window.elementSdk.setConfig({ background_color: v }); } },
+        { get: () => config.surface_color || defaultConfig.surface_color, set: (v) => { config.surface_color = v; window.elementSdk.setConfig({ surface_color: v }); } },
+        { get: () => config.text_color || defaultConfig.text_color, set: (v) => { config.text_color = v; window.elementSdk.setConfig({ text_color: v }); } },
+        { get: () => config.primary_action_color || defaultConfig.primary_action_color, set: (v) => { config.primary_action_color = v; window.elementSdk.setConfig({ primary_action_color: v }); } },
+        { get: () => config.secondary_action_color || defaultConfig.secondary_action_color, set: (v) => { config.secondary_action_color = v; window.elementSdk.setConfig({ secondary_action_color: v }); } }
+      ],
+      borderables: [],
+      fontEditable: { get: () => config.font_family || defaultConfig.font_family, set: (v) => { config.font_family = v; window.elementSdk.setConfig({ font_family: v }); } },
+      fontSizeable: { get: () => config.font_size || defaultConfig.font_size, set: (v) => { config.font_size = v; window.elementSdk.setConfig({ font_size: v }); } }
+    }),
+    mapToEditPanelValues: (config) => new Map([
+      ['main_title', config.main_title || defaultConfig.main_title],
+      ['company_name', config.company_name || defaultConfig.company_name]
+    ])
+  });
+}
+
+lucide.createIcons();
+</script>
+ </body>
+</html>
