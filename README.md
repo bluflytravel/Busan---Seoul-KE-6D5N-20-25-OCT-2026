@@ -594,7 +594,7 @@ body { font-family: 'Prompt', sans-serif; }
           </div>
         </div>
       </div>
-      
+
         <div class="relative">
          <div class="timeline-dot absolute -left-[31px] top-1"></div>
          <div class="text-sm">
@@ -681,12 +681,16 @@ body { font-family: 'Prompt', sans-serif; }
          <div class="text-sm">
           <p class="font-semibold">🕌 พระราชวังเคียงบกกุง (Gyeongbokgung Palace)</p>
           <p class="text-subtle mt-1">นำคณะเข้าชม พระราชวังเคียงบกกุง (Gyeongbokgung Palace) หรือเรียกว่า “พระราชวังคยองบกกุง” เป็นสัญลักษณ์และแหล่งท่องเที่ยวยอดฮิตของกรุงโซล พระราชวังที่มีขนาดใหญ่และเก่าแก่ที่สุดในกรุงโซล สร้างขึ้นในปี1394 ในสมัยพระเจ้าแทโจ ราชวงศ์โชซอน เดิมทีนั้นภายในพระราชวังมีอาคารและตำหนักต่างๆมากกว่า 200 หลัง แต่เมื่อมีการรุกรานของญี่ปุ่น อาคารส่วนใหญ่ก็ได้ถูกทำลายลงเหลืออยู่เพียงแค่ 10 หลังเท่านั้น พร้อมแต่งกายชุด Hanbok
-            <div class="mt-3 flex gap-3">
-              <img src="https://www.agoda.com/wp-content/uploads/2019/05/Gyeongbokgung-palace-Seoul-architecture-view.jpg" class="w-1/2 rounded-lg object-cover aspect-video" alt="Dinner 1">
-              <img src="https://media.tacdn.com/media/attractions-splice-spp-674x446/0b/78/b1/82.jpg" class="w-1/2 rounded-lg object-cover aspect-video" alt="Dinner 2">
+          <div class="img-slider">
+            <div class="img-slider-track">
+              <div class="img-slide"><img src="https://www.agoda.com/wp-content/uploads/2019/05/Gyeongbokgung-palace-Seoul-architecture-view.jpg" loading="lazy" alt="Gyeongbokgung Palace 1"></div>
+              <div class="img-slide"><img src="https://media.tacdn.com/media/attractions-splice-spp-674x446/0b/78/b1/82.jpg" loading="lazy" alt="Gyeongbokgung Palace 2"></div>
+            </div>
+            <div class="img-slider-dots"><span class="active"></span><span></span></div>
+            <div class="img-slider-counter">1/2</div>
           </div>
-         </div>
         </div>
+      </div>
 
         <div class="relative">
          <div class="timeline-dot absolute -left-[31px] top-1"></div>
@@ -704,12 +708,16 @@ body { font-family: 'Prompt', sans-serif; }
          <div class="text-sm">
           <p class="font-semibold">🛍️ Myeong-Dong</p>
           <p class="text-subtle mt-1">อิสระช้อปปิ้ง Myeong-Dong เป็นหนึ่งในย่านช้อปปิ้ง ที่เต็มไปด้วยร้านขายสินค้านานาชนิด รวมไปถึงร้านอาหารหลากหลายประเภท ทั้งอาหารเกาหลี อาหารจานด่วนนานาชาติ และเป็นถนนช้อปปิ้งที่มีชื่อเสียงของกรุงโซล นอกจากนี้ ยังมีร้านอาหารรถเข็นแนว Street Food และมีห้างสรรพสินค้าขนาดใหญ่อีกหลายแห่ง ตั้งอยู่บนถนนและตรอกซอกซอย จึงเป็นสถานที่สามารถเลือกซื้อสินค้านานาประเภทได้ตามใจชอบ ได้แก่ เสื้อผ้าแฟชั่น, รองเท้า, เครื่องสำอาง และอื่นๆ อีกมากมาย
-            <div class="mt-3 flex gap-3">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/3/32/%EB%AA%85%EB%8F%998%EA%B8%B8_%EA%B1%B0%EB%A6%AC_%282020.03%29.jpg" class="w-1/2 rounded-lg object-cover aspect-video" alt="Dinner 1">
-              <img src="https://media.istockphoto.com/id/503426292/photo/myeong-dong-shopping-street.jpg?s=612x612&w=0&k=20&c=R4m8mjiv-0SWZaQZRaH_cW-fLEozUQ-rceYuYky551g=" class="w-1/2 rounded-lg object-cover aspect-video" alt="Dinner 2">
+          <div class="img-slider">
+            <div class="img-slider-track">
+              <div class="img-slide"><img src="https://upload.wikimedia.org/wikipedia/commons/3/32/%EB%AA%85%EB%8F%998%EA%B8%B8_%EA%B1%B0%EB%A6%AC_%282020.03%29.jpg" loading="lazy" alt="Myeong-Dong 1"></div>
+              <div class="img-slide"><img src="https://media.istockphoto.com/id/503426292/photo/myeong-dong-shopping-street.jpg?s=612x612&w=0&k=20&c=R4m8mjiv-0SWZaQZRaH_cW-fLEozUQ-rceYuYky551g=" loading="lazy" alt="Myeong-Dong 2"></div>
+            </div>
+            <div class="img-slider-dots"><span class="active"></span><span></span></div>
+            <div class="img-slider-counter">1/2</div>
           </div>
-         </div>
         </div>
+      </div>
 
         <div class="relative">
          <div class="timeline-dot absolute -left-[31px] top-1"></div>
@@ -776,12 +784,16 @@ body { font-family: 'Prompt', sans-serif; }
          <div class="text-sm">
           <p class="font-semibold">🛍️ ย่านฮงแด (Hongdae)</p>
           <p class="text-subtle mt-1">อิสระช้อปปิ้ง ย่านฮงแด (Hongdae) ย่านวัฒนธรรมและแหล่งรวมวัยรุ่นที่โด่งดังที่สุดแห่งหนึ่งของกรุงโซล ตั้งอยู่บริเวณด้านหน้าของมหาวิทยาลัยฮงอิก (Hongik University) เต็มไปด้วยร้านค้า ร้านอาหาร คาเฟ่ บาร์ แกลเลอรี่ สตูดิโอ และสถานที่แสดงดนตรีสดมากมาย ย่านนี้โด่งดังเรื่องแฟชั่น สตรีทอาร์ต ดนตรี และวัฒนธรรมสมัยนิยม ดึงดูดนักท่องเที่ยวและวัยรุ่นทั้งชาวเกาหลีและต่างชาติให้มาเยือนอยู่เสมอ
-            <div class="mt-3 flex gap-3">
-              <img src="https://mushroomtravelpage.b-cdn.net/wp-content/uploads/2024/04/02-Hongdae-shutterstock_749019463.jpg" class="w-1/2 rounded-lg object-cover aspect-video" alt="Dinner 1">
-              <img src="https://cf.creatrip.com/original/blog/4749/15621211781170.jpg" class="w-1/2 rounded-lg object-cover aspect-video" alt="Dinner 2">
+          <div class="img-slider">
+            <div class="img-slider-track">
+              <div class="img-slide"><img src="https://mushroomtravelpage.b-cdn.net/wp-content/uploads/2024/04/02-Hongdae-shutterstock_749019463.jpg" loading="lazy" alt="Hongdae 1"></div>
+              <div class="img-slide"><img src="https://cf.creatrip.com/original/blog/4749/15621211781170.jpg" loading="lazy" alt="Hongdae 2"></div>
+            </div>
+            <div class="img-slider-dots"><span class="active"></span><span></span></div>
+            <div class="img-slider-counter">1/2</div>
           </div>
-         </div>
         </div>
+      </div>
 
         <div class="relative">
          <div class="timeline-dot absolute -left-[31px] top-1"></div>
@@ -817,12 +829,16 @@ body { font-family: 'Prompt', sans-serif; }
          <div class="text-sm">
           <p class="font-semibold">🏘️ หมู่บ้านอึนพยองฮันอก (Eunpyeong Hanok Village)</p>
           <p class="text-subtle mt-1">นำคณะชม หมู่บ้านอึนพยองฮันอก (Eunpyeong Hanok Village) เป็นหมู่บ้านบ้านโบราณเกาหลี (ฮันอก) แห่งใหม่ที่ตั้งอยู่บริเวณเชิงเขาบุกฮันซาน (Bukhansan) ในเขตอึนพยอง ทางตอนเหนือของกรุงโซล แตกต่างจากหมู่บ้านบุกชอนฮันอกตรงที่ที่นี่มีความเงียบสงบกว่า ถนนกว้างขวาง และบ้านเรือนส่วนใหญ่สร้างขึ้นใหม่ด้วยสถาปัตยกรรมร่วมสมัย ตัวหมู่บ้านถูกโอบล้อมด้วยแนวเขาสูง ทำให้ได้ภาพบ้านสไตล์โบราณที่มีฉากหลังเป็นภูเขาที่สวยงามทุกฤดูกาล มีร้านกาแฟชื่อดังหลายแห่งที่ออกแบบในสไตล์ฮันอก โดยเฉพาะร้านที่สามารถมองเห็นวิวหมู่บ้านจากมุมสูงได้
-            <div class="mt-3 flex gap-3">
-              <img src="https://www.jubileetravel.co.th/wp-content/uploads/2024/07/Eunpyeong-Hanok-Village-%E0%B8%97%E0%B8%B1%E0%B8%A7%E0%B8%A3%E0%B9%8C%E0%B9%80%E0%B8%81%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B5-jubileetravel-3.png" class="w-1/2 rounded-lg object-cover aspect-video" alt="Dinner 1">
-              <img src="https://res.klook.com/image/upload/fl_lossy.progressive,w_1200,h_630,c_fill,q_85/Eunpyeong_Hanok_Village_1_o7umml.png" class="w-1/2 rounded-lg object-cover aspect-video" alt="Dinner 2">
+          <div class="img-slider">
+            <div class="img-slider-track">
+              <div class="img-slide"><img src="https://www.jubileetravel.co.th/wp-content/uploads/2024/07/Eunpyeong-Hanok-Village-%E0%B8%97%E0%B8%B1%E0%B8%A7%E0%B8%A3%E0%B9%8C%E0%B9%80%E0%B8%81%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B5-jubileetravel-3.png" loading="lazy" alt="Eunpyeong Hanok Village 1"></div>
+              <div class="img-slide"><img src="https://res.klook.com/image/upload/fl_lossy.progressive,w_1200,h_630,c_fill,q_85/Eunpyeong_Hanok_Village_1_o7umml.png" loading="lazy" alt="Eunpyeong Hanok Village 2"></div>
+            </div>
+            <div class="img-slider-dots"><span class="active"></span><span></span></div>
+            <div class="img-slider-counter">1/2</div>
           </div>
-         </div>
         </div>
+      </div>
 
       <div class="relative">
         <div class="timeline-dot absolute -left-[31px] top-1"></div>
@@ -838,9 +854,13 @@ body { font-family: 'Prompt', sans-serif; }
         <div class="text-sm">
           <p class="font-semibold">🛍️ Hyundai Premier Outlet </p>
           <p class="text-subtle mt-1">นำคณะเดินทางสู่ Hyundai Premier Outlet สาขาที่โดดเด่นที่สุดในพื้นที่ใกล้กรุงโซล โดยเป็น "Gallery-Style Outlet" แห่งแรกของเกาหลีที่ผสมผสานการช้อปปิ้งเข้ากับพื้นที่จัดแสดงศิลปะและสวนพักผ่อน ที่นี่รวบรวมแบรนด์ชั้นนำกว่า 300 แบรนด์ โดยแบ่งเป็นโซนหลักๆ</p>
-            <div class="mt-3 flex gap-3">
-              <img src="https://tong.visitkorea.or.kr/cms/resource/53/2396453_image2_1.jpg" class="w-1/2 rounded-lg object-cover aspect-video" alt="Dinner 1">
-              <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/82/be/93/caption.jpg?w=900&h=500&s=1" class="w-1/2 rounded-lg object-cover aspect-video" alt="Dinner 2">
+          <div class="img-slider">
+            <div class="img-slider-track">
+              <div class="img-slide"><img src="https://tong.visitkorea.or.kr/cms/resource/53/2396453_image2_1.jpg" loading="lazy" alt="Hyundai Premier Outlet 1"></div>
+              <div class="img-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/82/be/93/caption.jpg?w=900&h=500&s=1" loading="lazy" alt="Hyundai Premier Outlet 2"></div>
+            </div>
+            <div class="img-slider-dots"><span class="active"></span><span></span></div>
+            <div class="img-slider-counter">1/2</div>
           </div>
         </div>
       </div>
@@ -1241,6 +1261,57 @@ function showDay(n) {
   if (dayEl) { dayEl.style.display = 'block'; dayEl.classList.remove('fade-in'); void dayEl.offsetWidth; dayEl.classList.add('fade-in'); }
   document.querySelectorAll('.day-tab')[n - 1]?.classList.add('active-day');
 }
+// Initialize swipeable image sliders: sync dots + counter on scroll,
+// and expose a scrollBySlide() helper for future prev/next controls.
+function initImgSliders(root) {
+  const sliders = (root || document).querySelectorAll('.img-slider');
+  sliders.forEach(slider => {
+    if (slider.dataset.sliderInit) return; // avoid double-binding
+    slider.dataset.sliderInit = '1';
+
+    const track = slider.querySelector('.img-slider-track');
+    const dots = slider.querySelectorAll('.img-slider-dots span');
+    const counter = slider.querySelector('.img-slider-counter');
+    const slideCount = slider.querySelectorAll('.img-slide').length;
+    if (!track || slideCount === 0) return;
+
+    let ticking = false;
+    const updateActive = () => {
+      const slideWidth = track.clientWidth || 1;
+      const idx = Math.round(track.scrollLeft / slideWidth);
+      const clamped = Math.max(0, Math.min(idx, slideCount - 1));
+      dots.forEach((dot, i) => dot.classList.toggle('active', i === clamped));
+      if (counter) counter.textContent = (clamped + 1) + '/' + slideCount;
+      ticking = false;
+    };
+
+    track.addEventListener('scroll', () => {
+      if (!ticking) {
+        window.requestAnimationFrame(updateActive);
+        ticking = true;
+      }
+    }, { passive: true });
+
+    // Tapping a dot jumps to that slide
+    dots.forEach((dot, i) => {
+      dot.style.pointerEvents = 'auto';
+      dot.style.cursor = 'pointer';
+      dot.addEventListener('click', () => {
+        track.scrollTo({ left: i * track.clientWidth, behavior: 'smooth' });
+      });
+    });
+
+    // Keep the correct slide in view on resize/orientation change
+    window.addEventListener('resize', () => {
+      const idx = Math.round(track.scrollLeft / (track.clientWidth || 1));
+      track.scrollTo({ left: idx * track.clientWidth, behavior: 'auto' });
+    });
+
+    updateActive();
+  });
+}
+
+document.addEventListener('DOMContentLoaded', () => initImgSliders(document));
 
 const defaultConfig = {
   main_title: 'SPAIN EXPLORER',
