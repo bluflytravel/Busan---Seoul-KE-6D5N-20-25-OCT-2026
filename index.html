@@ -462,11 +462,12 @@ body { font-family: 'Prompt', sans-serif; }
         <div class="relative">
          <div class="timeline-dot absolute -left-[31px] top-1"></div>
          <div class="text-sm">
-          <p class="font-semibold">🍽️ รับประทานอาหารค่ำ ณ ภัตตาคาร </p>
-           <div class="mt-3 flex gap-3">
-           </div>
+          <p class="font-semibold">🍽️ รับประทานอาหารค่ำ ณ ภัตตาคาร Hanjeongsik @Gugung</p>
+          <div class="mt-3">
+           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSed6Z6_2gLecj8KaRmDUH-N_s-cis6ozoXV6ZIqDaCnpvVRcFa32Dy32B&s=10" loading="lazy" class="tour-img" alt="Garuda Wisnu Kencana">
+          </div>
          </div>
-       </div>
+        </div>
        <div class="mt-4 bg-amber-50 border border-amber-200 rounded-xl p-3 text-xs flex items-center gap-2">
         <span>🏨</span> <strong>นำคณะเข้าสู่ที่พัก Seoul Garden Hotel ★★★★</strong>
        </div>
@@ -500,11 +501,12 @@ body { font-family: 'Prompt', sans-serif; }
         <div class="relative">
          <div class="timeline-dot absolute -left-[31px] top-1"></div>
          <div class="text-sm">
-          <p class="font-semibold">🍽️ รับประทานอาหารกลางวัน ณ ภัตตาคาร </p>
-           <div class="mt-3 flex gap-3">
-           </div>
+          <p class="font-semibold">🍽️ รับประทานอาหารกลางวัน ณ ภัตตาคาร  Budae Jjigae</p>
+          <div class="mt-3">
+           <img src="https://takestwoeggs.com/wp-content/uploads/2021/10/Budae-JJigae-Korean-Army-Stew-Takestwoeggs-FINAL-SQ.jpg" loading="lazy" class="tour-img" alt="Garuda Wisnu Kencana">
           </div>
          </div>
+        </div>
 
         <div class="relative">
          <div class="timeline-dot absolute -left-[31px] top-1"></div>
@@ -531,11 +533,12 @@ body { font-family: 'Prompt', sans-serif; }
         <div class="relative">
          <div class="timeline-dot absolute -left-[31px] top-1"></div>
          <div class="text-sm">
-          <p class="font-semibold">🍽️ รับประทานอาหารค่ำ ณ ภัตตาคาร </p>
-           <div class="mt-3 flex gap-3">
-           </div>
+          <p class="font-semibold">🍽️ รับประทานอาหารค่ำ ณ ภัตตาคาร Haemuntang</p>
+          <div class="mt-3">
+           <img src="https://as2.ftcdn.net/jpg/01/38/26/39/1000_F_138263946_NLNrnlPPyNAzuXhuLZM6O1SOhHHrjxbx.jpg" loading="lazy" class="tour-img" alt="Garuda Wisnu Kencana">
           </div>
          </div>
+        </div>
 
        </div>
        <div class="mt-4 bg-amber-50 border border-amber-200 rounded-xl p-3 text-xs flex items-center gap-2">
@@ -563,7 +566,7 @@ body { font-family: 'Prompt', sans-serif; }
           <p class="font-semibold">🛕วัดแฮดง ยงกุงซา (Haedong Yonggungsa Temple)</p>
           <p class="text-subtle mt-1">นำคณะชม วัดแฮดง ยงกุงซา (Haedong Yonggungsa Temple) เป็นวัดที่สร้างบนโขดหิน ริมชายหาดที่แตกต่างไปจากวัดส่วนใหญ่ในประเทศเกาหลีที่มักจะสร้างอยู่ตามเชิงเขาวัดแห่งนี้ถูกสร้างขึ้น โดยพระอาจารย์ Naong เมื่อปี 1376 ในช่วงรัชสมัยของกษัตริย์ Uwang แห่งราชวงศ์ Goryeo จากนั้นในปี 1970 ได้มีการบูรณะ ด้วยความพิถีพิถันเพื่อให้คงไว้ซึ่งเอกลักษณ์และความงดงามแบบดั้งเดิมจากประตูซุ้มมังกรสีทองอร่ามลอดผ่านอุโมงค์ขนาดเล็กไปสู่ทางเดินบันไดหิน 108 ขั้น เป็นจุดชมวิวความงดงามของทะเลบริเวณวัดประดิษฐานพระพุทธรูปศักดิ์สิทธิ์องค์สีดำตั้งตระหง่านอยู่บนโขดหิน ทางเดินเป็นสะพานที่ทอดยาวเข้าสู่บริเวณตัววัด ประกอบไปด้วยวิหารและศาลาเรียงรายลดหลั่นกันไปตามโขดหิน โดยบริเวณด้านหน้าของวิหารหลักมีเจดีย์สูง 3 ชั้น และสิงโต 4 ตัว เป็นสัญลักษณ์ของความ	สนุก ความโกรธ ความเศร้า และความสุข นอกจากนี้ภายในวัดประดิษฐานเจ้าแม่กวนอิม พระสังกัจจายน์องค์สีทอง	อร่าม วัดแห่งนี้เป็นสถานที่ศักดิ์สิทธิ์คู่บ้านคู่เมืองของคนปูซาน</p>
           <div class="mt-3">
-           <img src="https://english.visitkorea.or.kr/public/event/2025/Autumn_VK/enu/hd_main.jpg" loading="lazy" class="tour-img" alt="Garuda Wisnu Kencana">
+           <img src="https://www.expedia.co.th/stories/wp-content/uploads/2022/07/%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B9%81%E0%B8%AE%E0%B8%94%E0%B8%87%E0%B8%A2%E0%B8%87%E0%B8%81%E0%B8%B8%E0%B8%87%E0%B8%8B%E0%B8%B2-1.jpg" loading="lazy" class="tour-img" alt="Garuda Wisnu Kencana">
           </div>
          </div>
         </div>
@@ -598,11 +601,12 @@ body { font-family: 'Prompt', sans-serif; }
         <div class="relative">
          <div class="timeline-dot absolute -left-[31px] top-1"></div>
          <div class="text-sm">
-          <p class="font-semibold">🍽️ รับประทานอาหารกลางวัน ณ ภัตตาคาร </p>
-           <div class="mt-3 flex gap-3">
-           </div>
+          <p class="font-semibold">🍽️ รับประทานอาหารกลางวัน ณ ภัตตาคาร Chogye Jim</p>
+          <div class="mt-3">
+           <img src="https://cdn.corner.inc/place-photo/AfLeUgPgcMQeU-8dfJat0wiKw9csjuB1JYIfeF2EKwQFb28YbcZeDcsQayh2YAKLHOxqcRQzSIhjitDhk9lKypX9c0NTcYqQ6EsmzHC8L-RywpYT5fD2IrhRvLh-asFxaNrx22fBNwxa2bddBLS98vR8m2m_UHHiO-32c8eFmXrao8PWx8Ea.jpeg" loading="lazy" class="tour-img" alt="Garuda Wisnu Kencana">
           </div>
          </div>
+        </div>
 
         <div class="relative">
          <div class="timeline-dot absolute -left-[31px] top-1"></div>
@@ -611,7 +615,7 @@ body { font-family: 'Prompt', sans-serif; }
           <p class="text-subtle mt-1">อิสระช้อปปิ้ง นัมโพดง (Nampo-dong) แหล่งช้อปปิ้งขนาดใหญ่ อีกแห่งหนึ่งของเมืองปูซาน ที่นี่เต็มไปด้วยร้านค้า 	เสื้อผ้า เครื่องประดับ เครื่องสำอาง ของฝาก ของที่ระลึกมากมายให้ได้ช้อปปิ้งอย่างจุใจอีกทั้งยังมีอาหารแบบท้องถิ่น 	ให้ได้เลือกทานแบบเต็มที่</p>
             <div class="mt-3 flex gap-3">
               <img src="https://tong.visitkorea.or.kr/cms/resource/06/2947006_image2_1.jpg" class="w-1/2 rounded-lg object-cover aspect-video" alt="Dinner 1">
-              <img src="https://10mag.com/wp-content/uploads/2020/08/shutterstock_709664536-scaled-1.jpg" class="w-1/2 rounded-lg object-cover aspect-video" alt="Dinner 2">
+              <img src="https://ak-d.tripcdn.com/images/1mi72224x94ujx52e1B44_Q90.jpg?proc=source/trip" class="w-1/2 rounded-lg object-cover aspect-video" alt="Dinner 2">
           </div>
          </div>
         </div>
@@ -630,11 +634,12 @@ body { font-family: 'Prompt', sans-serif; }
         <div class="relative">
          <div class="timeline-dot absolute -left-[31px] top-1"></div>
          <div class="text-sm">
-          <p class="font-semibold">🍽️ รับประทานอาหารค่ำ ณ ภัตตาคาร </p>
-           <div class="mt-3 flex gap-3">
-           </div>
+          <p class="font-semibold">🍽️ รับประทานอาหารค่ำ ณ ภัตตาคาร SASHIMIJEONGSIK</p>
+          <div class="mt-3">
+           <img src="https://scontent.fbkk12-1.fna.fbcdn.net/v/t39.30808-6/534833678_1436680264275349_1224599233186733753_n.jpg?stp=dst-jpg_tt6&cstp=mx720x960&ctp=s720x960&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=bd9a62&_nc_ohc=lkeGN4QBwNQQ7kNvwHh4Nt2&_nc_oc=Adou1WIFBcI43TOpBTBvinTmKpF-CPILuiD19c8EJRy5CbD-JdTDyHpaMHd0BuxtsuGO3d_T5K-zn9gDGjaoVhgw&_nc_zt=23&_nc_ht=scontent.fbkk12-1.fna&_nc_gid=XifFkff6QqMNCmgbqPq0MQ&_nc_ss=7b289&oh=00_AQJHHhz2umiPVN431BxVxehJsnxyhfCmE56h_NkkilapDA&oe=6AB6BA19" loading="lazy" class="tour-img" alt="Garuda Wisnu Kencana">
           </div>
          </div>
+        </div>
 
        </div>
        <div class="mt-4 bg-amber-50 border border-amber-200 rounded-xl p-3 text-xs flex items-center gap-2">
@@ -670,11 +675,12 @@ body { font-family: 'Prompt', sans-serif; }
         <div class="relative">
          <div class="timeline-dot absolute -left-[31px] top-1"></div>
          <div class="text-sm">
-          <p class="font-semibold">🍽️ รับประทานอาหารกลางวัน ณ ภัตตาคาร </p>
-           <div class="mt-3 flex gap-3">
-           </div>
+          <p class="font-semibold">🍽️ รับประทานอาหารกลางวัน ณ ภัตตาคาร Samgyetang-Tosokchon</p>
+          <div class="mt-3">
+           <img src="https://danielfooddiary.com/wp-content/uploads/2024/04/Tosokchon-Samgyetang-Korean-Ginseng-Chicken-Seoul-scaled.jpg" loading="lazy" class="tour-img" alt="Garuda Wisnu Kencana">
           </div>
          </div>
+        </div>
 
         <div class="relative">
          <div class="timeline-dot absolute -left-[31px] top-1"></div>
@@ -722,11 +728,12 @@ body { font-family: 'Prompt', sans-serif; }
         <div class="relative">
          <div class="timeline-dot absolute -left-[31px] top-1"></div>
          <div class="text-sm">
-          <p class="font-semibold">🍽️ รับประทานอาหารค่ำ ณ ภัตตาคาร </p>
-           <div class="mt-3 flex gap-3">
-           </div>
+          <p class="font-semibold">🍽️ รับประทานอาหารค่ำ ณ ภัตตาคาร Maple tree house - Pork Kalbi</p>
+          <div class="mt-3">
+           <img src="https://media.triple.guide/triple-cms/c_limit,f_auto,h_2048,w_2048/9799627e-5b49-46a9-9797-19ef821af7cc.jpeg" loading="lazy" class="tour-img" alt="Garuda Wisnu Kencana">
           </div>
          </div>
+        </div>
 
        </div>
        <div class="mt-4 bg-amber-50 border border-amber-200 rounded-xl p-3 text-xs flex items-center gap-2">
@@ -753,32 +760,43 @@ body { font-family: 'Prompt', sans-serif; }
          <div class="text-sm">
           <p class="font-semibold">🪖 เขตปลอดทหารเกาหลี - อุโมงค์หมายเลข 3 - หอสังเกตการณ์โดราซัน</p>
           <p class="text-subtle mt-1">นำคณะเดินทางสู่ เขตปลอดทหารเกาหลี หรือ DMZ (Demilitarized Zone) เป็นพื้นที่แนวชายแดนที่แบ่งระหว่างเกาหลีเหนือและเกาหลีใต้ โดยมีความยาวประมาณ 250 กิโลเมตร และกว้าง 4 กิโลเมตร (ฝั่งละ 2 กิโลเมตรจากเส้นแบ่งเขตทหาร) พื้นที่นี้ไม่ได้เป็นเพียงจุดยุทธศาสตร์ทางการเมืองที่ตึงเครียดที่สุดแห่งหนึ่งของโลก แต่ยังกลายเป็นแหล่งท่องเที่ยวเชิงประวัติศาสตร์และเขตอนุรักษ์ทางธรรมชาติที่สำคัญ เยี่ยมชมสถานที่ทางประวัติศาสตร์ อุโมงค์หมายเลข 3 (The Third Infiltration Tunnel) อุโมงค์ที่เกาหลีเหนือลักลอบขุดขึ้นเพื่อพยายามบุกเข้ากรุงโซล ถูกค้นพบในปี 1978 ชม หอสังเกตการณ์โดราซัน (Dorasan Observatory) ตั้งอยู่บนยอดเขาโดรา เป็นจุดที่สามารถใช้กล้องส่องทางไกลมองเห็น นิคมอุตสาหกรรมแกซอง (Kaesong Industrial Complex) และหมู่บ้านโฆษณาชวนเชื่อของเกาหลีเหนือได้ชัดเจนที่สุด
-          <div class="mt-3">
-           <img src="https://upload.wikimedia.org/wikipedia/commons/a/a3/The_view_of_North_Korea_from_Dora_Observatory.jpg" loading="lazy" class="tour-img" alt="Garuda Wisnu Kencana">
+          <div class="img-slider">
+            <div class="img-slider-track">
+              <div class="img-slide"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a3/The_view_of_North_Korea_from_Dora_Observatory.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" loading="lazy" alt="Hongdae 1"></div>
+              <div class="img-slide"><img src="https://pbs.twimg.com/media/GKW-pWEbMAASywY.jpg" loading="lazy" alt="Hongdae 2"></div>
+            </div>
+            <div class="img-slider-dots"><span class="active"></span><span></span></div>
+            <div class="img-slider-counter">1/2</div>
           </div>
-         </div>
         </div>
+      </div>
 
         <div class="relative">
          <div class="timeline-dot absolute -left-[31px] top-1"></div>
          <div class="text-sm">
-          <p class="font-semibold">🍽️ รับประทานอาหารกลางวัน ณ ภัตตาคาร </p>
-           <div class="mt-3 flex gap-3">
-           </div>
+          <p class="font-semibold">🍽️ รับประทานอาหารกลางวัน ณ ภัตตาคาร Modern Shabu Houe - Shabu Shabu</p>
+          <div class="mt-3">
+           <img src="https://ugc-images.catchtable.co.kr/shop/manager/images/cd4e827b235d4246a3cb64f549ae2c46?detail750" loading="lazy" class="tour-img" alt="Garuda Wisnu Kencana">
           </div>
          </div>
+        </div>
 
         <div class="relative">
          <div class="timeline-dot absolute -left-[31px] top-1"></div>
          <div class="text-sm">
           <p class="font-semibold">🎖️ อนุสรณ์สถานแห่งสงครามเกาหลี (War Memorial of Korea)</p>
           <p class="text-subtle mt-1">นำคณะชม อนุสรณ์สถานแห่งสงครามเกาหลี (War Memorial of Korea) เป็นพิพิธภัณฑ์ประวัติศาสตร์ทางทหารที่ใหญ่ที่สุดในประเทศ และได้รับการยกย่องว่าเป็นหนึ่งในอนุสรณ์สถานด้านสงครามที่รวบรวมข้อมูลได้ครบถ้วนที่สุดแห่งหนึ่งของโลก โดยสร้างขึ้นเพื่อรำลึกถึงความเสียสละของผู้พลีชีพในสงครามเกาหลี (ปี 1950–1953) และเพื่อเป็นบทเรียนทางประวัติศาสตร์แก่คนรุ่นหลัง เดิมเคยเป็นสำนักงานใหญ่ของทหารราบเกาหลี ปัจจุบันกลายเป็นพิพิธภัณฑ์จัดแสดงนิทรรศการเกี่ยวกับความทรงจำทางสงครามของเกาหลีผ่านอุปกรณ์วัตถุต่างๆ ตั้งอยู่กับฝั่งตรงข้ามของกระทรวงกลาโหม และอยู่ติดกับกองทหารรักษาการณ์ของกองทัพสหรัฐ จัดสร้างขึ้นเพื่อร่วมรำลึกถึงเหตุการณ์สงครามเกาหลีที่เกิดขึ้นเมื่อวันที่ 25 มิถุนายน ค.ศ. 1950 และสิ้นสุดลงในอีก 3 ปีถัดมา โดยเป็นสงครามแบบตัวแทนระหว่างค่ายคอมมิวนิสต์และค่ายเสรีนิยม โดยช่วงแรกของสงครามนั้นเกาหลีเหนือสามารถบุกข้ามเส้นขนานที่ 38 เข้ามายึดกรุงโซลได้สำเร็จ ก่อนที่กองทัพเกาหลีใต้จะถอยร่นไปรวมพลกันที่เมืองปูซานและขอความช่วยเหลือจากสหประชาชาติและมีกองกำลังของสหประชาชาติที่มีชาติสมาชิกกว่า 16 ประเทศส่งทหารเข้าร่วมสงครามรวมทั้งประเทศไทย โดยสามารถบุกยึดกรุงโซลคืนได้สำเร็จ และยันกันอยู่บริเวณเส้นขนานที่ 38 กว่า 3 ปีจึงเจรจายุติสงครามกันในวันที่ 27 กรกฎาคม ค.ศ. 1953 ที่หมู่บ้านพันมุนจอม และเกิดเป็น DMZ ขึ้นมาจนถึงทุกวันนี้
-          <div class="mt-3">
-           <img src="https://upload.wikimedia.org/wikipedia/commons/d/d3/The_War_Memorial_Of_Korea_240615_02.jpg" loading="lazy" class="tour-img" alt="Garuda Wisnu Kencana">
+          <div class="img-slider">
+            <div class="img-slider-track">
+              <div class="img-slide"><img src="https://upload.wikimedia.org/wikipedia/commons/d/d3/The_War_Memorial_Of_Korea_240615_02.jpg" loading="lazy" alt="Hongdae 1"></div>
+              <div class="img-slide"><img src="https://splaces.home.blog/wp-content/uploads/2025/07/img_20250504_103028.jpg?w=1024" loading="lazy" alt="Hongdae 2"></div>
+            </div>
+            <div class="img-slider-dots"><span class="active"></span><span></span></div>
+            <div class="img-slider-counter">1/2</div>
           </div>
-         </div>
         </div>
-
+      </div>
+          
         <div class="relative">
          <div class="timeline-dot absolute -left-[31px] top-1"></div>
          <div class="text-sm">
@@ -798,11 +816,12 @@ body { font-family: 'Prompt', sans-serif; }
         <div class="relative">
          <div class="timeline-dot absolute -left-[31px] top-1"></div>
          <div class="text-sm">
-          <p class="font-semibold">🍽️ รับประทานอาหารค่ำ ณ ภัตตาคาร </p>
-           <div class="mt-3 flex gap-3">
-           </div>
+          <p class="font-semibold">🍽️ รับประทานอาหารค่ำ ณ ภัตตาคาร Muwhajum - King Crab</p>
+          <div class="mt-3">
+           <img src="https://lh3.googleusercontent.com/gps-cs-s/AHRPTWkw7VO1jVu2Gm0Rb3qJueJHp-2U8gBfX70ZfehTlesxrjqj3kElVsz54yZH6dcHMsjvT04Hj0zuHI6JaA7SbuB4vU76Mm2EWfun-epPi4myU7CtfE4OfI5OsbpXjJQnxhfpVMGp=s680-w680-h510-rw" loading="lazy" class="tour-img" alt="Garuda Wisnu Kencana">
           </div>
          </div>
+        </div>
 
        </div>
        <div class="mt-4 bg-amber-50 border border-amber-200 rounded-xl p-3 text-xs flex items-center gap-2">
@@ -843,11 +862,12 @@ body { font-family: 'Prompt', sans-serif; }
       <div class="relative">
         <div class="timeline-dot absolute -left-[31px] top-1"></div>
         <div class="text-sm">
-          <p class="font-semibold">🍽️ รับประทานอาหารกลางวัน ณ ภัตตาคาร</p>
-          <div class="mt-3 flex gap-3">
+          <p class="font-semibold">🍽️ รับประทานอาหารกลางวัน ณ ภัตตาคาร SushiBuffet @ QOOQOO</p>
+          <div class="mt-3">
+           <img src="https://ugc-images.catchtable.co.kr/shop/manager/images/0baba953b23749409f8bc566c044d242?detail750" loading="lazy" class="tour-img" alt="Garuda Wisnu Kencana">
           </div>
+         </div>
         </div>
-      </div>
 
       <div class="relative">
         <div class="timeline-dot absolute -left-[31px] top-1"></div>
@@ -926,14 +946,14 @@ body { font-family: 'Prompt', sans-serif; }
       <div>
         <p class="font-semibold text-brand mb-2">🇰🇷 วอนเกาหลีใต้ (KRW)</p>
         <div class="space-y-2">
-          <div class="flex justify-between"><span class="text-subtle">100 KRW ≈</span><span class="font-medium">~2.6 บาท</span></div>
-          <div class="flex justify-between"><span class="text-subtle">1,000 KRW ≈</span><span class="font-medium">~26 บาท</span></div>
-          <div class="flex justify-between"><span class="text-subtle">10,000 KRW ≈</span><span class="font-medium">~260 บาท</span></div>
-          <div class="flex justify-between"><span class="text-subtle">100,000 KRW ≈</span><span class="font-medium">~2,600 บาท</span></div>
+          <div class="flex justify-between"><span class="text-subtle">100 KRW ≈</span><span class="font-medium">~2.46 บาท</span></div>
+          <div class="flex justify-between"><span class="text-subtle">1,000 KRW ≈</span><span class="font-medium">~24.6 บาท</span></div>
+          <div class="flex justify-between"><span class="text-subtle">10,000 KRW ≈</span><span class="font-medium">~246 บาท</span></div>
+          <div class="flex justify-between"><span class="text-subtle">100,000 KRW ≈</span><span class="font-medium">~2,460 บาท</span></div>
         </div>
       </div>
     </div>
-    <div class="mt-3 bg-white/60 rounded-lg p-2 text-xs text-subtle">💡 แนะนำแลกเงินวอนเกาหลีบางส่วนจากไทยก่อนเดินทาง หรือแลกเพิ่มที่ร้านแลกเงินย่านเมียงดง (Myeong-dong) ซึ่งมักให้อัตราดีกว่าสนามบิน ร้านค้าและร้านสะดวกซื้อส่วนใหญ่รับบัตรเครดิต/เดบิตและ mobile pay ทั่วไป อัตราแลกเปลี่ยนอาจเปลี่ยนแปลงได้ กรุณาตรวจสอบอีกครั้งก่อนเดินทาง</div>
+    <div class="mt-3 bg-white/60 rounded-lg p-2 text-xs text-subtle">💡 แนะนำแลกเงินวอนเกาหลีบางส่วนจากไทยก่อนเดินทาง หรือแลกเพิ่มที่ร้านแลกเงินย่านเมียงดง (Myeong-dong) ซึ่งมักให้อัตราดีกว่าสนามบิน ร้านค้าและร้านสะดวกซื้อส่วนใหญ่รับบัตรเครดิต/เดบิตและ mobile pay ทั่วไป อัตราแลกเปลี่ยนอ้างอิง ณ วันที่ 21 กันยายน 2569 และอาจเปลี่ยนแปลงได้ กรุณาตรวจสอบอีกครั้งก่อนเดินทาง</div>
   </div>
  
   <div class="mt-6 bg-amber-50 border border-amber-200 rounded-2xl p-5">
@@ -989,7 +1009,7 @@ body { font-family: 'Prompt', sans-serif; }
       <p class="text-xs text-subtle">20 ต.ค. (วันที่ 1)</p>
       <p class="font-semibold text-sm">อินชอน / โซล</p>
       <div class="weather-icon my-2">🌤️</div>
-      <p class="text-2xl font-bold text-brand-dark">18°<span class="text-base font-normal text-subtle">/8°C</span></p>
+      <p class="text-2xl font-bold text-brand-dark">19°<span class="text-base font-normal text-subtle">/9°C</span></p>
       <p class="text-xs text-subtle mt-1">ท้องฟ้าโปร่ง อากาศเย็นสบายยามเช้า-ค่ำ</p>
       <div class="flex justify-center gap-3 mt-2 text-xs text-subtle"><span>💧 55%</span><span>🌧️ 15%</span></div>
     </div>
@@ -997,8 +1017,8 @@ body { font-family: 'Prompt', sans-serif; }
       <p class="text-xs text-subtle">23–25 ต.ค. (วันที่ 4–6)</p>
       <p class="font-semibold text-sm">พระราชวังเคียงบกกุง / DMZ / โซล</p>
       <div class="weather-icon my-2">🍂</div>
-      <p class="text-2xl font-bold text-brand-dark">17°<span class="text-base font-normal text-subtle">/6°C</span></p>
-      <p class="text-xs text-subtle mt-1">อากาศเย็นสบาย เหมาะชมใบไม้เปลี่ยนสี ท้องฟ้าโปร่งเป็นส่วนใหญ่</p>
+      <p class="text-2xl font-bold text-brand-dark">16°<span class="text-base font-normal text-subtle">/7°C</span></p>
+      <p class="text-xs text-subtle mt-1">อากาศเย็นสบาย เหมาะชมใบไม้เปลี่ยนสี ท้องฟ้าโปร่งเป็นส่วนใหญ่ กลางคืนเย็นจัดขึ้น</p>
       <div class="flex justify-center gap-3 mt-2 text-xs text-subtle"><span>💧 58%</span><span>🌧️ 20%</span></div>
     </div>
   </div>
@@ -1009,7 +1029,7 @@ body { font-family: 'Prompt', sans-serif; }
       <p class="text-xs text-subtle">21 ต.ค. (วันที่ 2)</p>
       <p class="font-semibold text-sm">หมู่บ้านคัมชอน / หาดควังอันลี</p>
       <div class="weather-icon my-2">☀️</div>
-      <p class="text-2xl font-bold text-brand-dark">20°<span class="text-base font-normal text-subtle">/12°C</span></p>
+      <p class="text-2xl font-bold text-brand-dark">21°<span class="text-base font-normal text-subtle">/13°C</span></p>
       <p class="text-xs text-subtle mt-1">แดดจัด อากาศอบอุ่นกว่าโซลเล็กน้อย ลมทะเลเย็นสบาย</p>
       <div class="flex justify-center gap-3 mt-2 text-xs text-subtle"><span>💧 60%</span><span>🌧️ 10%</span></div>
     </div>
@@ -1017,7 +1037,7 @@ body { font-family: 'Prompt', sans-serif; }
       <p class="text-xs text-subtle">22 ต.ค. (วันที่ 3)</p>
       <p class="font-semibold text-sm">วัดแฮดง ยงกุงซา / แฮอึนแด</p>
       <div class="weather-icon my-2">🌥️</div>
-      <p class="text-2xl font-bold text-brand-dark">19°<span class="text-base font-normal text-subtle">/11°C</span></p>
+      <p class="text-2xl font-bold text-brand-dark">20°<span class="text-base font-normal text-subtle">/12°C</span></p>
       <p class="text-xs text-subtle mt-1">มีเมฆบางส่วน อากาศเย็นสบาย เหมาะเดินเที่ยวกลางแจ้ง</p>
       <div class="flex justify-center gap-3 mt-2 text-xs text-subtle"><span>💧 62%</span><span>🌧️ 15%</span></div>
     </div>
@@ -1028,11 +1048,11 @@ body { font-family: 'Prompt', sans-serif; }
     <div class="grid md:grid-cols-2 gap-4 text-sm">
       <div>
         <p class="font-medium">🏙️ กรุงโซล</p>
-        <p class="text-subtle mt-1">อุณหภูมิกลางวันประมาณ 16–18°C กลางคืนเย็นลงถึง 6–8°C ท้องฟ้าโปร่งเป็นส่วนใหญ่ในช่วงปลายเดือนตุลาคม เป็นช่วงพีคของใบไม้เปลี่ยนสี ลมเย็นในตอนเช้าและค่ำ ควรเตรียมเสื้อกันหนาวบางๆ</p>
+        <p class="text-subtle mt-1">อุณหภูมิกลางวันประมาณ 16–19°C กลางคืนเย็นลงถึง 7–9°C (บางคืนอาจต่ำกว่า 7°C) ท้องฟ้าโปร่งเป็นส่วนใหญ่ในช่วงปลายเดือนตุลาคม เป็นช่วงพีคของใบไม้เปลี่ยนสี ลมเย็นในตอนเช้าและค่ำ ควรเตรียมเสื้อกันหนาวหนาขึ้นเล็กน้อยเมื่อเทียบกับช่วงต้นเดือน</p>
       </div>
       <div>
         <p class="font-medium">🌊 ปูซาน</p>
-        <p class="text-subtle mt-1">อุณหภูมิกลางวันประมาณ 19–20°C กลางคืนประมาณ 11–12°C อากาศอบอุ่นกว่าโซลเนื่องจากอยู่ติดทะเล แดดจัดในตอนกลางวัน ลมทะเลพัดเย็นสบายบริเวณชายหาดและจุดชมวิว</p>
+        <p class="text-subtle mt-1">อุณหภูมิกลางวันประมาณ 20–21°C กลางคืนประมาณ 12–13°C อากาศอบอุ่นกว่าโซลเนื่องจากอยู่ติดทะเล แดดจัดในตอนกลางวัน ลมทะเลพัดเย็นสบายบริเวณชายหาดและจุดชมวิว</p>
       </div>
     </div>
     <div class="mt-3 bg-blue-50 border border-blue-100 rounded-xl p-3 text-xs text-blue-700 flex items-start gap-2">
@@ -1040,7 +1060,7 @@ body { font-family: 'Prompt', sans-serif; }
       <span>ช่วงเวลาเดินทาง (20–25 ต.ค.) อยู่ในช่วงปลายฤดูใบไม้ร่วงของเกาหลีใต้ อากาศเย็นสบายกลางวัน และเย็นจัดขึ้นในตอนกลางคืนโดยเฉพาะที่โซล ควรเตรียมเสื้อแขนยาว เสื้อกันหนาวบาง-หนา และเสื้อกันลมสำหรับกิจกรรมกลางแจ้งอย่าง DMZ และหาดที่ปูซาน</span>
     </div>
   </div>
-  <p class="text-xs text-subtle mt-4 italic">* ข้อมูลสภาพอากาศเป็นค่าเฉลี่ยตามฤดูกาลโดยประมาณ เนื่องจากวันเดินทางอยู่นอกช่วงพยากรณ์อากาศระยะสั้น กรุณาตรวจสอบพยากรณ์อากาศล่าสุดอีกครั้งก่อนเดินทางที่ accuweather.com</p>
+  <p class="text-xs text-subtle mt-4 italic">* ข้อมูลสภาพอากาศเป็นค่าเฉลี่ยตามฤดูกาลโดยประมาณ (climate normal) เนื่องจากวันเดินทางอยู่นอกช่วงพยากรณ์อากาศระยะสั้น (ปกติพยากรณ์ล่วงหน้าได้แม่นยำประมาณ 10-14 วัน) กรุณาตรวจสอบพยากรณ์อากาศล่าสุดอีกครั้งใกล้วันเดินทางที่ accuweather.com</p>
 </section>
  
 <!-- ========== CLOTHING ========== -->
@@ -1048,7 +1068,7 @@ body { font-family: 'Prompt', sans-serif; }
   <h2 class="font-display text-2xl md:text-3xl font-bold text-brand-dark mb-6">👔 คำแนะนำการแต่งกาย</h2>
   <div class="bg-brand-50 rounded-2xl p-5 border border-brand/10 mb-6">
     <h3 class="font-semibold text-brand-dark mb-2">🌡️ สภาพอากาศโดยรวม</h3>
-    <p class="text-sm text-subtle">ช่วงปลายเดือนตุลาคมในเกาหลีใต้อยู่ในฤดูใบไม้ร่วง กลางวันอากาศเย็นสบาย 17–20°C กลางคืนเย็นลงถึง 6–12°C โดยกรุงโซลจะเย็นกว่าปูซานอย่างชัดเจนโดยเฉพาะยามเช้าและค่ำ ควรเตรียมเสื้อผ้าแบบหลายชั้น เสื้อกันหนาวบาง และเสื้อกันลมสำหรับกิจกรรมกลางแจ้ง</p>
+    <p class="text-sm text-subtle">ช่วงปลายเดือนตุลาคมในเกาหลีใต้อยู่ในฤดูใบไม้ร่วง กลางวันอากาศเย็นสบาย 16–21°C กลางคืนเย็นลงถึง 7–13°C โดยกรุงโซลจะเย็นกว่าปูซานอย่างชัดเจนโดยเฉพาะยามเช้าและค่ำ (บางคืนที่โซลอาจต่ำกว่า 7°C) ควรเตรียมเสื้อผ้าแบบหลายชั้น เสื้อกันหนาวบาง-หนา และเสื้อกันลมสำหรับกิจกรรมกลางแจ้ง</p>
   </div>
  
   <div class="grid md:grid-cols-2 gap-4 mb-6">
@@ -1056,8 +1076,8 @@ body { font-family: 'Prompt', sans-serif; }
       <h4 class="font-semibold text-brand-dark mb-3">🧥 เสื้อผ้าหลักที่ต้องเตรียม</h4>
       <ul class="text-sm space-y-2">
         <li class="flex items-start gap-2"><span>👕</span> เสื้อแขนยาวหรือเสื้อยืดเนื้อผ้าระบายอากาศ (ใส่เป็นชั้นใน)</li>
-        <li class="flex items-start gap-2"><span>🧥</span> เสื้อกันหนาวบาง เช่น คาร์ดิแกน หรือเสื้อแจ็คเก็ตบาง ใส่ทับได้</li>
-        <li class="flex items-start gap-2"><span>🌬️</span> เสื้อกันลม/แจ็คเก็ตกันหนาวขนเป็ดบางสำหรับตอนเช้า-ค่ำที่โซล</li>
+        <li class="flex items-start gap-2"><span>🧥</span> เสื้อกันหนาวบาง-กลาง เช่น คาร์ดิแกน หรือเสื้อแจ็คเก็ตกันลม ใส่ทับได้</li>
+        <li class="flex items-start gap-2"><span>🌬️</span> เสื้อกันลม/แจ็คเก็ตกันหนาวขนเป็ดบางสำหรับตอนเช้า-ค่ำที่โซล โดยเฉพาะช่วงวันที่ 4-6 ที่อากาศเย็นลง</li>
         <li class="flex items-start gap-2"><span>🧣</span> ผ้าพันคอบาง เผื่อสำหรับวันที่ลมแรงหรือกลางคืน</li>
         <li class="flex items-start gap-2"><span>👖</span> กางเกงขายาวเนื้อผ้าหนาปานกลาง ไม่แนะนำกางเกงขาสั้น</li>
         <li class="flex items-start gap-2"><span>👟</span> รองเท้าผ้าใบหรือรองเท้าเดินสบาย เดินเที่ยวได้ทั้งวัน</li>
@@ -1068,27 +1088,27 @@ body { font-family: 'Prompt', sans-serif; }
   <h3 class="font-semibold text-brand-dark text-lg mb-3">📅 แนะนำการแต่งกายตามรายวัน</h3>
   <div class="space-y-3">
     <div class="bg-white border-l-4 border-gray-300 rounded-r-xl p-4">
-      <p class="font-semibold text-sm">วันที่ 1 | กรุงเทพฯ → อินชอน → โซล (20 ต.ค. | 8–18°C)</p>
+      <p class="font-semibold text-sm">วันที่ 1 | กรุงเทพฯ → อินชอน → โซล (20 ต.ค. | 9–19°C)</p>
       <p class="text-xs text-subtle mt-1">👕 แต่งกายสบายสำหรับเดินทาง / 🧥 พกเสื้อคลุมบางติดตัวขึ้นเครื่อง อากาศเย็นเมื่อถึงอินชอนตอนเย็น</p>
     </div>
     <div class="bg-white border-l-4 border-brand rounded-r-xl p-4">
-      <p class="font-semibold text-sm">วันที่ 2 | โซล → ปูซาน (21 ต.ค. | 12–20°C)</p>
+      <p class="font-semibold text-sm">วันที่ 2 | โซล → ปูซาน (21 ต.ค. | 13–21°C)</p>
       <p class="text-xs text-subtle mt-1">👕 เสื้อแขนยาวบาง + เสื้อคลุมบาง / 👖 กางเกงขายาว / 👟 รองเท้าสบายสำหรับเดินหมู่บ้านคัมชอนและชายหาด</p>
     </div>
     <div class="bg-white border-l-4 border-blue-400 rounded-r-xl p-4">
-      <p class="font-semibold text-sm">วันที่ 3 | ปูซาน (22 ต.ค. | 11–19°C)</p>
+      <p class="font-semibold text-sm">วันที่ 3 | ปูซาน (22 ต.ค. | 12–20°C)</p>
       <p class="text-xs text-subtle mt-1">👕 เสื้อแขนยาว + เสื้อคลุมบาง / 👟 รองเท้าเดินสบาย เดินเยอะทั้งวัด สกายแคปซูล และตลาดจากัลชี / 🕶️ แว่นกันแดดสำหรับวันแดดจัด</p>
     </div>
     <div class="bg-white border-l-4 border-teal-400 rounded-r-xl p-4">
-      <p class="font-semibold text-sm">วันที่ 4 | ปูซาน → โซล (23 ต.ค. | 6–17°C)</p>
-      <p class="text-xs text-subtle mt-1">🧥 เสื้อกันหนาวบาง + เสื้อคลุมกันลม / 👖 กางเกงขายาว / 👟 รองเท้าสบาย เดินชมพระราชวังและหมู่บ้านบุกชอน / 🧣 ผ้าพันคอบาง อากาศเย็นลงเมื่อถึงโซล</p>
+      <p class="font-semibold text-sm">วันที่ 4 | ปูซาน → โซล (23 ต.ค. | 7–16°C)</p>
+      <p class="text-xs text-subtle mt-1">🧥 เสื้อกันหนาวบาง-กลาง + เสื้อคลุมกันลม / 👖 กางเกงขายาว / 👟 รองเท้าสบาย เดินชมพระราชวังและหมู่บ้านบุกชอน / 🧣 ผ้าพันคอบาง อากาศเย็นลงชัดเจนเมื่อถึงโซล</p>
     </div>
     <div class="bg-white border-l-4 border-orange-400 rounded-r-xl p-4">
-      <p class="font-semibold text-sm">วันที่ 5 | โซล – DMZ (24 ต.ค. | 6–17°C)</p>
-      <p class="text-xs text-subtle mt-1">🧥 เสื้อกันหนาวหนาขึ้น + เสื้อกันลม จำเป็นสำหรับพื้นที่ DMZ ที่ลมแรง / 👖 กางเกงขายาว / 👟 รองเท้าเดินสบาย / 🧣 ผ้าพันคอ</p>
+      <p class="font-semibold text-sm">วันที่ 5 | โซล – DMZ (24 ต.ค. | 7–16°C)</p>
+      <p class="text-xs text-subtle mt-1">🧥 เสื้อกันหนาวหนาขึ้น + เสื้อกันลม จำเป็นสำหรับพื้นที่ DMZ ที่ลมแรงและอยู่กลางแจ้งนาน / 👖 กางเกงขายาว / 👟 รองเท้าเดินสบาย / 🧣 ผ้าพันคอ</p>
     </div>
     <div class="bg-white border-l-4 border-brand-dark rounded-r-xl p-4">
-      <p class="font-semibold text-sm">วันที่ 6 | โซล → กรุงเทพฯ (25 ต.ค. | 6–17°C)</p>
+      <p class="font-semibold text-sm">วันที่ 6 | โซล → กรุงเทพฯ (25 ต.ค. | 7–16°C)</p>
       <p class="text-xs text-subtle mt-1">👕 แต่งกายสบายสำหรับวันเดินทางกลับ / 🧥 เสื้อคลุมบางขึ้นเครื่อง</p>
     </div>
   </div>
@@ -1097,7 +1117,7 @@ body { font-family: 'Prompt', sans-serif; }
     <h4 class="font-semibold text-amber-800 mb-3">🎒 สิ่งที่ควรพกติดตัว</h4>
     <div class="grid grid-cols-2 md:grid-cols-3 gap-2 text-sm">
       <div class="flex items-center gap-2"><span>🧴</span> ครีมบำรุงผิว/ลิปมัน กันผิวแห้ง</div>
-      <div class="flex items-center gap-2"><span>🧥</span> เสื้อกันลม/เสื้อคลุมบาง</div>
+      <div class="flex items-center gap-2"><span>🧥</span> เสื้อกันลม/เสื้อคลุมบาง-กลาง</div>
       <div class="flex items-center gap-2"><span>🔌</span> Adapter ปลั๊กแบบ C/F (สองขากลม)</div>
       <div class="flex items-center gap-2"><span>💊</span> ยาประจำตัว</div>
       <div class="flex items-center gap-2"><span>🎒</span> กระเป๋าเป้ใบเล็กสำหรับเดินช้อปปิ้ง</div>
@@ -1137,100 +1157,59 @@ body { font-family: 'Prompt', sans-serif; }
        <div class="rooms-grid mb-6">
 
         <div class="room-card"><div class="flex flex-wrap items-center gap-2 mb-4"><i data-lucide="bed-double" style="width:20px;height:20px;color:#1e40af;"></i><span class="font-bold text-gray-800 text-lg">ห้องที่ 1</span>
-        <span class="badge room-badge3"><i data-lucide="door-open" style="width:12px;height:12px;"></i>Single Room</span></div><div class="guest-row"><div class="avatar" style="background:linear-gradient(135deg,#f59e0b,#d97706);">1</div><div class="flex-1 min-w-0"><p class="font-semibold text-gray-800 text-sm md:text-base">MR. WERASAK SUTIPORNPALANGKUL</p><p class="text-xs text-gray-400">ผู้เดินทาง  </span><span class="badge dietary-badge"></i>🌶️ Spice mild</span> <span class="badge dietary-badge2"><i data-lucide="plane" style="width:12px;height:12px;"></i>กลับหลังคณะ 11 Oct</span></p></div></div></div>
+        <span class="badge room-badge3"><i data-lucide="door-open" style="width:12px;height:12px;"></i>Single Room</span></div><div class="guest-row"><div class="avatar" style="background:linear-gradient(135deg,#f59e0b,#d97706);">1</div><div class="flex-1 min-w-0"><p class="font-semibold text-gray-800 text-sm md:text-base">MR. SOMBAT ANUNTARUMPORN</p><p class="text-xs text-gray-400">ผู้เดินทาง  </span></p></div></div></div>
 
         <div class="room-card"><div class="flex flex-wrap items-center gap-2 mb-4"><i data-lucide="bed-double" style="width:20px;height:20px;color:#1e40af;"></i><span class="font-bold text-gray-800 text-lg">ห้องที่ 2</span>
-        <span class="badge room-badge"><i data-lucide="door-open" style="width:12px;height:12px;"></i>Twin Room</span></div><div class="guest-row"><div class="avatar" style="background:linear-gradient(135deg,#3b82f6,#1d4ed8);">2</div><div class="flex-1 min-w-0"><p class="font-semibold text-gray-800 text-sm md:text-base">MISS SUKANDA RAKPANYA</p><p class="text-xs text-gray-400">ผู้เดินทาง  </span><span class="badge dietary-badge2"><i data-lucide="plane" style="width:12px;height:12px;"></i>กลับหลังคณะ 11 Oct</span></p></div></div><div class="guest-row"><div class="avatar" style="background:linear-gradient(135deg,#ec4899,#be185d);">3</div><div class="flex-1 min-w-0"><p class="font-semibold text-gray-800 text-sm md:text-base">MISS SUPITCHAYA RAKPANYA</p><div class="flex flex-wrap items-center gap-2 mt-1"><span class="text-xs text-gray-400">ผู้เดินทาง</span><span class="badge dietary-badge"></i>🌶️ Spice mild</span><span class="badge dietary-badge2"><i data-lucide="plane" style="width:12px;height:12px;"></i>กลับหลังคณะ 11 Oct</span></div></div></div></div>
+        <span class="badge room-badge3"><i data-lucide="door-open" style="width:12px;height:12px;"></i>Single Room</span></div><div class="guest-row"><div class="avatar" style="background:linear-gradient(135deg,#3b82f6,#1d4ed8);">2</div><div class="flex-1 min-w-0"><p class="font-semibold text-gray-800 text-sm md:text-base">KHUNYING JADA WATTANASIRITHAM</p><p class="text-xs text-gray-400">ผู้เดินทาง  </span></p></div></div></div>
 
-        <div class="room-card"><div class="flex flex-wrap items-center gap-2 mb-4"><i data-lucide="bed-double" style="width:20px;height:20px;color:#1e40af;"></i><span class="font-bold text-gray-800 text-lg">ห้องที่ 3</span><span class="badge room-badge2"><i data-lucide="heart" style="width:12px;height:12px;"></i>Double Room</span></div><div class="guest-row"><div class="avatar" style="background:linear-gradient(135deg,#10b981,#047857);">4</div><div class="flex-1 min-w-0"><p class="font-semibold text-gray-800 text-sm md:text-base">MR. WICHARN YINGSAKMONGKOL</p><p class="text-xs text-gray-400">ผู้เดินทาง</span><span class="badge dietary-badge2"><i data-lucide="plane" style="width:12px;height:12px;"></i>ไปก่อน - กลับหลังคณะ 2-11 OCT</span></p></div></div><div  class="guest-row"><div class="avatar" style="background:linear-gradient(135deg,#9933FF,#9900CC);">5</div><div class="flex-1 min-w-0"><p class="font-semibold text-gray-800 text-sm md:text-base">MRS. SIVAPORN YINGSAKMONGKOL</p><div class="flex flex-wrap items-center gap-2 mt-1"><span class="text-xs text-gray-400">ผู้เดินทาง  </span><span class="badge dietary-badge2"><i data-lucide="plane" style="width:12px;height:12px;"></i>ไปก่อน - กลับหลังคณะ 2-11 OCT</span></div></div></div></div>
+        <div class="room-card"><div class="flex flex-wrap items-center gap-2 mb-4"><i data-lucide="bed-double" style="width:20px;height:20px;color:#1e40af;"></i><span class="font-bold text-gray-800 text-lg">ห้องที่ 3</span>
+        <span class="badge room-badge3"><i data-lucide="door-open" style="width:12px;height:12px;"></i>Single Room</span></div><div class="guest-row"><div class="avatar" style="background:linear-gradient(135deg,#ec4899,#be185d);">3</div><div class="flex-1 min-w-0"><p class="font-semibold text-gray-800 text-sm md:text-base">MR. SUKHUM KARNCHANAPIMAI</p><p class="text-xs text-gray-400">ผู้เดินทาง  </span></p></div></div></div>
 
-        <div class="room-card"><div class="flex flex-wrap items-center gap-2 mb-4"><i data-lucide="bed-double" style="width:20px;height:20px;color:#1e40af;"></i><span class="font-bold text-gray-800 text-lg">ห้องที่ 4</span><span class="badge room-badge2"><i data-lucide="heart" style="width:12px;height:12px;"></i>Double Room</span></div><div class="guest-row"><div class="avatar" style="background:linear-gradient(135deg,#FFCC00, #FF3300);">6</div><div class="flex-1 min-w-0"><p class="font-semibold text-gray-800 text-sm md:text-base">MR. THEERA CHUEABOONCHAI</p><div class="flex flex-wrap items-center gap-2 mt-1"><span class="text-xs text-gray-400">ผู้เดินทาง</span></div></div></div><div class="guest-row"><div class="avatar" style="background:linear-gradient(135deg,#14b8a6, #0d9488);">7</div><div class="flex-1 min-w-0"><p class="font-semibold text-gray-800 text-sm md:text-base">MISS PLOYKANOK CHUEABOONCHAI</p><p class="text-xs text-gray-400">ผู้เดินทาง</p></div></div></div>
+        <div class="room-card"><div class="flex flex-wrap items-center gap-2 mb-4"><i data-lucide="bed-double" style="width:20px;height:20px;color:#1e40af;"></i><span class="font-bold text-gray-800 text-lg">ห้องที่ 4</span>
+        <span class="badge room-badge3"><i data-lucide="door-open" style="width:12px;height:12px;"></i>Single Room</span></div><div class="guest-row"><div class="avatar" style="background:linear-gradient(135deg,#10b981,#047857);">4</div><div class="flex-1 min-w-0"><p class="font-semibold text-gray-800 text-sm md:text-base">MRS. PATAREEYA BENJAPOLCHAI</p><p class="text-xs text-gray-400">ผู้เดินทาง  </span></p></div></div></div>
 
-        <div class="room-card"><div class="flex flex-wrap items-center gap-2 mb-4"><i data-lucide="bed-triple" style="width:20px;height:20px;color:#1e40af;"></i><span class="font-bold text-gray-800 text-lg">ห้องที่ 5</span><span class="badge room-badge"><i data-lucide="door-open" style="width:12px;height:12px;"></i>Triple Room</span></div><div class="guest-row"><div class="avatar" style="background:linear-gradient(135deg,#3b82f6, #1d4ed8);">8</div><div class="flex-1 min-w-0"><p class="font-semibold text-gray-800 text-sm md:text-base">MR. TEWAJETSADA PARUANG</p><p class="text-xs text-gray-400">ผู้เดินทาง</span><span class="badge dietary-badge"></i>🌶️ SPICE MILD</span></p></div></div><div  class="guest-row"><div class="avatar" style="background:linear-gradient(135deg,#87CEFA,#00CED1);">9</div><div class="flex-1 min-w-0"><p class="font-semibold text-gray-800 text-sm md:text-base">MRS. TAKSAORN UBOL</p><div class="flex flex-wrap items-center gap-2 mt-1"><span class="text-xs text-gray-400">ผู้เดินทาง  </span></div></div></div><div class="guest-row"><div class="avatar" style="background:linear-gradient(135deg,#FFCCFF,#FF33FF);">10</div><div class="flex-1 min-w-0"><p class="font-semibold text-gray-800 text-sm md:text-base">MISS PIMYADA UBOL  ( 7 Years)</p><div class="flex flex-wrap items-center gap-2 mt-1"><span class="text-xs text-gray-400">ผู้เดินทาง</span><span class="badge dietary-badge"></i>🌶️ SPICE MILD</span></div></div></div></div>
+        <div class="room-card"><div class="flex flex-wrap items-center gap-2 mb-4"><i data-lucide="bed-double" style="width:20px;height:20px;color:#1e40af;"></i><span class="font-bold text-gray-800 text-lg">ห้องที่ 5</span>
+        <span class="badge room-badge3"><i data-lucide="door-open" style="width:12px;height:12px;"></i>Single Room</span></div><div class="guest-row"><div class="avatar" style="background:linear-gradient(135deg,#9933FF,#9900CC);">5</div><div class="flex-1 min-w-0"><p class="font-semibold text-gray-800 text-sm md:text-base">MR. THEERAKUN NIYOM</p><p class="text-xs text-gray-400">ผู้เดินทาง  </span></p></div></div></div>
 
-        <div class="room-card"><div class="flex flex-wrap items-center gap-2 mb-4"><i data-lucide="bed-double" style="width:20px;height:20px;color:#1e40af;"></i><span class="font-bold text-gray-800 text-lg">ห้องที่ 6</span><span class="badge room-badge2"><i data-lucide="heart" style="width:12px;height:12px;"></i>Double Room</span></div><div class="guest-row"><div class="avatar" style="background:linear-gradient(135deg,#ec4899, #be185d);">11</div><div class="flex-1 min-w-0"><p class="font-semibold text-gray-800 text-sm md:text-base">MR. GUN KEOROCHANA</p><div class="flex flex-wrap items-center gap-2 mt-1"><span class="text-xs text-gray-400">ผู้เดินทาง</span></div></div></div><div class="guest-row"><div class="avatar" style="background:linear-gradient(135deg,#8b5cf6, #6d28d9);">12</div><div class="flex-1 min-w-0"><p class="font-semibold text-gray-800 text-sm md:text-base">MRS. NARUMON KEOROCHANA</p><p class="text-xs text-gray-400">ผู้เดินทาง</p></div></div></div>
+        <div class="room-card"><div class="flex flex-wrap items-center gap-2 mb-4"><i data-lucide="bed-double" style="width:20px;height:20px;color:#1e40af;"></i><span class="font-bold text-gray-800 text-lg">ห้องที่ 6</span>
+        <span class="badge room-badge3"><i data-lucide="door-open" style="width:12px;height:12px;"></i>Single Room</span></div><div class="guest-row"><div class="avatar" style="background:linear-gradient(135deg,#FFCC00, #FF3300);">6</div><div class="flex-1 min-w-0"><p class="font-semibold text-gray-800 text-sm md:text-base">MR. NONTIGORN KANCHANACHITRA</p><p class="text-xs text-gray-400">ผู้เดินทาง  </span></p></div></div></div>
 
-        <div class="room-card"><div class="flex flex-wrap items-center gap-2 mb-4"><i data-lucide="bed-double" style="width:20px;height:20px;color:#1e40af;"></i><span class="font-bold text-gray-800 text-lg">ห้องที่ 7</span><span class="badge room-badge2"><i data-lucide="heart" style="width:12px;height:12px;"></i>Double Room</span></div><div class="guest-row"><div class="avatar" style="background:linear-gradient(135deg,#10b981,#047857);">13</div><div class="flex-1 min-w-0"><p class="font-semibold text-gray-800 text-sm md:text-base">MR. PILAN JAIPANYA</p><p class="text-xs text-gray-400">ผู้เดินทาง</span><span class="badge dietary-badge"></i>🦞 NO PRAWN</span></p></div></div><div  class="guest-row"><div class="avatar" style="background:linear-gradient(135deg,#f43f5e, #e11d48);">14</div><div class="flex-1 min-w-0"><p class="font-semibold text-gray-800 text-sm md:text-base">MISS BHARADEE TEERAVIDJA</p><div class="flex flex-wrap items-center gap-2 mt-1"><span class="text-xs text-gray-400">ผู้เดินทาง  </span></div></div></div></div>
+        <div class="room-card"><div class="flex flex-wrap items-center gap-2 mb-4"><i data-lucide="bed-double" style="width:20px;height:20px;color:#1e40af;"></i><span class="font-bold text-gray-800 text-lg">ห้องที่ 7</span>
+        <span class="badge room-badge3"><i data-lucide="door-open" style="width:12px;height:12px;"></i>Single Room</span></div><div class="guest-row"><div class="avatar" style="background:linear-gradient(135deg,#14b8a6, #0d9488);">7</div><div class="flex-1 min-w-0"><p class="font-semibold text-gray-800 text-sm md:text-base">MR. SUPACHAI  SOMCHAROEN</p><p class="text-xs text-gray-400">ผู้เดินทาง  </span></p></div></div></div>
 
-<div class="room-card">
-  <div class="flex flex-wrap items-center gap-2 mb-4">
-    <i data-lucide="bed-double" style="width:20px;height:20px;color:#1e40af;"></i>
-    <span class="font-bold text-gray-800 text-lg">ห้องที่ 8</span>
-    <span class="badge room-badge"><i data-lucide="door-open" style="width:12px;height:12px;"></i>Pending</span>
-  </div>
-  <div class="guest-row">
-    <div class="avatar" style="background:linear-gradient(135deg,#FFCC00, #FF3300);">15</div>
-    <div class="flex-1 min-w-0">
-      <p class="font-semibold text-gray-800 text-sm md:text-base">Pending</p>
-      <div class="flex flex-wrap items-center gap-2 mt-1">
-        <span class="text-xs text-gray-400">ผู้เดินทาง</span>
-      </div>
-    </div>
-  </div>
-</div>
+        <div class="room-card"><div class="flex flex-wrap items-center gap-2 mb-4"><i data-lucide="bed-double" style="width:20px;height:20px;color:#1e40af;"></i><span class="font-bold text-gray-800 text-lg">ห้องที่ 8</span>
+        <span class="badge room-badge3"><i data-lucide="door-open" style="width:12px;height:12px;"></i>Single Room</span></div><div class="guest-row"><div class="avatar" style="background:linear-gradient(135deg,#3b82f6, #1d4ed8);">8</div><div class="flex-1 min-w-0"><p class="font-semibold text-gray-800 text-sm md:text-base">MRS. SAOWANEE KAMOLBUTR</p><p class="text-xs text-gray-400">ผู้เดินทาง  </span></p></div></div></div>
 
-<div class="room-card">
-  <div class="flex flex-wrap items-center gap-2 mb-4">
-    <i data-lucide="bed-double" style="width:20px;height:20px;color:#1e40af;"></i>
-    <span class="font-bold text-gray-800 text-lg">ห้องที่ 9</span>
-    <span class="badge room-badge"><i data-lucide="door-open" style="width:12px;height:12px;"></i>Pending</span>
-  </div>
-  <div class="guest-row">
-    <div class="avatar" style="background:linear-gradient(135deg,#33CCFF, #3333FF);">16</div>
-    <div class="flex-1 min-w-0">
-      <p class="font-semibold text-gray-800 text-sm md:text-base">Pending</p>
-      <div class="flex flex-wrap items-center gap-2 mt-1">
-        <span class="text-xs text-gray-400">ผู้เดินทาง</span>
-      </div>
-    </div>
-  </div>
-</div>
+        <div class="room-card"><div class="flex flex-wrap items-center gap-2 mb-4"><i data-lucide="bed-double" style="width:20px;height:20px;color:#1e40af;"></i><span class="font-bold text-gray-800 text-lg">ห้องที่ 9</span>
+        <span class="badge room-badge3"><i data-lucide="door-open" style="width:12px;height:12px;"></i>Single Room</span></div><div class="guest-row"><div class="avatar" style="background:linear-gradient(135deg,#87CEFA,#00CED1);">9</div><div class="flex-1 min-w-0"><p class="font-semibold text-gray-800 text-sm md:text-base">MR. VISIT TANTISUNTHORN</p><p class="text-xs text-gray-400">ผู้เดินทาง  </span></p></div></div></div>
 
         <div class="room-card"><div class="flex flex-wrap items-center gap-2 mb-4"><i data-lucide="bed-double" style="width:20px;height:20px;color:#1e40af;"></i><span class="font-bold text-gray-800 text-lg">ห้องที่ 10</span>
-        <span class="badge room-badge3"><i data-lucide="door-open" style="width:12px;height:12px;"></i>Single Room</span></div><div class="guest-row"><div class="avatar" style="background:linear-gradient(135deg,#FFD700, #CD5C5C);">17</div><div class="flex-1 min-w-0"><p class="font-semibold text-gray-800 text-sm md:text-base">MR. ZAIDAN HAYEESAMA-AE</p><p class="text-xs text-gray-400">ผู้เดินทาง  </span><span class="badge dietary-badge2"><i data-lucide="plane" style="width:12px;height:12px;"></i>บินมาจาก Warsaw</span></p><p class="text-xs text-gray-400">3OCT2026 W6 1367 WAW-CPH 06.40-08.15 </span></div></div></div>
+        <span class="badge room-badge3"><i data-lucide="door-open" style="width:12px;height:12px;"></i>Single Room</span></div><div class="guest-row"><div class="avatar" style="background:linear-gradient(135deg,#FFCCFF,#FF33FF);">10</div><div class="flex-1 min-w-0"><p class="font-semibold text-gray-800 text-sm md:text-base">MR. VICHAN THAMASUCHARIT</p><p class="text-xs text-gray-400">ผู้เดินทาง  </span></p></div></div></div>
 
-<div class="room-card">
-  <div class="flex flex-wrap items-center gap-2 mb-4">
-    <i data-lucide="bed-double" style="width:20px;height:20px;color:#1e40af;"></i>
-    <span class="font-bold text-gray-800 text-lg">ห้องที่ 11</span>
-    <span class="badge room-badge3"><i data-lucide="door-open" style="width:12px;height:12px;"></i>Single room</span>
-  </div>
-  <div class="guest-row">
-    <div class="avatar" style="background:linear-gradient(135deg,#DB7093, #9400D3);">18</div>
-    <div class="flex-1 min-w-0">
-      <p class="font-semibold text-gray-800 text-sm md:text-base">MR. URAWIT PIYAPROMDEE</p>
-      <div class="flex flex-wrap items-center gap-2 mt-1">
-        <span class="text-xs text-gray-400">ผู้เดินทาง</span>
-      </div>
-    </div>
-  </div>
-</div>
+        <div class="room-card"><div class="flex flex-wrap items-center gap-2 mb-4"><i data-lucide="bed-double" style="width:20px;height:20px;color:#1e40af;"></i><span class="font-bold text-gray-800 text-lg">ห้องที่ 11</span><span class="badge room-badge"><i data-lucide="door-open" style="width:12px;height:12px;"></i>Twin room</span></div><div class="guest-row"><div class="avatar" style="background:linear-gradient(135deg,#FFA500, #FF4500);">11</div><div class="flex-1 min-w-0"><p class="font-semibold text-gray-800 text-sm md:text-base">MR. PAKORN MALAKUL NA AYUDHYA</p><div class="flex flex-wrap items-center gap-2 mt-1"><span class="text-xs text-gray-400">ผู้เดินทาง</span></div></div></div><div class="guest-row"><div class="avatar" style="background:linear-gradient(135deg,#C71585,#B03060);">12</div><div class="flex-1 min-w-0"><p class="font-semibold text-gray-800 text-sm md:text-base">MRS. PANORCHAND MALAKUL</p><p class="text-xs text-gray-400">ผู้เดินทาง  </span></p></div></div></div>
 
-<div class="room-card">
-  <div class="flex flex-wrap items-center gap-2 mb-4">
-    <i data-lucide="bed-double" style="width:20px;height:20px;color:#1e40af;"></i>
-    <span class="font-bold text-gray-800 text-lg">ห้องที่ 12</span>
-    <span class="badge room-badge3"><i data-lucide="door-open" style="width:12px;height:12px;"></i>Single room</span>
-  </div>
-  <div class="guest-row">
-    <div class="avatar" style="background:linear-gradient(135deg,#00FF00, #228B22);">19</div>
-    <div class="flex-1 min-w-0">
-      <p class="font-semibold text-gray-800 text-sm md:text-base">MR. KOMCHARN PROMPALAD</p>
-      <div class="flex flex-wrap items-center gap-2 mt-1">
-        <span class="text-xs text-gray-400">ผู้เดินทาง</span>
-      </div>
-    </div>
-  </div>
-</div>
+        <div class="room-card"><div class="flex flex-wrap items-center gap-2 mb-4"><i data-lucide="bed-double" style="width:20px;height:20px;color:#1e40af;"></i><span class="font-bold text-gray-800 text-lg">ห้องที่ 12</span><span class="badge room-badge"><i data-lucide="door-open" style="width:12px;height:12px;"></i>Twin room</span></div><div class="guest-row"><div class="avatar" style="background:linear-gradient(135deg,#ec4899, #be185d);">13</div><div class="flex-1 min-w-0"><p class="font-semibold text-gray-800 text-sm md:text-base">MR. CHUSAK DIREKWATTANACHAI</p><div class="flex flex-wrap items-center gap-2 mt-1"><span class="text-xs text-gray-400">ผู้เดินทาง</span></div></div></div><div class="guest-row"><div class="avatar" style="background:linear-gradient(135deg,#8b5cf6, #6d28d9);">14</div><div class="flex-1 min-w-0"><p class="font-semibold text-gray-800 text-sm md:text-base">MRS. CHALERAT DIREKWATTANACHAI</p><p class="text-xs text-gray-400">ผู้เดินทาง</p></div></div></div>
 
-        <div class="room-card"><div class="flex flex-wrap items-center gap-2 mb-4"><i data-lucide="bed-double" style="width:20px;height:20px;color:#1e40af;"></i><span class="font-bold text-gray-800 text-lg">ห้องที่ 13</span><span class="badge room-badge"><i data-lucide="door-open" style="width:12px;height:12px;"></i>Twin room</span></div><div class="guest-row"><div class="avatar" style="background:linear-gradient(135deg,#FFA500, #FF4500);">20</div><div class="flex-1 min-w-0"><p class="font-semibold text-gray-800 text-sm md:text-base">MISS KRONGJIT KONGTHONG</p><div class="flex flex-wrap items-center gap-2 mt-1"><span class="text-xs text-gray-400">ผู้เดินทาง</span><span class="badge dietary-badge4"><i data-lucide="user" style="width:12px;height:12px;"></i>Staff</span></div></div></div><div class="guest-row"><div class="avatar" style="background:linear-gradient(135deg,#C71585,#B03060);">21</div><div class="flex-1 min-w-0"><p class="font-semibold text-gray-800 text-sm md:text-base">MISS PITTAYAPORN KAITWARIN</p><p class="text-xs text-gray-400">ผู้เดินทาง  </span><span class="badge dietary-badge4"><i data-lucide="user" style="width:12px;height:12px;"></i>Staff</span></p></div></div></div>
+        <div class="room-card"><div class="flex flex-wrap items-center gap-2 mb-4"><i data-lucide="bed-double" style="width:20px;height:20px;color:#1e40af;"></i><span class="font-bold text-gray-800 text-lg">ห้องที่ 13</span><span class="badge room-badge"><i data-lucide="door-open" style="width:12px;height:12px;"></i>Twin room</span></div><div class="guest-row"><div class="avatar" style="background:linear-gradient(135deg,#10b981,#047857);">15</div><div class="flex-1 min-w-0"><p class="font-semibold text-gray-800 text-sm md:text-base">MR. WIRAD MANCHUSREE</p><p class="text-xs text-gray-400">ผู้เดินทาง</span></p></div></div><div  class="guest-row"><div class="avatar" style="background:linear-gradient(135deg,#f43f5e, #e11d48);">16</div><div class="flex-1 min-w-0"><p class="font-semibold text-gray-800 text-sm md:text-base">MRS. KESARA MANCHUSREE</p><div class="flex flex-wrap items-center gap-2 mt-1"><span class="text-xs text-gray-400">ผู้เดินทาง  </span></div></div></div></div>
+
+        <div class="room-card"><div class="flex flex-wrap items-center gap-2 mb-4"><i data-lucide="bed-double" style="width:20px;height:20px;color:#1e40af;"></i><span class="font-bold text-gray-800 text-lg">ห้องที่ 14</span><span class="badge room-badge"><i data-lucide="door-open" style="width:12px;height:12px;"></i>Twin room</span></div><div class="guest-row"><div class="avatar" style="background:linear-gradient(135deg,#FFCC00, #FF3300);">17</div><div class="flex-1 min-w-0"><p class="font-semibold text-gray-800 text-sm md:text-base">MR. WARAPATR TODHANAKASEM</p><p class="text-xs text-gray-400">ผู้เดินทาง</span></p></div></div><div  class="guest-row"><div class="avatar" style="background:linear-gradient(135deg,#33CCFF, #3333FF);">18</div><div class="flex-1 min-w-0"><p class="font-semibold text-gray-800 text-sm md:text-base">MRS. KITTIYA TODHANAKASEM</p><div class="flex flex-wrap items-center gap-2 mt-1"><span class="text-xs text-gray-400">ผู้เดินทาง  </span></div></div></div></div>
+
+        <div class="room-card"><div class="flex flex-wrap items-center gap-2 mb-4"><i data-lucide="bed-double" style="width:20px;height:20px;color:#1e40af;"></i><span class="font-bold text-gray-800 text-lg">ห้องที่ 15</span><span class="badge room-badge"><i data-lucide="door-open" style="width:12px;height:12px;"></i>Twin room</span></div><div class="guest-row"><div class="avatar" style="background:linear-gradient(135deg,#FFD700, #CD5C5C);">19</div><div class="flex-1 min-w-0"><p class="font-semibold text-gray-800 text-sm md:text-base">MR. TAWATCHAI SAMUTSAKORN</p><p class="text-xs text-gray-400">ผู้เดินทาง</span></p></div></div><div  class="guest-row"><div class="avatar" style="background:linear-gradient(135deg,#DB7093, #9400D3);">20</div><div class="flex-1 min-w-0"><p class="font-semibold text-gray-800 text-sm md:text-base">MISS ORAWAN KAEWNOK</p><div class="flex flex-wrap items-center gap-2 mt-1"><span class="text-xs text-gray-400">ผู้เดินทาง  </span></div></div></div></div>
+
+        <div class="room-card"><div class="flex flex-wrap items-center gap-2 mb-4"><i data-lucide="bed-double" style="width:20px;height:20px;color:#1e40af;"></i><span class="font-bold text-gray-800 text-lg">ห้องที่ 16</span><span class="badge room-badge"><i data-lucide="door-open" style="width:12px;height:12px;"></i>Twin room</span></div><div class="guest-row"><div class="avatar" style="background:linear-gradient(135deg,#00FF00, #228B22);">21</div><div class="flex-1 min-w-0"><p class="font-semibold text-gray-800 text-sm md:text-base">MR. SOMSAK SUWANSUJARUT</p><p class="text-xs text-gray-400">ผู้เดินทาง</span></p></div></div><div  class="guest-row"><div class="avatar" style="background:linear-gradient(135deg,#87CEFA,#00CED1);">22</div><div class="flex-1 min-w-0"><p class="font-semibold text-gray-800 text-sm md:text-base">MRS. NIPA SUWANSUJARIT</p><div class="flex flex-wrap items-center gap-2 mt-1"><span class="text-xs text-gray-400">ผู้เดินทาง  </span></div></div></div></div>
+
+        <div class="room-card"><div class="flex flex-wrap items-center gap-2 mb-4"><i data-lucide="bed-double" style="width:20px;height:20px;color:#1e40af;"></i><span class="font-bold text-gray-800 text-lg">ห้องที่ 17</span><span class="badge room-badge"><i data-lucide="door-open" style="width:12px;height:12px;"></i>Twin Room</span></div><div class="guest-row"><div class="avatar" style="background:linear-gradient(135deg,#3b82f6,#1d4ed8);">23</div><div class="flex-1 min-w-0"><p class="font-semibold text-gray-800 text-sm md:text-base">MR. VIDDHAVAT RAJATANUN</p><p class="text-xs text-gray-400">ผู้เดินทาง</span><span class="badge dietary-badge2"><i data-lucide="plane" style="width:12px;height:12px;"></i>ไปถึงก่อนคณะ</span></p><p class="text-xs text-gray-400">20OCT2026 TG652 BKK-ICN 08.00-15.25 </span></p></div></div><div class="guest-row"><div class="avatar" style="background:linear-gradient(135deg,#ec4899,#be185d);">24</div><div class="flex-1 min-w-0"><p class="font-semibold text-gray-800 text-sm md:text-base">MRS. KANOKTHIP RAJATANUN</p><div class="flex flex-wrap items-center gap-2 mt-1"><span class="text-xs text-gray-400">ผู้เดินทาง</span><span class="badge dietary-badge2"><i data-lucide="plane" style="width:12px;height:12px;"></i>ไปถึงก่อนคณะ</span></p><p class="text-xs text-gray-400">20OCT2026 TG652 BKK-ICN 08.00-15.25 </span></div></div></div></div>
+
+        <div class="room-card"><div class="flex flex-wrap items-center gap-2 mb-4"><i data-lucide="bed-double" style="width:20px;height:20px;color:#1e40af;"></i><span class="font-bold text-gray-800 text-lg">ห้องที่ 18</span><span class="badge room-badge"><i data-lucide="door-open" style="width:12px;height:12px;"></i>Twin Room</span></div><div class="guest-row"><div class="avatar" style="background:linear-gradient(135deg,#FFCC00, #FF3300);">25</div><div class="flex-1 min-w-0"><p class="font-semibold text-gray-800 text-sm md:text-base">MR. SARAWUT BENJAKUL</p><div class="flex flex-wrap items-center gap-2 mt-1"><span class="text-xs text-gray-400">ผู้เดินทาง</span></div></div></div><div class="guest-row"><div class="avatar" style="background:linear-gradient(135deg,#14b8a6, #0d9488);">26</div><div class="flex-1 min-w-0"><p class="font-semibold text-gray-800 text-sm md:text-base">MRS. MANANYA BENJAKUL</p><p class="text-xs text-gray-400">ผู้เดินทาง</p></div></div></div>
+
+        <div class="room-card"><div class="flex flex-wrap items-center gap-2 mb-4"><i data-lucide="bed-double" style="width:20px;height:20px;color:#1e40af;"></i><span class="font-bold text-gray-800 text-lg">ห้องที่ 19</span><span class="badge room-badge"><i data-lucide="door-open" style="width:12px;height:12px;"></i>Twin Room</span></div><div class="guest-row"><div class="avatar" style="background:linear-gradient(135deg,#87CEFA,#00CED1);">27</div><div class="flex-1 min-w-0"><p class="font-semibold text-gray-800 text-sm md:text-base">MR. CHIRADET OUSAWAT</p><div class="flex flex-wrap items-center gap-2 mt-1"><span class="text-xs text-gray-400">ผู้เดินทาง</span></div></div></div><div class="guest-row"><div class="avatar" style="background:linear-gradient(135deg,#FFCCFF,#FF33FF);">28</div><div class="flex-1 min-w-0"><p class="font-semibold text-gray-800 text-sm md:text-base">MRS. PATCHAREE OUSAWAT</p><p class="text-xs text-gray-400">ผู้เดินทาง</p></div></div></div>
 
        <div class="rounded-xl p-4 stats-bar text-sm" style="background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.1);">
-        <div class="flex items-center gap-2 text-blue-300"><i data-lucide="users" style="width:16px;height:16px;"></i><span>ผู้เดินทางทั้งหมด <strong class="text-white">21</strong> ท่าน</span></div>
-        <div class="flex items-center gap-2 text-blue-300"><i data-lucide="bed-double" style="width:16px;height:16px;"></i><span>ห้องพัก <strong class="text-white">13</strong> ห้อง (6SGL + 4DBL + 2TWN + 1TRP)</span></div>
-        <div class="flex items-center gap-2 text-amber-300"><span>🌶️ Spice mild <strong class="text-white">4</strong> ท่าน</span></div>
+        <div class="flex items-center gap-2 text-blue-300"><i data-lucide="users" style="width:16px;height:16px;"></i><span>ผู้เดินทางทั้งหมด <strong class="text-white">28</strong> ท่าน</span></div>
+        <div class="flex items-center gap-2 text-blue-300"><i data-lucide="bed-double" style="width:16px;height:16px;"></i><span>ห้องพัก <strong class="text-white">19</strong> ห้อง (10 SGL + 9 TWN)</span></div>
+        <div class="flex items-center gap-2 text-amber-300"><span>🌶️ Spice mild <strong class="text-white">0</strong> ท่าน</span></div>
         <div class="flex items-center gap-2 text-green-300"><span>🥩 No beef <strong class="text-white">0</strong> ท่าน</span></div>
-        <div class="flex items-center gap-2 text-red-300"><span>🦞 No prawn <strong class="text-white">1</strong> ท่าน</span></div>        
+        <div class="flex items-center gap-2 text-red-300"><span>🦞 No prawn <strong class="text-white">0</strong> ท่าน</span></div>        
        </div>
       </div>
      </div>
