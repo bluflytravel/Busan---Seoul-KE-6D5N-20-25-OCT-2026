@@ -613,12 +613,16 @@ body { font-family: 'Prompt', sans-serif; }
          <div class="text-sm">
           <p class="font-semibold">🛍️ นัมโพดง (Nampo-dong) </p>
           <p class="text-subtle mt-1">อิสระช้อปปิ้ง นัมโพดง (Nampo-dong) แหล่งช้อปปิ้งขนาดใหญ่ อีกแห่งหนึ่งของเมืองปูซาน ที่นี่เต็มไปด้วยร้านค้า 	เสื้อผ้า เครื่องประดับ เครื่องสำอาง ของฝาก ของที่ระลึกมากมายให้ได้ช้อปปิ้งอย่างจุใจอีกทั้งยังมีอาหารแบบท้องถิ่น 	ให้ได้เลือกทานแบบเต็มที่</p>
-            <div class="mt-3 flex gap-3">
-              <img src="https://tong.visitkorea.or.kr/cms/resource/06/2947006_image2_1.jpg" class="w-1/2 rounded-lg object-cover aspect-video" alt="Dinner 1">
-              <img src="https://ak-d.tripcdn.com/images/1mi72224x94ujx52e1B44_Q90.jpg?proc=source/trip" class="w-1/2 rounded-lg object-cover aspect-video" alt="Dinner 2">
+          <div class="img-slider">
+            <div class="img-slider-track">
+              <div class="img-slide"><img src="https://tong.visitkorea.or.kr/cms/resource/06/2947006_image2_1.jpg" loading="lazy" alt="Lotte Premium Outlet 1"></div>
+              <div class="img-slide"><img src="https://ak-d.tripcdn.com/images/1mi72224x94ujx52e1B44_Q90.jpg?proc=source/trip" loading="lazy" alt="Lotte Premium Outlet 2"></div>
+            </div>
+            <div class="img-slider-dots"><span class="active"></span><span></span></div>
+            <div class="img-slider-counter">1/2</div>
           </div>
-         </div>
         </div>
+      </div>
 
         <div class="relative">
          <div class="timeline-dot absolute -left-[31px] top-1"></div>
