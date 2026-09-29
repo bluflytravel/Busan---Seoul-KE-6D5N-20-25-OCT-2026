@@ -636,7 +636,7 @@ body { font-family: 'Prompt', sans-serif; }
          <div class="text-sm">
           <p class="font-semibold">🍽️ รับประทานอาหารค่ำ ณ ภัตตาคาร SASHIMIJEONGSIK</p>
           <div class="mt-3">
-           <img src="https://scontent.fbkk12-1.fna.fbcdn.net/v/t39.30808-6/534833678_1436680264275349_1224599233186733753_n.jpg?stp=dst-jpg_tt6&cstp=mx720x960&ctp=s720x960&_nc_cat=101&_nc_map=urlgen_bucketless&ccb=1-7&_nc_sid=bd9a62&_nc_ohc=lkeGN4QBwNQQ7kNvwHh4Nt2&_nc_oc=Adou1WIFBcI43TOpBTBvinTmKpF-CPILuiD19c8EJRy5CbD-JdTDyHpaMHd0BuxtsuGO3d_T5K-zn9gDGjaoVhgw&_nc_zt=23&_nc_ht=scontent.fbkk12-1.fna&_nc_gid=XifFkff6QqMNCmgbqPq0MQ&_nc_ss=7b289&oh=00_AQJHHhz2umiPVN431BxVxehJsnxyhfCmE56h_NkkilapDA&oe=6AB6BA19" loading="lazy" class="tour-img" alt="Garuda Wisnu Kencana">
+           <img src="https://images.lifestyleasia.com/wp-content/uploads/sites/8/2023/03/05232755/%E0%B9%82%E0%B8%84%E0%B8%A3%E0%B8%87%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88-16-1600x900.jpg" loading="lazy" class="tour-img" alt="Garuda Wisnu Kencana">
           </div>
          </div>
         </div>
@@ -689,7 +689,7 @@ body { font-family: 'Prompt', sans-serif; }
           <p class="text-subtle mt-1">นำคณะเข้าชม พระราชวังเคียงบกกุง (Gyeongbokgung Palace) หรือเรียกว่า “พระราชวังคยองบกกุง” เป็นสัญลักษณ์และแหล่งท่องเที่ยวยอดฮิตของกรุงโซล พระราชวังที่มีขนาดใหญ่และเก่าแก่ที่สุดในกรุงโซล สร้างขึ้นในปี1394 ในสมัยพระเจ้าแทโจ ราชวงศ์โชซอน เดิมทีนั้นภายในพระราชวังมีอาคารและตำหนักต่างๆมากกว่า 200 หลัง แต่เมื่อมีการรุกรานของญี่ปุ่น อาคารส่วนใหญ่ก็ได้ถูกทำลายลงเหลืออยู่เพียงแค่ 10 หลังเท่านั้น พร้อมแต่งกายชุด Hanbok
           <div class="img-slider">
             <div class="img-slider-track">
-              <div class="img-slide"><img src="https://www.agoda.com/wp-content/uploads/2019/05/Gyeongbokgung-palace-Seoul-architecture-view.jpg" loading="lazy" alt="Gyeongbokgung Palace 1"></div>
+              <div class="img-slide"><img src="https://dynamic-media.tacdn.com/media/photo-o/2f/ab/4e/94/caption.jpg?w=700&h=500&s=1" loading="lazy" alt="Gyeongbokgung Palace 1"></div>
               <div class="img-slide"><img src="https://media.tacdn.com/media/attractions-splice-spp-674x446/0b/78/b1/82.jpg" loading="lazy" alt="Gyeongbokgung Palace 2"></div>
             </div>
             <div class="img-slider-dots"><span class="active"></span><span></span></div>
