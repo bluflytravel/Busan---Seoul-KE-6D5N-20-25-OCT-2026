@@ -490,20 +490,30 @@ body { font-family: 'Prompt', sans-serif; }
 
         <div class="relative">
          <div class="timeline-dot absolute -left-[31px] top-1"></div>
-         <p class="text-sm"><span class="font-semibold text-brand">10:28 น.</span> — 🚝 นําคณะเดินทางสู่ เมืองปูซาน โดยรถไฟความเร็วสูง KTX (1st Class Seat)</p>
-        </div>
-
-        <div class="relative">
-         <div class="timeline-dot absolute -left-[31px] top-1"></div>
-         <p class="text-sm"><span class="font-semibold text-brand">13:14 น.</span> — 🚝 คณะเดินทางถึง เมืองปูซาน</p>
+         <p class="text-sm"><span class="font-semibold text-brand">11:58 น.</span> — 🚝 นําคณะเดินทางสู่ เมืองปูซาน โดยรถไฟความเร็วสูง KTX (1st Class Seat)</p>
         </div>
 
         <div class="relative">
          <div class="timeline-dot absolute -left-[31px] top-1"></div>
          <div class="text-sm">
-          <p class="font-semibold">🍽️ รับประทานอาหารกลางวัน ณ ภัตตาคาร  Budae Jjigae</p>
+          <p class="font-semibold">🍽️ รับประทานอาหารกลางวันบนรถไฟ</p>
           <div class="mt-3">
-           <img src="https://takestwoeggs.com/wp-content/uploads/2021/10/Budae-JJigae-Korean-Army-Stew-Takestwoeggs-FINAL-SQ.jpg" loading="lazy" class="tour-img" alt="Garuda Wisnu Kencana">
+         </div>
+         </div>
+        </div>
+
+        <div class="relative">
+         <div class="timeline-dot absolute -left-[31px] top-1"></div>
+         <p class="text-sm"><span class="font-semibold text-brand">14:42 น.</span> — 🚝 คณะเดินทางถึง เมืองปูซาน</p>
+        </div>
+
+        <div class="relative">
+         <div class="timeline-dot absolute -left-[31px] top-1"></div>
+         <div class="text-sm">
+          <p class="font-semibold">🚞 รถไฟจิ๋วสกายแคปซูล อันโด่งดัง Sky capsule Haeundae Blue Line Park</p>
+          <p class="text-subtle mt-1">นำคณะนั่ง รถไฟจิ๋วสกายแคปซูล อันโด่งดัง Sky capsule Haeundae Blue Line Park อีกหนึ่งกิจกรรมยอดฮิต แห่งใหม่ที่ดังไปทั่วโซเชียล เป็นรถไฟน่ารักๆ รถไฟสไตล์มินิมอลที่มีสีสันสดใส โดยจะมีทั้งหมด 4 สี คือ สีเหลือง สีเขียว สีน้ำเงิน สีแดง เป็นสีสันที่ตัดกับท้องฟ้าสวยๆ ซึ่งต่อหนึ่งคันรถนั้นจะสามารถโดยสารได้มากสุด 4 คน วิ่งอยู่บนรางรถไฟริมทะเลของปูซานสามารถมองเห็นได้ทั้งวิวเมือง แลนด์มาร์คสวยๆ ของปูซานอย่างสะพาน Gwangan สะพานที่ยาวเป็นอันดับ 2 ของประเทศประภาคารต่างๆ และวิวชายหาดแฮอึนแด Haeundae beach ชายหาดทรายขาว เป็นชายหาดที่สวยและมีชื่อเสียงที่สุดแห่งหนึ่งในเกาหลีใต้ ชายหาดทรายละเอียด ยาว 1.5 กม. และยังเป็นเป็นสถานที่จัดงานเทศกาลต่างๆ ตลอดทั้งปี</p>
+          <div class="mt-3">
+           <img src="https://res.klook.com/image/upload/activities/ce84ls8zkzgkco2xuhub.jpg" loading="lazy" class="tour-img" alt="Garuda Wisnu Kencana">
           </div>
          </div>
         </div>
@@ -511,31 +521,25 @@ body { font-family: 'Prompt', sans-serif; }
         <div class="relative">
          <div class="timeline-dot absolute -left-[31px] top-1"></div>
          <div class="text-sm">
-          <p class="font-semibold">🏚️ หมู่บ้านวัฒนธรรมคัมชอน (Gamcheon Culture Village)</p>
-          <p class="text-subtle mt-1">นำคณะเดินทางสู่ หมู่บ้านวัฒนธรรมคัมชอน (Gamcheon Culture Village) หรือเรียกว่า “Korea’s Santorini (ซานโตรินี่เกาหลี) โดยชื่อเรียกนี้มาจากลักษณะอันโดดเด่นของหมู่บ้านวัฒนธรรมคัมชอนหมู่บ้านที่ตั้งอยู่บนเนินเขาเรียงตัว สลับกันไปมาสีสันสดใสในอดีตหมู่บ้านนี้เคยเป็นที่อยู่อาศัยของของผู้ลี้ภัยสงครามเกาหลีจนในปี 2009 รัฐบาลเกาหลีได้ส่งเสริมการท่องเที่ยว มีการพัฒนาปรับปรุงทัศนียภาพให้น่าอยู่มากยิ่งขึ้นโดยปรับเปลี่ยนหมู่บ้านคัมชอนให้มีสีสันโดดเด่นด้วยการทาสีวาดภาพตามกำแพงและตัวบ้านให้ดูสดใส น่ารัก บ้านเรือนหลายหลังเปลี่ยนเป็นสตูดิโอและแกลลอรี่ บางจุดก็เป็นร้านขายสินค้า ทั้งสินค้าพื้นเมือง สินค้าสมัยใหม่รวมไปถึงร้านกาแฟ และได้โด่งดังจากซีรี่เรื่อง Running Man ที่มาถ่ายทำที่นี่ จึงทำให้หมู่บ้านวัฒนธรรมคัมชอนแห่งนี้เป็นที่รู้จักมีนักท่องเที่ยวชาวเกาหลีและต่างประเทศมาเที่ยวกัน มากขึ้น 
-          <div class="mt-3">
-           <img src="https://www.arukikata.co.jp/wp-content/uploads/iStock-859747978_2025_0523_1156.jpeg" loading="lazy" class="tour-img" alt="Garuda Wisnu Kencana">
+          <p class="font-semibold">🛍️ ย่านช้อปปิ้งหาดแฮอึนแด (Haeundae Beach Shopping Street)</p>
+          <p class="text-subtle mt-1">อิสระช้อปปิ้ง ย่านช้อปปิ้งหาดแฮอึนแด (Haeundae Beach Shopping Street) ย่านนี้มีถนนกูนัมโร (Gunam-ro) ถนนคนเดินกว้างขวาง สองข้างทางเต็มไปด้วยร้านค้าแบรนด์เนม ร้านเครื่องสำอาง คาเฟ่ ร้านอาหาร และร้านสะดวกซื้อ ในยามค่ำคืนมักมีการแสดงดนตรี Busking ลานน้ำพุดนตรี และงานไฟประดับตามเทศกาล ซึ่งเป็นถนนคนเดินสายหลักที่เชื่อมต่อจากสถานีรถไฟใต้ดินตรงไปยังชายหาดแฮอึนแด และ ตลาดโบราณแฮอึนแด (Haeundae Traditional Market) ที่อยู่ขนานกัน ตรอกตลาดถนนคนเดินสไตล์ท้องถิ่น รวมร้านอาหารทะเลสดๆ ร้านต็อกบกกี โอเด้ง ตกอันซัง (อุกกอน) และสตรีทฟู้ดเกาหลียอดนิยม</p>
+          <div class="img-slider">
+            <div class="img-slider-track">
+              <div class="img-slide"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0dtxr_hmXmfc1uWwSU1DX0OyM9bv_8xKjVTzvXWp2aOO-plZDxXhGLDA&s=10" loading="lazy" alt="Lotte Premium Outlet 1"></div>
+              <div class="img-slide"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUYoGwGyA8CZTw3dSCPQjBNniucR3PXkVcD57u6K01o2c-P_OWuIVxVgc&s=10" loading="lazy" alt="Lotte Premium Outlet 2"></div>
+            </div>
+            <div class="img-slider-dots"><span class="active"></span><span></span></div>
+            <div class="img-slider-counter">1/2</div>
           </div>
-         </div>
         </div>
+      </div>
 
         <div class="relative">
          <div class="timeline-dot absolute -left-[31px] top-1"></div>
          <div class="text-sm">
-          <p class="font-semibold">🏝️ หาดควังอันลี (Gwangalli Beach) </p>
-          <p class="text-subtle mt-1">นำคณะเดินทางสู่ หาดควังอันลี (Gwangalli Beach) เป็นหนึ่งในชายหาดที่มีชื่อเสียงโด่งดังของเมืองปูซาน ชายหาดทอดยาว 1.4 กิโลเมตร ปกคลุมไปด้วยหาดทรายขาวละเอียด น้ำทะเลใสสะอาด และมีกิจกรรมทางน้ำมากมาย เช่น เล่นเจ็ตสกี ล่องเรือใบ ตกปลา นอกจากนี้ชายหาดควังอันลียังโด่งดังเรื่องทิวทัศน์ที่สวยงาม ที่มี สะพานควังอัน (Gwangandaegyo Bridge) เป็นสะพานแขวนที่ยาวเป็นอันดับสองของเกาหลีใต้ รองจากสะพานอินช็อน มีความยาวประมาณ 7,420 เมตร เชื่อมต่อเขตแฮอุนแดกับเขตซูย็อง สะพานแห่งนี้ได้รับรางวัล "The Prestigious Presidential Design Award" อีกด้วย</p>
+          <p class="font-semibold">🍽️ รับประทานอาหารค่ำ ณ ภัตตาคาร JOGAE JIM</p>
           <div class="mt-3">
-           <img src="https://images.trvl-media.com/place/6122742/374543e9-5d95-4c31-8ecb-4c4b16b1783c.jpg" loading="lazy" class="tour-img" alt="Garuda Wisnu Kencana">
-          </div>
-         </div>
-        </div>
-
-        <div class="relative">
-         <div class="timeline-dot absolute -left-[31px] top-1"></div>
-         <div class="text-sm">
-          <p class="font-semibold">🍽️ รับประทานอาหารค่ำ ณ ภัตตาคาร Haemuntang</p>
-          <div class="mt-3">
-           <img src="https://as2.ftcdn.net/jpg/01/38/26/39/1000_F_138263946_NLNrnlPPyNAzuXhuLZM6O1SOhHHrjxbx.jpg" loading="lazy" class="tour-img" alt="Garuda Wisnu Kencana">
+           <img src="https://www.koreanbapsang.com/wp-content/uploads/2019/08/DSC5607-e1613670588766.jpg" loading="lazy" class="tour-img" alt="Garuda Wisnu Kencana">
           </div>
          </div>
         </div>
@@ -571,16 +575,6 @@ body { font-family: 'Prompt', sans-serif; }
          </div>
         </div>
 
-        <div class="relative">
-         <div class="timeline-dot absolute -left-[31px] top-1"></div>
-         <div class="text-sm">
-          <p class="font-semibold">🚞 รถไฟจิ๋วสกายแคปซูล อันโด่งดัง Sky capsule Haeundae Blue Line Park</p>
-          <p class="text-subtle mt-1">นำคณะนั่ง รถไฟจิ๋วสกายแคปซูล อันโด่งดัง Sky capsule Haeundae Blue Line Park อีกหนึ่งกิจกรรมยอดฮิต แห่งใหม่ที่ดังไปทั่วโซเชียล เป็นรถไฟน่ารักๆ รถไฟสไตล์มินิมอลที่มีสีสันสดใส โดยจะมีทั้งหมด 4 สี คือ สีเหลือง สีเขียว สีน้ำเงิน สีแดง เป็นสีสันที่ตัดกับท้องฟ้าสวยๆ ซึ่งต่อหนึ่งคันรถนั้นจะสามารถโดยสารได้มากสุด 4 คน วิ่งอยู่บนรางรถไฟริมทะเลของปูซานสามารถมองเห็นได้ทั้งวิวเมือง แลนด์มาร์คสวยๆ ของปูซานอย่างสะพาน Gwangan สะพานที่ยาวเป็นอันดับ 2 ของประเทศประภาคารต่างๆ และวิวชายหาดแฮอึนแด Haeundae beach ชายหาดทรายขาว เป็นชายหาดที่สวยและมีชื่อเสียงที่สุดแห่งหนึ่งในเกาหลีใต้ ชายหาดทรายละเอียด ยาว 1.5 กม. และยังเป็นเป็นสถานที่จัดงานเทศกาลต่างๆ ตลอดทั้งปี</p>
-          <div class="mt-3">
-           <img src="https://res.klook.com/image/upload/activities/ce84ls8zkzgkco2xuhub.jpg" loading="lazy" class="tour-img" alt="Garuda Wisnu Kencana">
-          </div>
-         </div>
-        </div>
 
         <div class="relative">
          <div class="timeline-dot absolute -left-[31px] top-1"></div>
@@ -611,6 +605,17 @@ body { font-family: 'Prompt', sans-serif; }
         <div class="relative">
          <div class="timeline-dot absolute -left-[31px] top-1"></div>
          <div class="text-sm">
+          <p class="font-semibold">🏚️ หมู่บ้านวัฒนธรรมคัมชอน (Gamcheon Culture Village)</p>
+          <p class="text-subtle mt-1">นำคณะเดินทางสู่ หมู่บ้านวัฒนธรรมคัมชอน (Gamcheon Culture Village) หรือเรียกว่า “Korea’s Santorini (ซานโตรินี่เกาหลี) โดยชื่อเรียกนี้มาจากลักษณะอันโดดเด่นของหมู่บ้านวัฒนธรรมคัมชอนหมู่บ้านที่ตั้งอยู่บนเนินเขาเรียงตัว สลับกันไปมาสีสันสดใสในอดีตหมู่บ้านนี้เคยเป็นที่อยู่อาศัยของของผู้ลี้ภัยสงครามเกาหลีจนในปี 2009 รัฐบาลเกาหลีได้ส่งเสริมการท่องเที่ยว มีการพัฒนาปรับปรุงทัศนียภาพให้น่าอยู่มากยิ่งขึ้นโดยปรับเปลี่ยนหมู่บ้านคัมชอนให้มีสีสันโดดเด่นด้วยการทาสีวาดภาพตามกำแพงและตัวบ้านให้ดูสดใส น่ารัก บ้านเรือนหลายหลังเปลี่ยนเป็นสตูดิโอและแกลลอรี่ บางจุดก็เป็นร้านขายสินค้า ทั้งสินค้าพื้นเมือง สินค้าสมัยใหม่รวมไปถึงร้านกาแฟ และได้โด่งดังจากซีรี่เรื่อง Running Man ที่มาถ่ายทำที่นี่ จึงทำให้หมู่บ้านวัฒนธรรมคัมชอนแห่งนี้เป็นที่รู้จักมีนักท่องเที่ยวชาวเกาหลีและต่างประเทศมาเที่ยวกัน มากขึ้น 
+          <div class="mt-3">
+           <img src="https://www.arukikata.co.jp/wp-content/uploads/iStock-859747978_2025_0523_1156.jpeg" loading="lazy" class="tour-img" alt="Garuda Wisnu Kencana">
+          </div>
+         </div>
+        </div>
+
+        <div class="relative">
+         <div class="timeline-dot absolute -left-[31px] top-1"></div>
+         <div class="text-sm">
           <p class="font-semibold">🛍️ นัมโพดง (Nampo-dong) </p>
           <p class="text-subtle mt-1">อิสระช้อปปิ้ง นัมโพดง (Nampo-dong) แหล่งช้อปปิ้งขนาดใหญ่ อีกแห่งหนึ่งของเมืองปูซาน ที่นี่เต็มไปด้วยร้านค้า 	เสื้อผ้า เครื่องประดับ เครื่องสำอาง ของฝาก ของที่ระลึกมากมายให้ได้ช้อปปิ้งอย่างจุใจอีกทั้งยังมีอาหารแบบท้องถิ่น 	ให้ได้เลือกทานแบบเต็มที่</p>
           <div class="img-slider">
@@ -627,18 +632,7 @@ body { font-family: 'Prompt', sans-serif; }
         <div class="relative">
          <div class="timeline-dot absolute -left-[31px] top-1"></div>
          <div class="text-sm">
-          <p class="font-semibold">🦪🦐 ตลาดปลาจากัลชี (Jagalchi Market)</p>
-          <p class="text-subtle mt-1">นำคณะเดินทางสู่ ตลาดปลาจากัลชี (Jagalchi Market) เป็นตลาดปลาที่ใหญ่ที่สุดในเกาหลีใต้ นี้มีชื่อเสียงโด่งดังไป	ทั่วโลก ที่นี่มีทั้งปลาสด ปลานึ่ง อาหารทะเลแปรรูป ผัก ผลไม้ และของฝากอื่นๆ ให้เลือกซื้อมากมาย</p>
-          <div class="mt-3">
-           <img src="https://www.koreafanclub.com/wp-content/uploads/2017/10/47.jpg" loading="lazy" class="tour-img" alt="Garuda Wisnu Kencana">
-          </div>
-         </div>
-        </div>
-
-        <div class="relative">
-         <div class="timeline-dot absolute -left-[31px] top-1"></div>
-         <div class="text-sm">
-          <p class="font-semibold">🍽️ รับประทานอาหารค่ำ ณ ภัตตาคาร SASHIMIJEONGSIK</p>
+          <p class="font-semibold">🍽️ รับประทานอาหารค่ำ ณ ภัตตาคาร SASHIMI JEONGSIK</p>
           <div class="mt-3">
            <img src="https://images.lifestyleasia.com/wp-content/uploads/sites/8/2023/03/05232755/%E0%B9%82%E0%B8%84%E0%B8%A3%E0%B8%87%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%83%E0%B8%AB%E0%B8%A1%E0%B9%88-16-1600x900.jpg" loading="lazy" class="tour-img" alt="Garuda Wisnu Kencana">
           </div>
@@ -741,7 +735,7 @@ body { font-family: 'Prompt', sans-serif; }
 
        </div>
        <div class="mt-4 bg-amber-50 border border-amber-200 rounded-xl p-3 text-xs flex items-center gap-2">
-        <span>🏨</span> <strong>นำคณะเข้าสู่ที่พัก THE PLAZA Seoul ★★★★★</strong>
+        <span>🏨</span> <strong>นำคณะเข้าสู่ที่พัก Grand Intercontinental Seoul Parnas ★★★★★</strong>
        </div>
       </div>
      </div><!-- /day-4 -->
@@ -762,12 +756,28 @@ body { font-family: 'Prompt', sans-serif; }
         <div class="relative">
          <div class="timeline-dot absolute -left-[31px] top-1"></div>
          <div class="text-sm">
-          <p class="font-semibold">🪖 เขตปลอดทหารเกาหลี - อุโมงค์หมายเลข 3 - หอสังเกตการณ์โดราซัน</p>
-          <p class="text-subtle mt-1">นำคณะเดินทางสู่ เขตปลอดทหารเกาหลี หรือ DMZ (Demilitarized Zone) เป็นพื้นที่แนวชายแดนที่แบ่งระหว่างเกาหลีเหนือและเกาหลีใต้ โดยมีความยาวประมาณ 250 กิโลเมตร และกว้าง 4 กิโลเมตร (ฝั่งละ 2 กิโลเมตรจากเส้นแบ่งเขตทหาร) พื้นที่นี้ไม่ได้เป็นเพียงจุดยุทธศาสตร์ทางการเมืองที่ตึงเครียดที่สุดแห่งหนึ่งของโลก แต่ยังกลายเป็นแหล่งท่องเที่ยวเชิงประวัติศาสตร์และเขตอนุรักษ์ทางธรรมชาติที่สำคัญ เยี่ยมชมสถานที่ทางประวัติศาสตร์ อุโมงค์หมายเลข 3 (The Third Infiltration Tunnel) อุโมงค์ที่เกาหลีเหนือลักลอบขุดขึ้นเพื่อพยายามบุกเข้ากรุงโซล ถูกค้นพบในปี 1978 ชม หอสังเกตการณ์โดราซัน (Dorasan Observatory) ตั้งอยู่บนยอดเขาโดรา เป็นจุดที่สามารถใช้กล้องส่องทางไกลมองเห็น นิคมอุตสาหกรรมแกซอง (Kaesong Industrial Complex) และหมู่บ้านโฆษณาชวนเชื่อของเกาหลีเหนือได้ชัดเจนที่สุด
+          <p class="font-semibold">🚠 กระเช้า Paju imjingak peace gondola</p>
+          <p class="text-subtle mt-1">นำคณะนั่ง Paju imjingak peace gondola กระเช้าลอยฟ้าแห่งแรกของโลกที่วิ่งข้ามเขตควบคุมทางทหาร (CCZ - Civilian Control Zone) เชื่อมต่อระหว่างสวนอิมจินกั๊กกับพื้นที่ฝั่งเหนือของแม่น้ำอิมจินในเมืองพ้าจู นั่งกระเช้าระยะทางรวมประมาณ 850 เมตร (ไป-กลับ) ชม ทัศนียภาพของแม่น้ำอิมจิน สะพานแห่งความหวัง (Bridge of Freedom) และธรรมชาติอันอุดมสมบูรณ์ในเขตปลอดทหาร
           <div class="img-slider">
             <div class="img-slider-track">
-              <div class="img-slide"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a3/The_view_of_North_Korea_from_Dora_Observatory.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" loading="lazy" alt="Hongdae 1"></div>
-              <div class="img-slide"><img src="https://pbs.twimg.com/media/GKW-pWEbMAASywY.jpg" loading="lazy" alt="Hongdae 2"></div>
+              <div class="img-slide"><img src="https://tong.visitkorea.or.kr/cms/resource/80/3531680_image2_1.jpg" loading="lazy" alt="Hongdae 1"></div>
+              <div class="img-slide"><img src="https://tong.visitkorea.or.kr/cms/resource_etc/56/3530756_image2_1.jpg" loading="lazy" alt="Hongdae 2"></div>
+            </div>
+            <div class="img-slider-dots"><span class="active"></span><span></span></div>
+            <div class="img-slider-counter">1/2</div>
+          </div>
+        </div>
+      </div>
+
+        <div class="relative">
+         <div class="timeline-dot absolute -left-[31px] top-1"></div>
+         <div class="text-sm">
+          <p class="font-semibold">🪖 ค่ายกรีฟส์ (Camp Greaves)</p>
+          <p class="text-subtle mt-1">ชม ค่ายกรีฟส์ (Camp Greaves) เป็นอดีตฐานทัพทหารสหรัฐฯ ตั้งอยู่ที่เมืองพาจู (Paju) จังหวัดคยองกี อยู่ห่างจากเส้นแบ่งเขตกรอบดินแดนปลอดทหาร (DMZ) เพียงประมาณ 2 กิโลเมตร ถือเป็นหนึ่งในพื้นที่ประวัติศาสตร์สงครามเกาหลีที่ได้รับการปรับปรุงให้เป็นแหล่งท่องเที่ยวและศูนย์เรียนรู้ทางวัฒนธรรม เป็นสถานที่ถ่ายทำซีรีส์ Descendants of the Sun (2016) ใช้เป็นสถานที่ถ่ายทำฐานทัพทหารของกัปตันยูชีจิน ทำให้กลายเป็นแลนด์มาร์กยอดนิยมสำหรับแฟนซีรีส์ มีนิทรรศการประวัติศาสตร์และศิลปะ อาคารบังเกอร์ คลังอาวุธ และโรงนอนเดิม ถูกปรับเปลี่ยนเป็นพื้นที่จัดแสดงนิทรรศการมัลติมีเดียเกี่ยวกับประวัติศาสตร์สงครามเกาหลี สันติภาพ และงานศิลปะสมัยใหม่
+          <div class="img-slider">
+            <div class="img-slider-track">
+              <div class="img-slide"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJyz-q2Pih86t2XGeSyvXbGzJdZIWgqmTdcWMiYDpN2PK7DiPtaBduSZI&s=10" loading="lazy" alt="Hongdae 1"></div>
+              <div class="img-slide"><img src="https://img.koreatimes.co.kr/upload/newsV2/images/17-02(380).jpg?w=728" loading="lazy" alt="Hongdae 2"></div>
             </div>
             <div class="img-slider-dots"><span class="active"></span><span></span></div>
             <div class="img-slider-counter">1/2</div>
@@ -829,7 +839,7 @@ body { font-family: 'Prompt', sans-serif; }
 
        </div>
        <div class="mt-4 bg-amber-50 border border-amber-200 rounded-xl p-3 text-xs flex items-center gap-2">
-        <span>🏨</span> <strong>นำคณะเข้าสู่ที่พัก THE PLAZA Seoul ★★★★★</strong>
+        <span>🏨</span> <strong>นำคณะเข้าสู่ที่พัก Grand Intercontinental Seoul Parnas ★★★★★</strong>
        </div>
       </div>
      </div><!-- /day-5 -->
@@ -847,15 +857,15 @@ body { font-family: 'Prompt', sans-serif; }
     </div>
     <div class="space-y-4 ml-5 border-l-2 border-brand/20 pl-6">
 
-        <div class="relative">
-         <div class="timeline-dot absolute -left-[31px] top-1"></div>
-         <div class="text-sm">
-          <p class="font-semibold">🏘️ หมู่บ้านอึนพยองฮันอก (Eunpyeong Hanok Village)</p>
-          <p class="text-subtle mt-1">นำคณะชม หมู่บ้านอึนพยองฮันอก (Eunpyeong Hanok Village) เป็นหมู่บ้านบ้านโบราณเกาหลี (ฮันอก) แห่งใหม่ที่ตั้งอยู่บริเวณเชิงเขาบุกฮันซาน (Bukhansan) ในเขตอึนพยอง ทางตอนเหนือของกรุงโซล แตกต่างจากหมู่บ้านบุกชอนฮันอกตรงที่ที่นี่มีความเงียบสงบกว่า ถนนกว้างขวาง และบ้านเรือนส่วนใหญ่สร้างขึ้นใหม่ด้วยสถาปัตยกรรมร่วมสมัย ตัวหมู่บ้านถูกโอบล้อมด้วยแนวเขาสูง ทำให้ได้ภาพบ้านสไตล์โบราณที่มีฉากหลังเป็นภูเขาที่สวยงามทุกฤดูกาล มีร้านกาแฟชื่อดังหลายแห่งที่ออกแบบในสไตล์ฮันอก โดยเฉพาะร้านที่สามารถมองเห็นวิวหมู่บ้านจากมุมสูงได้
+      <div class="relative">
+        <div class="timeline-dot absolute -left-[31px] top-1"></div>
+        <div class="text-sm">
+          <p class="font-semibold">🛍️ Hyundai Premier Outlet </p>
+          <p class="text-subtle mt-1">นำคณะเดินทางสู่ Hyundai Premier Outlet สาขาที่โดดเด่นที่สุดในพื้นที่ใกล้กรุงโซล โดยเป็น "Gallery-Style Outlet" แห่งแรกของเกาหลีที่ผสมผสานการช้อปปิ้งเข้ากับพื้นที่จัดแสดงศิลปะและสวนพักผ่อน ที่นี่รวบรวมแบรนด์ชั้นนำกว่า 300 แบรนด์ โดยแบ่งเป็นโซนหลักๆ</p>
           <div class="img-slider">
             <div class="img-slider-track">
-              <div class="img-slide"><img src="https://www.jubileetravel.co.th/wp-content/uploads/2024/07/Eunpyeong-Hanok-Village-%E0%B8%97%E0%B8%B1%E0%B8%A7%E0%B8%A3%E0%B9%8C%E0%B9%80%E0%B8%81%E0%B8%B2%E0%B8%AB%E0%B8%A5%E0%B8%B5-jubileetravel-3.png" loading="lazy" alt="Eunpyeong Hanok Village 1"></div>
-              <div class="img-slide"><img src="https://res.klook.com/image/upload/fl_lossy.progressive,w_1200,h_630,c_fill,q_85/Eunpyeong_Hanok_Village_1_o7umml.png" loading="lazy" alt="Eunpyeong Hanok Village 2"></div>
+              <div class="img-slide"><img src="https://tong.visitkorea.or.kr/cms/resource/53/2396453_image2_1.jpg" loading="lazy" alt="Hyundai Premier Outlet 1"></div>
+              <div class="img-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/82/be/93/caption.jpg?w=900&h=500&s=1" loading="lazy" alt="Hyundai Premier Outlet 2"></div>
             </div>
             <div class="img-slider-dots"><span class="active"></span><span></span></div>
             <div class="img-slider-counter">1/2</div>
@@ -876,12 +886,12 @@ body { font-family: 'Prompt', sans-serif; }
       <div class="relative">
         <div class="timeline-dot absolute -left-[31px] top-1"></div>
         <div class="text-sm">
-          <p class="font-semibold">🛍️ Hyundai Premier Outlet </p>
-          <p class="text-subtle mt-1">นำคณะเดินทางสู่ Hyundai Premier Outlet สาขาที่โดดเด่นที่สุดในพื้นที่ใกล้กรุงโซล โดยเป็น "Gallery-Style Outlet" แห่งแรกของเกาหลีที่ผสมผสานการช้อปปิ้งเข้ากับพื้นที่จัดแสดงศิลปะและสวนพักผ่อน ที่นี่รวบรวมแบรนด์ชั้นนำกว่า 300 แบรนด์ โดยแบ่งเป็นโซนหลักๆ</p>
+          <p class="font-semibold">🛍️ Supermarket </p>
+          <p class="text-subtle mt-1">อิสระช้อปปิ้ง ซูเปอร์มาร์เก็ต ช้อปปิ้งสินค้าพื้นเมืองของเกาหลี เช่น บะหมี่กึ่งสำเร็จรูปเกาหลี , นมกล้วย , เยลลี่ยาคูลท์ และสินค้าแบรนด์พื้นเมืองต่างๆ มากมาย</p>
           <div class="img-slider">
             <div class="img-slider-track">
-              <div class="img-slide"><img src="https://tong.visitkorea.or.kr/cms/resource/53/2396453_image2_1.jpg" loading="lazy" alt="Hyundai Premier Outlet 1"></div>
-              <div class="img-slide"><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/82/be/93/caption.jpg?w=900&h=500&s=1" loading="lazy" alt="Hyundai Premier Outlet 2"></div>
+              <div class="img-slide"><img src="https://fit-d.com/uploads/food/41d6dbf1299324481f08f7bc40c6c42a.jpg" loading="lazy" alt="Hyundai Premier Outlet 1"></div>
+              <div class="img-slide"><img src="https://www.you.co/th/wp-content/uploads/sites/9/2022/04/7-Select-jelly-Yogurt.jpg" loading="lazy" alt="Hyundai Premier Outlet 2"></div>
             </div>
             <div class="img-slider-dots"><span class="active"></span><span></span></div>
             <div class="img-slider-counter">1/2</div>
@@ -1159,6 +1169,8 @@ body { font-family: 'Prompt', sans-serif; }
         .avatar { width: 33px; height: 33px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 0.85rem; flex-shrink: 0; color: #fff; }
        </style>
        <div class="rooms-grid mb-6">
+
+        <div class="room-card"><div class="flex flex-wrap items-center gap-2 mb-4"><i data-lucide="bed-triple" style="width:20px;height:20px;color:#1e40af;"></i><span class="font-bold text-gray-800 text-lg">ห้องที่ 1</span><span class="badge room-badge"><i data-lucide="door-open" style="width:12px;height:12px;"></i>Triple Room</span></div><div class="guest-row"><div class="avatar" style="background:linear-gradient(135deg,#3b82f6, #1d4ed8);">1</div><div class="flex-1 min-w-0"><p class="font-semibold text-gray-800 text-sm md:text-base">MR. TANACHAT PRATOOMSAWAT</p><p class="text-xs text-gray-400">ผู้อำนวยการหลักสูตรฯ</span></p></div></div><div  class="guest-row"><div class="avatar" style="background:linear-gradient(135deg,#87CEFA,#00CED1);">2</div><div class="flex-1 min-w-0"><p class="font-semibold text-gray-800 text-sm md:text-base">MASTER KITJANAT PRATOOMSAWAT (16 Years)</p><div class="flex flex-wrap items-center gap-2 mt-1"><span class="text-xs text-gray-400">ผู้ติดตาม  </span></div></div></div><div class="guest-row"><div class="avatar" style="background:linear-gradient(135deg,#FFCCFF,#FF33FF);">3</div><div class="flex-1 min-w-0"><p class="font-semibold text-gray-800 text-sm md:text-base">MASTER KITTIPAT PRATOOMSAWAT (10 Years)</p><div class="flex flex-wrap items-center gap-2 mt-1"><span class="text-xs text-gray-400">ผู้ติดตาม</span></div></div></div></div>
 
         <div class="room-card"><div class="flex flex-wrap items-center gap-2 mb-4"><i data-lucide="bed-double" style="width:20px;height:20px;color:#1e40af;"></i><span class="font-bold text-gray-800 text-lg">ห้องที่ 1</span>
         <span class="badge room-badge3"><i data-lucide="door-open" style="width:12px;height:12px;"></i>Single Room</span></div><div class="guest-row"><div class="avatar" style="background:linear-gradient(135deg,#f59e0b,#d97706);">1</div><div class="flex-1 min-w-0"><p class="font-semibold text-gray-800 text-sm md:text-base">MR. SOMBAT ANUNTARUMPORN</p><p class="text-xs text-gray-400">ผู้เดินทาง  </span></p></div></div></div>
